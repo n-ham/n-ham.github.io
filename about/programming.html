@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			nham - programming
+		</title>
+		
+		<link rel='stylesheet' type='text/css' href='../css/pagestyle.css'>
+		<link rel='stylesheet' type='text/css' href='../css/dropmenu.css'>
+		<link rel='stylesheet' type='text/css' href='../css/pre.css'>
+		<link rel='icon' type='image/png' href='../files/favicon.ico'>
+		
+		<!-- uses google-code-prettify for syntax highlighting 
+		     see https://code.google.com/p/google-code-prettify for more info -->
+		<script type="text/javascript"
+		        src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js">
+		</script>
+		
+		<!-- uses MathJax CDC for LaTeX support
+		     see http://docs.mathjax.org/en/latest/start.html for more info -->
+		<script type="text/x-mathjax-config">
+			MathJax.Hub.Config
+			({
+				extensions: ["tex2jax.js"],
+		    	jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: 
+				{
+					inlineMath: [['$','$'], ['\\(','\\)']],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["MathJax TeX"] }
+			});
+		</script>
+		<script type="text/javascript" 
+			    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js">
+		</script>
+		
+		<!-- Google analytics tracking code-->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+		  ga('create', 'UA-63230603-1', 'auto');
+		  ga('send', 'pageview');
+		</script>
+		
+		<!-- hack redirecting to a secure protocol when users 
+		     visit domain using an insecure protocol -->
+		<script>
+			var host = "n-ham.github.io";
+			if ((host == window.location.host) && (window.location.protocol != "https:"))
+				window.location.protocol = "https";	
+		</script>
+	</head>
+
+	<body>
+		
+		<nav>
+			<ul class="drop_menu">
+				<li></li>
+		
+				<li class="dm_li">
+					<a href="../index.html">about</a>
+		
+					<ul class="drop_submenu">
+						<li class="dsm_li">
+							<a href="research.html">research</a>
+						</li>
+						<li class="dsm_li">
+							<a href="programming.html">programming</a>
+						</li>
+						<li class="dsm_li">
+							<a href="teaching.html">teaching</a>
+						</li>
+						<li class="dsm_li">
+							<a href="education.html">education</a>
+						</li>
+					</ul>
+				</li>
+		
+				<li class ="dm_li">
+					<div class="dm_text">resources</div>
+		
+					<ul class="drop_submenu">
+						<li class="dsm_li">
+							<a href="../resources/links.html">links</a>
+						</li>
+						<li class="dsm_li">
+							<a href="../resources/recommended_software.html">recommended software</a>
+						</li>
+						<li class="dsm_li">
+							<a href="../resources/utas_wireless.html">utas wireless</a>
+						</li>
+					</ul>
+				</li>
+		
+				<li class ="dm_li">
+					<div class="dm_text">hobbies</div>
+		
+					<ul class="drop_submenu">
+						<li class="dsm_li">
+							<a href="../hobbies/skateboarding.html">skateboarding</a>
+						</li>
+						<li class="dsm_li">
+							<a href="../hobbies/hockey.html">hockey</a>
+						</li>
+						<li class="dsm_li">
+							<a href="../hobbies/tasmania.html">Tasmania</a>
+						</li>
+					</ul>
+				</li>
+		
+				<li></li>
+			</ul>
+		</nav>
+
+		<h3>Competency</h3>
+		I consider myself an experienced user of:
+		<ul>
+			<li> <u>languages:</u> c++/c++11, bash, LaTeX</li>
+			<li> <u>VCSs:</u> Git(Hub)</li>
+			<li> <u>OSs:</u> Ubuntu
+		</ul>
+		
+		I consider myself a competent user of:
+		<ul>
+			<li> <u>languages:</u> c, Python, ruby, html/css/js, TikZ</li>
+			<li> <u>protocols:</u> ssh </li>
+			<li> <u>databases:</u> MySQL </li>
+			<li> <u>VCSs:</u> Mercurial</li>
+			<li> <u>OSs:</u> anything unix/posix based, dated but working knowledge of windows</li>
+		</ul>
+		
+		<h3>Google ai challenges</h3>
+		<p>
+			From 2010-2011 I competed in, and contributed to designing and building an international artificial intelligence programming contest sponsored by Google, commonly known as the Google ai challenges. Each participant wrote a self-contained computer program, also known as a bot, to play a game against other people's bots. Once submissions were closed for each challenge, bots were matched against each other and ranked based on their performance.
+		</p>
+		
+		<h4>contributions</h4>
+		<ul>
+			<li>
+				I was a significant <a href="http://ants.aichallenge.org/credits.php">contributor</a> to designing and building the <a href="http://ants.aichallenge.org/index.php">Ants challenge</a>, we ended up having 7897 people submit a bot;
+			</li> 
+			<li>
+				I was the primary designer and author of the map generators for both the <a href="http://planetwars.aichallenge.org/">Planet Wars</a> and Ants challenges;
+			</li>
+			<li>
+				I was the author of the <a href="https://github.com/aichallenge/aichallenge/tree/epsilon/ants/dist/starter_bots/cpp">c++ starter bot</a> for the Ants challenge, used as a starting point for contestants intending to write their bot in c++;
+			</li>
+			<li>
+				I was one of the main designers and one of the main authors of the <a href="http://ants.aichallenge.org/specification.php">game specifications</a> for the Ants challenge;
+			</li>
+		</ul>
+		
+		<h4>results</h4>
+		<ul>
+			<li>
+				I am the reigning Australian champion from the last two challenges, 1st out of 175 in the Ants challenge and 1st out of 122 in the Planet Wars challenge (<a href="http://ants.aichallenge.org/country_profile.php?country=25">Australian Ants leaderboard</a>, <a href="http://planetwars.aichallenge.org/country_profile.php?country_id=25">Australian Planet Wars leaderboard</a>);
+			</li>
+			<li>
+				I placed inside the top 1% globally in the last two challenges, 32nd out of 7897 in the Ants challenge and 36th out of 4617 in the Planet Wars challenge (<a href="http://ants.aichallenge.org/rankings.php">global Ants leaderboard</a>, <a href="http://planetwars.aichallenge.org/rankings.php">global Planet Wars leaderboard</a>);
+			</li>
+			<li>
+				I had the highest ranked version 1 bot in the Ants challenge (it is possible to sort the <a href="http://ants.aichallenge.org/rankings.php">global leaderboard</a> by version number, however there is no direct link).
+			</li>
+		</ul>
+		
+		<h3>nifty site manager</h3>
+		<p>
+			I wrote a git-like site manager that tracks modifications to page dependencies. More information can be found on the <a href="https://nifty-site-manager.github.io">nsm site</a>.
+		</p>
+		
+
+		<footer>
+			<hr>
+			<p>
+				Page was last built on Friday October 30 2015 at 01:28:51 (AEDT).
+			</p>
+		</footer>
+
+		<script type='text/javascript' src='../js/process_pre_tags.js'></script>		
+	</body>
+</html>
+
+<!-- information on how to easily make and host a site similar to
+     this may be found at https://nifty-site-manager.github.io/ -->
