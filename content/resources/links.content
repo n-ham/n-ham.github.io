@@ -1,0 +1,44 @@
+<p>
+	Below are links, grouped into categories, to sites that I regularly find useful and/or interesting.
+</p>
+
+<h4>mathematics</h4>
+<ul>
+	<li><a href="http://www.math.illinois.edu/~dwest/grammar.html">The Grammar According to West</a> - some useful observations and suggestions for writing mathematics;</li>
+	<li><a href="https://oeis.org/">OEIS</a> - online enclyclopedia of integer sequences;
+	<li><a href="http://www.gap-system.org/">GAP</a> - system for computational discrete algebra;</li>
+	<li><a href="http://www-groups.mcs.st-andrews.ac.uk/~jamesm/semigroups.php">GAP semigroups package</a> - a GAP package containing methods for semigroups, monoids, and inverse semigroups, principally of transformations, partial permutations, bipartitions, subsemigroups of regular Rees $0$-matrix semigroups, free inverse semigroups, and free bands;</li>
+	<li><a href="http://mathoverflow.net/">Math Overflow</a> - question based;</li>
+	<li><a href="http://math.stackexchange.com/">Mathematics Stack Exchange</a> - question based;</li>
+	<li><a href="http://press.princeton.edu/chapters/gowers/gowers_VIII_6.pdf">Advice to a Young Mathematician</a> - Chapter VIII from The Princeton Companion to Mathematics;</li>
+</ul>
+
+<h4>programming</h4>
+<ul>
+	<li><a href="http://www.cplusplus.com/">cplusplus.com</a> - descriptions for the most important classes, functions and objects of the Standard Language Library, with descriptive fully-functional short programs as examples;</li>
+	<li><a href="https://projecteuler.net/">Project Euler</a> - problem based;</li>
+	<li><a href="http://www.codeblocks.org/">Code::Blocks</a> - my favourite free cross-platform open-source C, C++ and Fortran IDE;</li>
+	<li><a href="https://github.com/">GitHub</a> - free public hosting of git repositories;</li>
+	<li><a href="http://stackoverflow.com/">Stack Overflow</a> - question based;</li>
+	<li><a href="https://www.google.com/about/careers/students/guide-to-technical-development.html">Google's guide to becoming a competent software engineer</a>;</li>
+	<li><a href="http://aichallenge.org/">AI Challenges</a> - competition based.</li>
+</ul>
+
+<h4>linux</h4>
+<ul>
+	<li><a href="http://www.ubuntu.com/">Ubuntu</a> - Debian-based Linux operating system;</li>
+	<li><a href="https://help.ubuntu.com/">Official Ubuntu Documentation</a> - created and maintained by the Ubuntu Documentation Project;</li>
+	<li><a href="https://help.ubuntu.com/community/CommunityHelpWiki">Ubuntu Community Help Wiki</a> - user-created and maintained wiki referencing various Ubuntu-related guides, tips, tricks and hacks;</li>
+	<li><a href="https://help.ubuntu.com/community/MacBookPro">Official Ubuntu documentation for installing Ubuntu on a macbook pro</a>;</li> 
+	<li><a href="https://www.archlinux.org/">Arch</a> - simple, lightweight linux distribution that preferences developer experience over user experience;</li>
+	<li><a href="https://wiki.archlinux.org/">Arch wiki</a> - well-maintained source for Arch Linux documentation;</li>
+	<li><a href="https://github.com/jlevy/the-art-of-command-line">The Art of Command Line</a> - a reasonably comprehensive bash guide.</li>
+</ul>
+
+<h4>educational resources</h4>
+<ul>
+	<li><a href="http://ocw.mit.edu/index.htm">MIT OpenCourseWare (OCW)</a>;</li>
+	<li><a href="http://tinyurl.com/mitpythonintro326">MIT OCW Python Introduction</a>;</li>
+	<li><a href="http://tinyurl.com/mitcppintro326">MIT OCW C/C++ Introduction</a>.</li>
+</ul>
+

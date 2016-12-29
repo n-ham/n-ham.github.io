@@ -1,0 +1,6 @@
+<footer>
+	<hr>
+	<p>
+		Page was last built on @currentdate at @currenttime (@timezone).
+	</p>
+</footer>

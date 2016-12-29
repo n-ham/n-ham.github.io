@@ -1,0 +1,59 @@
+
+<nav>
+	<ul class="drop_menu">
+		<li></li>
+
+		<li class="dm_li">
+			<a href="@pathto(index)">about</a>
+
+			<ul class="drop_submenu">
+				<li class="dsm_li">
+					<a href="@pathto(about/research)">research</a>
+				</li>
+				<li class="dsm_li">
+					<a href="@pathto(about/programming)">programming</a>
+				</li>
+				<li class="dsm_li">
+					<a href="@pathto(about/teaching)">teaching</a>
+				</li>
+				<li class="dsm_li">
+					<a href="@pathto(about/education)">education</a>
+				</li>
+			</ul>
+		</li>
+
+		<li class ="dm_li">
+			<div class="dm_text">resources</div>
+
+			<ul class="drop_submenu">
+				<li class="dsm_li">
+					<a href="@pathto(resources/links)">links</a>
+				</li>
+				<li class="dsm_li">
+					<a href="@pathto(resources/recommended_software)">recommended software</a>
+				</li>
+				<li class="dsm_li">
+					<a href="@pathto(resources/utas_wireless)">utas wireless</a>
+				</li>
+			</ul>
+		</li>
+
+		<li class ="dm_li">
+			<div class="dm_text">hobbies</div>
+
+			<ul class="drop_submenu">
+				<li class="dsm_li">
+					<a href="@pathto(hobbies/skateboarding)">skateboarding</a>
+				</li>
+				<li class="dsm_li">
+					<a href="@pathto(hobbies/hockey)">hockey</a>
+				</li>
+				<li class="dsm_li">
+					<a href="@pathto(hobbies/tasmania)">Tasmania</a>
+				</li>
+			</ul>
+		</li>
+
+		<li></li>
+	</ul>
+</nav>
