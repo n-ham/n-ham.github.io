@@ -1,12 +1,5 @@
-<h3>UTAS UConnect Wireless on Linux</h3>
-
-<h4>UConnect</h4>
-
-<p>
-	In my experience it is difficult to find the express connect setup page on a linux machine after you have have already registered your MAC address. It can either be found at <a href="http://202.6.77.254/xpc">202.6.77.254/xpc</a>, or I have hosted the file you want anyway <a href="XpressConnect-x86.tar.bz2">XpressConnect-x86.tar.bz2</a>.
-</p>
-
-<h4>eduroam</h4>
+<h3>UTAS Wireless on Linux</h3>
+<h4>Connecting to eduroam on Linux</h4>
 
 <p>
 	You can just set up your connection with details as follows:
