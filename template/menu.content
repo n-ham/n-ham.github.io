@@ -49,7 +49,7 @@
 					<a href="@pathto(hobbies/hockey)">hockey</a>
 				</li>
 				<li class="dsm_li">
-					<a href="@pathto(hobbies/tasmania)">Tasmania</a>
+					<a href="@pathto(hobbies/nature)">nature</a>
 				</li>
 			</ul>
 		</li>
