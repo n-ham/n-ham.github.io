@@ -19,6 +19,9 @@
 				<li class="dsm_li">
 					<a href="@pathto(about/education)">education</a>
 				</li>
+				<li class="dsm_li">
+					<a href="@pathto(about/genealogy)">genealogy</a>
+				</li>
 			</ul>
 		</li>
 
