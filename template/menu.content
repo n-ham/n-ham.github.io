@@ -8,19 +8,35 @@
 
 			<ul class="drop_submenu">
 				<li class="dsm_li">
-					<a href="@pathto(about/research)">research</a>
+					<a href="@pathto(about/education)">education</a>
+				</li>
+				<li class="dsm_li">
+					<a href="@pathto(about/genealogy)">genealogy</a>
 				</li>
 				<li class="dsm_li">
 					<a href="@pathto(about/programming)">programming</a>
 				</li>
 				<li class="dsm_li">
+					<a href="@pathto(about/research)">research</a>
+				</li>
+				<li class="dsm_li">
 					<a href="@pathto(about/teaching)">teaching</a>
 				</li>
+			</ul>
+		</li>
+
+		<li class ="dm_li">
+			<div class="dm_text">hobbies</div>
+
+			<ul class="drop_submenu">
 				<li class="dsm_li">
-					<a href="@pathto(about/education)">education</a>
+					<a href="@pathto(hobbies/hockey)">hockey</a>
 				</li>
 				<li class="dsm_li">
-					<a href="@pathto(about/genealogy)">genealogy</a>
+					<a href="@pathto(hobbies/nature)">nature</a>
+				</li>
+				<li class="dsm_li">
+					<a href="@pathto(hobbies/skateboarding)">skateboarding</a>
 				</li>
 			</ul>
 		</li>
@@ -37,22 +53,6 @@
 				</li>
 				<li class="dsm_li">
 					<a href="@pathto(resources/utas_wireless)">utas wireless</a>
-				</li>
-			</ul>
-		</li>
-
-		<li class ="dm_li">
-			<div class="dm_text">hobbies</div>
-
-			<ul class="drop_submenu">
-				<li class="dsm_li">
-					<a href="@pathto(hobbies/skateboarding)">skateboarding</a>
-				</li>
-				<li class="dsm_li">
-					<a href="@pathto(hobbies/hockey)">hockey</a>
-				</li>
-				<li class="dsm_li">
-					<a href="@pathto(hobbies/nature)">nature</a>
 				</li>
 			</ul>
 		</li>
