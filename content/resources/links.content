@@ -6,6 +6,8 @@
 <ul>
 	<li><a href="https://arxiv.org/">arXiv</a> - a repository of electronic preprints (known as e-prints) approved for publication after moderation;</li>
 	<li><a href="https://scholar.google.com.au/">Google Scholar</a> - a search engine for scholarly literature;</li>
+	<li><a href="https://www.austms.org.au/Rankings/AustMS_final_ranked.html">AustMS/ARC Journal Rankings</a>;</li>
+	<li><a href="https://mathscinet.ams.org/mathscinet/msc/msc2010.html">MSC</a> - 2010 Mathematics Subject Classification;</li>
 	<li><a href="https://oeis.org/">OEIS</a> - the online enclyclopedia of integer sequences;</li>
 	<li><a href="https://orcid.org/">ORCID</a> - provides persistent digital identifiers to distinguish researchers from each other;</li>
 	<li><a href="https://www.gap-system.org/">GAP</a> - a system for computational discrete algebra;</li>
@@ -23,11 +25,12 @@
 	<li><a href="http://www.cplusplus.com/">cplusplus.com</a> - descriptions for the most important classes, functions and objects of the Standard Language Library, with descriptive fully-functional short programs as examples;</li>
 	<li><a href="https://projecteuler.net/">Project Euler</a> - problem based;</li>
 	<li><a href="http://www.codeblocks.org/">Code::Blocks</a> - my favourite free cross-platform open-source C, C++ and Fortran IDE;</li>
-	<li><a href="https://github.com/">GitHub</a> - free public hosting of git repositories;</li>
-	<li><a href="https://gitlab.com/">GitLab</a> - free hosting of git repositories;</li>
+	<li><a href="https://github.com/">GitHub</a> - free public hosting of git repositories and static websites;</li>
+	<li><a href="https://gitlab.com/">GitLab</a> - free hosting of git repositories and static websites;</li>
 	<li><a href="https://stackoverflow.com/">Stack Overflow</a> - question based;</li>
 	<li><a href="https://reddit.com/r/programming/">Reddit's Programming Subreddit</a> - question/discussion based;</li>
 	<li><a href="https://pastebin.com/">Paste Bin</a> - a paste tool for text and code;</li>
+	<li><a href="http://codepad.org/">Code Pad</a> - an online compiler/interpreter, and a simple collaboration tool;</li>
 	<li><a href="https://www.google.com/about/careers/students/guide-to-technical-development.html">Google's guide to becoming a competent software engineer</a>;</li>
 	<li><a href="https://riddles.io/">Riddles Codesports Platform</a> - competition based;</li>
 	<li><a href="http://aichallenge.org/">AI Challenges</a> - competition based (no longer active).</li>
@@ -50,6 +53,7 @@
 	<li><a href="https://ocw.mit.edu/index.htm">MIT OpenCourseWare (OCW)</a>;</li>
 	<li><a href="https://tinyurl.com/mitpythonintro326">MIT OCW Python Introduction</a>;</li>
 	<li><a href="https://tinyurl.com/mitcppintro326">MIT OCW C/C++ Introduction</a>;</li>
+	<li><a href="https://dec41.user.srcf.net/notes/">(Unofficial) Mathematics Notes from Cambridge University</a>;</li>
 	<li><a href="https://www.smartscholar.com/computer-science-guide/">SmartScholar's Computer Science Education Resource Guide</a>.</li>
 </ul>
 
