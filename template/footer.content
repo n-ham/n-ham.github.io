@@ -1,6 +1,10 @@
 <footer>
 	<hr>
 	<p>
+		<b>Mirrors:</b> [<a href="https://n-ham.com/">Official</a>] [<a href="https://n-ham.bitbucket.io/">BitBucket</a>] [<a href="https://n-ham.github.io/">GitHub</a>] [<a href="https://n-ham.gitlab.io/">GitLab</a>] [<a href="https://n-ham012124105.gitlab.io">Permanent</a>]
+	</p>
+
+	<p>
 		Page was last built on @currentdate at @currenttime (@timezone).
 	</p>
 </footer>
