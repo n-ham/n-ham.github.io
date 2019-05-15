@@ -50,4 +50,8 @@
 	</video>
 </p>
 
-
+<p align="center">
+	<video width="480" height="320" controls="controls">
+		<source src="vids/skate5.mp4" type="video/mp4">
+	</video>
+</p>
