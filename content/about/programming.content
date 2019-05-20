@@ -37,18 +37,21 @@ I consider myself a competent user of:
 <h4>results</h4>
 <ul>
 	<li>
-		I'm the reigning Australian champion from the last two challenges, 1st out of 175 in the Ants challenge and 1st out of 122 in the Planet Wars challenge (<a href="http://web.archive.org/web/20150322072152/http://ants.aichallenge.org/country_profile.php?country=25">Australian Ants leaderboard</a>, <a href="http://web.archive.org/web/20140603210115/http://planetwars.aichallenge.org/country_profile.php?country_id=25">Australian Planet Wars leaderboard</a>);
+		I'm the reigning Australian champion from the last two challenges, 1st out of 175 in the Ants challenge and 1st out of 122 in the Planet Wars challenge (<a href="http://web.archive.org/web/20150322072152/http://ants.aichallenge.org/country_profile.php?country=25">Australian Ants leaderboard</a>, <a href="http://web.archive.org/web/20110811062412/http://ai-contest.com/country_profile.php?country_id=25">Australian Planet Wars leaderboard</a>);
 	</li>
 	<li>
-		I placed inside the top 1% globally in the last two challenges, 32nd out of 7897 in the Ants challenge and 36th out of 4617 in the Planet Wars challenge (<a href="http://web.archive.org/web/20140216143242/http://ants.aichallenge.org/rankings.php">global Ants leaderboard</a>, <a href="http://web.archive.org/web/20140427133250/http://planetwars.aichallenge.org/rankings.php">global Planet Wars leaderboard</a>);
+		I placed inside the top 1% globally in the last two challenges, 32nd out of 7897 in the Ants challenge and 36th out of 4617 in the Planet Wars challenge (<a href="http://web.archive.org/web/20140216143242/http://ants.aichallenge.org/rankings.php">global Ants leaderboard</a>, <a href="http://web.archive.org/web/20110819174404/http://ai-contest.com/rankings.php">global Planet Wars leaderboard</a>);
 	</li>
 	<li>
 		I had the highest ranked version 1 bot in the Ants challenge (it is possible to sort the <a href="http://web.archive.org/web/20140216143242/http://ants.aichallenge.org/rankings.php">global leaderboard</a> by version number, however there is no direct link).
+	</li>
+	<li>
+		You can still view some of my ants games <a href="http://web.archive.org/web/20150406185457/http://ants.aichallenge.org/profile.php?user=98">here</a> and some of my planet wars games <a href="http://web.archive.org/web/20110619060835/http://ai-contest.com/profile_games.php?user_id=3945">here</a> (including 5/5 wins against Accoun who finsihed 6 overall and who probably would have finished higher if not for me).
 	</li>
 </ul>
 
 <h3>nifty site manager</h3>
 <p>
-	I wrote a git-like site manager that tracks modifications to page dependencies. More information can be found on the <a href="https://nifty-site-manager.gitlab.io">nsm site</a>.
+	I wrote a git-like site manager that tracks modifications to page dependencies. More information can be found on the <a href="https://nifty-site-manager.com">nsm site</a>.
 </p>
 
