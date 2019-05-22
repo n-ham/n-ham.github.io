@@ -11,3 +11,9 @@ Hiking and exploring nature can be pretty amazing. Though please respect the ear
 	<img src="pics/nature7.jpg">
 	<img src="pics/nature8.jpg">
 </p>
+
+<p align="center">
+	<video width="480" height="320" controls="controls">
+		<source src="vids/abseiling.mp4" type="video/mp4">
+	</video>
+</p>
