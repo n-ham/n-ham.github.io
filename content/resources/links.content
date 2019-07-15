@@ -14,7 +14,7 @@
 	<li><a href="https://gap-packages.github.io/Semigroups/">GAP semigroups package</a> - a GAP package containing methods for semigroups, monoids, and inverse semigroups, principally of transformations, partial permutations, bipartitions, subsemigroups of regular Rees $0$-matrix semigroups, free inverse semigroups, and free bands;</li>
 	<li><a href="https://mathoverflow.net/">Math Overflow</a> - question based (research level);</li>
 	<li><a href="https://math.stackexchange.com/">Mathematics Stack Exchange</a> - question based (general);</li>
-	<li><a href="https://reddit.com/r/math/">Reddit's Math Subreddit</a> - question/discussion based;</li>
+	<li><a href="https://old.reddit.com/r/math/">Reddit's Math Subreddit</a>;</li>
 	<li><a href="http://mathb.in/">Math Bin</a> - a paste tool for LaTeX/mathematics;</li>
 	<li><a href="https://faculty.math.illinois.edu/~west/grammar.html">The Grammar According to West</a> - some useful observations and suggestions for writing mathematics;</li>
 	<li><a href="https://assets.press.princeton.edu/chapters/gowers/gowers_VIII_6.pdf">Advice to a Young Mathematician</a> - Chapter VIII from The Princeton Companion to Mathematics.</li>
@@ -28,7 +28,8 @@
 	<li><a href="https://github.com/">GitHub</a> - free public hosting of git repositories and static websites;</li>
 	<li><a href="https://gitlab.com/">GitLab</a> - free hosting of git repositories and static websites;</li>
 	<li><a href="https://stackoverflow.com/">Stack Overflow</a> - question based;</li>
-	<li><a href="https://reddit.com/r/programming/">Reddit's Programming Subreddit</a> - question/discussion based;</li>
+	<li><a href="https://old.reddit.com/r/programming/">Reddit's Programming Subreddit</a>;</li>
+	<li><a href="https://old.reddit.com/r/cpp/">Reddit's C++ Subreddit</a>;</li>
 	<li><a href="https://pastebin.com/">Paste Bin</a> - a paste tool for text and code;</li>
 	<li><a href="http://codepad.org/">Code Pad</a> - an online compiler/interpreter, and a simple collaboration tool;</li>
 	<li><a href="https://www.google.com/about/careers/students/guide-to-technical-development.html">Google's guide to becoming a competent software engineer</a>;</li>
@@ -44,7 +45,7 @@
 	<li><a href="https://help.ubuntu.com/community/MacBookPro">Official Ubuntu documentation for installing Ubuntu on a macbook pro</a>;</li> 
 	<li><a href="https://www.archlinux.org/">Arch</a> - simple, lightweight linux distribution that preferences developer experience over user experience;</li>
 	<li><a href="https://wiki.archlinux.org/">Arch wiki</a> - well-maintained source for Arch Linux documentation;</li>
-	<li><a href="https://reddit.com/r/linux/">Reddit's Linux Subreddit</a> - question/discussion based;</li>
+	<li><a href="https://old.reddit.com/r/linux/">Reddit's Linux Subreddit</a> - question/discussion based;</li>
 	<li><a href="https://github.com/jlevy/the-art-of-command-line">The Art of Command Line</a> - a reasonably comprehensive bash guide.</li>
 </ul>
 
@@ -55,5 +56,18 @@
 	<li><a href="https://tinyurl.com/mitcppintro326">MIT OCW C/C++ Introduction</a>;</li>
 	<li><a href="https://dec41.user.srcf.net/notes/">(Unofficial) Mathematics Notes from Cambridge University</a>;</li>
 	<li><a href="https://www.smartscholar.com/computer-science-guide/">SmartScholar's Computer Science Education Resource Guide</a>.</li>
+</ul>
+
+<h4>jobs</h4>
+<ul>
+	<li><a href="https://www.austms.org.au/Jobs/Full_listings.html">AustMS jobs board</a>;</li>
+	<li><a href="https://careers.amsi.org.au/jobs-ads/">AMSI Jobs Board</a>;</li>
+	<li><a href="https://www.csiro.au/en/Careers">CSIRO careers page</a>;</li>
+	<li><a href="https://careers.statsoc.org.au/jobseeker/search/results/">The Statistical Society of Australia jobs board</a>;</li>
+	<li><a href="https://www.mathjobs.org/jobs">mathjobs.org</a>;</li>
+	<li><a href="https://eims.ams.org/jobs/">Employment Information in the Mathematical Sciences jobs board</a>;</li>
+	<li><a href="https://old.reddit.com/r/cpp/">Reddit's C++ Subreddit (usually has a quarterly stickied post with jobs)</a>;</li>
+	<li><a href="https://linux.org.au/jobs/">Linux Australia jobs board</a>;</li>
+	<li><a href="https://www.seek.com.au/linux-jobs">Linux jobs on seek.com.au</a>;</li>
 </ul>
 
