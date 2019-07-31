@@ -1,6 +1,10 @@
 <center>
-	<h2>404 Error</h2>
+	<h2>404 Error - Page Not Found</h2>
 	<p>
-		The page you are looking for does not exist or has moved!
+		Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
+	</p>
+
+	<p>
+		<a href="@pathto(index)">Home</a>
 	</p>
 </center>
