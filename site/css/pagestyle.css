@@ -18,7 +18,7 @@ img
 	-ms-user-select: none; /* IE10+ */
 }
 
-body 
+div.content 
 {
 	/* Size of largest container or bigger */
 	/*min-width: 100px !important;*/

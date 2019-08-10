@@ -5,11 +5,13 @@
 	</head>
 
 	<body>
-		@input(template/menu.content)
+		<div class="content">
+			@input(template/menu.content)
 
-		@inputcontent
+			@inputcontent
 
-		@input(template/footer.content)
+			@input(template/footer.content)
+		</div>
 
 		<script src='@pathtofile(site/js/process_pre_tags.js)'></script>	
 	</body>
@@ -18,6 +20,7 @@
 <!-- 
 	information on how to easily make and host a site similar to
 	this may be found at any of the following mirrors:
+		* https://nift.cc/
 		* https://nifty-site-manager.com/ 
 		* https://nifty-site-manager.bitbucket.io/ 
 		* https://nifty-site-manager.github.io/ 
