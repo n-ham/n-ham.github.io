@@ -4,7 +4,11 @@
 		<li></li>
 
 		<li class="dm_li">
-			<a href="@pathto(index)">about</a>
+			<a href="@pathto(index)">home</a>
+		</li>
+
+		<li class="dm_li">
+			<div class="dm_text">about</div>
 
 			<ul class="drop_submenu">
 				<li class="dsm_li">
