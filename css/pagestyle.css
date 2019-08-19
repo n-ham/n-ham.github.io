@@ -18,6 +18,11 @@ img
 	-ms-user-select: none; /* IE10+ */
 }
 
+video
+{
+	max-width: 80%;
+}
+
 div.content 
 {
 	/* Size of largest container or bigger */
