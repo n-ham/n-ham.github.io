@@ -1,0 +1,32 @@
+<!-- Wrapper -->
+<section id="wrapper">
+	<header>
+		<div class="inner">
+			<h2>Nature</h2>
+		</div>
+	</header>
+
+	<!-- Content -->
+	<div class="wrapper">
+		<div class="inner">
+			Hiking and exploring nature can be pretty amazing. Though please respect the earth (try to not disturb things), the environment (take all rubbish away with you) and other animals (you're visiting their home), it is more rewarding that way! Also make sure you have the appropriate food, water and waterproof gear to cover for the worst-case-scenario of where you are visiting.
+
+			<p align="center">
+				<img src="@pathtofile(site/hobbies/pics/nature1.jpg)" style="margin-top: 10px; margin-bottom: 10px">
+				<img src="@pathtofile(site/hobbies/pics/nature2.jpg)" style="margin-top: 10px; margin-bottom: 10px">
+				<img src="@pathtofile(site/hobbies/pics/nature3.jpg)" style="margin-top: 10px; margin-bottom: 10px">
+				<img src="@pathtofile(site/hobbies/pics/nature4.jpg)" style="margin-top: 10px; margin-bottom: 10px">
+				<img src="@pathtofile(site/hobbies/pics/nature5.jpg)" style="margin-top: 10px; margin-bottom: 10px">
+				<img src="@pathtofile(site/hobbies/pics/nature6.jpg)" style="margin-top: 10px; margin-bottom: 10px">
+				<img src="@pathtofile(site/hobbies/pics/nature7.jpg)" style="margin-top: 10px; margin-bottom: 10px">
+				<img src="@pathtofile(site/hobbies/pics/nature8.jpg)" style="margin-top: 10px; margin-bottom: 10px">
+			</p>
+
+			<p align="center">
+				<video width="480" height="320" controls="controls">
+					<source src="@pathtofile(site/hobbies/vids/abseiling.mp4)" type="video/mp4">
+				</video>
+			</p>
+		</div>
+	</div>
+</section>

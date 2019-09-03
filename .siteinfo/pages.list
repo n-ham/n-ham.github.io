@@ -1,56 +1,44 @@
-404
-404
-template/404.template
-
-about/education
+education
 education
 template/page.template
 
-about/genealogy
+genealogy
 genealogy
 template/page.template
 
-about/kma315
+index
+index
+template/page.template
+
+kma315
 kma315
 template/page.template
 
-about/programming
-programming
-template/page.template
-
-about/research
-research
-template/page.template
-
-about/teaching
-teaching
-template/page.template
-
-hobbies/hockey
-hockey
-template/page.template
-
-hobbies/nature
-nature
-template/page.template
-
-hobbies/skateboarding
-skateboarding
-template/page.template
-
-index
-index
-template/page.template
-
-resources/links
+links
 links
 template/page.template
 
-resources/recommended_software
-"recommended software"
+nature
+nature
 template/page.template
 
-resources/utas_wireless
-"utas wireless"
+programming
+programming
+template/page.template
+
+recommended_software
+recommended_software
+template/page.template
+
+research
+research
+template/page.template
+
+skateboarding
+skateboarding
+template/page.template
+
+teaching
+teaching
 template/page.template
 

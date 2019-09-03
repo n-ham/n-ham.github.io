@@ -1,0 +1,88 @@
+<!-- Wrapper -->
+<section id="wrapper">
+	<header>
+		<div class="inner">
+			<h2>Education</h2>
+		</div>
+	</header>
+
+	<!-- Content -->
+	<div class="wrapper">
+		<div class="inner">
+			<h4>Degrees</h4>
+			<ul>
+				<li>Doctor of Philosophy, Science (University of Tasmania)</li>
+				<li>
+					Bachelor of Science - Honours (University of Tasmania)
+
+					<ul>
+						<li>major: mathematics</li>
+					</ul>
+				</li>
+				<li>
+					Bachelor of Economics & Bachelor of Science (University of Tasmania)
+
+					<ul>
+						<li>majors: computer science, economics, pure mathematics</li>
+					</ul>
+				</li>
+			</ul>
+
+			<h4>Classes taken during degrees:</h4>
+			<ul>
+				<li>KMA152 - Calculus & Applications 1A</li>
+				<li>KMA154 - Calculus & Applications 1B</li>
+				<li>KMA251 - Algebra & Applications 2</li>
+				<li>KMA252 - Calculus & Applications 2</li>
+				<li>KMA254 - Differential Equations, Linear Algebra & Applications 2</li>
+				<li>KMA255 - Operations Research 2</li>
+				<li>KMA305 - Probability Models 3</li>	
+				<li>KMA315 - Real & Complex Analysis 3</li>
+				<li>KMA350 - Computational Techniques 3</li>
+				<li>KMA351 - Algebra & Applications 3</li>
+				<li>KMA352 - Analysis 3</li>
+				<li>KMA354 - Partial Differential Equations, Applications & Methods 3</li>
+				<li>KMA356 - Principles of Statistics 3</li>
+				<li>KMA357 - Topics in Advanced Mathematics</li>
+				<li>KMA381 - Calculus of Variations</li>
+				<li>KMA423 - Abelian Groups & Modules</li>
+				<li>KMA427 - Functional Analysis</li>
+				<li>KMA451 - Ring Theory</li>
+				<li>KMA452 - Measure Theory</li>
+				<li>KMA453 - Topology</li>
+				<li>KMA454 - Linear Algebra & Applications to Statistics</li>
+				<br>
+				<li>KYA427 - Symmetries, Groups & Representations</li>
+				<br>
+				<li>KXT101 - Programming & Problem Solving</li>
+				<li>KXT102 - Programming with Data Structures</li>
+				<li>KXT103 - Introduction to Systems</li>
+				<li>KXT201 - Algorithms</li>
+				<li>KXT204 - Operating Systems</li>
+				<li>KXT304 - Computer Graphics & Animation</li>
+				<li>KXT306 - Artificial Intelligence</li>
+				<li>KXT311 - Data Mining & Text Retrieval</li>
+				<li>KXT312 - Advanced Algorithmic Problem Solving & Programming</li>
+				<br>
+				<li>HPA394 - The Logic of Decision</li>
+				<br>
+				<li>BEA110 - Economics for Business</li>
+				<li>BEA130 - Foundations of Economic Policy</li>
+				<li>BEA140 - Quantitative Methods</li>
+				<li>BEA200 - Intermediate Microeconomics</li>
+				<li>BEA202 - International Economics</li>
+				<li>BEA220 - Intermediate Macroeconomics</li>
+				<li>BEA235 - Thinking Strategically: The Competitive Edge</li>
+				<li>BEA240 - Quantitative Economic Analysis</li>
+				<li>BEA242 - Introduction to Econometrics</li>
+				<li>BEA300 - Microeconomic Theory & Policy</li>
+				<li>BEA305 - Industrial Organisation</li>
+				<li>BEA320 - Macroeconomic Theory & Policy</li>
+				<li>BEA342 - Econometrics</li>
+				<li>BEA400 - Microeconomics</li>
+				<br>
+				<li>BFA281 - Financial Management</li>
+			</ul>
+		</div>
+	</div>
+</section>

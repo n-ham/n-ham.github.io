@@ -1,66 +1,27 @@
+<!-- Header -->
+	<header id="header" class="alt">
+		<h1><a href="index.html">Personal Site of Nicholas Ham</a></h1>
+		<nav>
+			<a href="#menu">Menu</a>
+		</nav>
+	</header>
 
-<nav>
-	<ul class="drop_menu">
-		<li></li>
-
-		<li class="dm_li">
-			<a href="@pathto(index)">home</a>
-		</li>
-
-		<li class="dm_li">
-			<div class="dm_text">about</div>
-
-			<ul class="drop_submenu">
-				<li class="dsm_li">
-					<a href="@pathto(about/education)">education</a>
-				</li>
-				<li class="dsm_li">
-					<a href="@pathto(about/genealogy)">genealogy</a>
-				</li>
-				<li class="dsm_li">
-					<a href="@pathto(about/programming)">programming</a>
-				</li>
-				<li class="dsm_li">
-					<a href="@pathto(about/research)">research</a>
-				</li>
-				<li class="dsm_li">
-					<a href="@pathto(about/teaching)">teaching</a>
-				</li>
+<!-- Menu -->
+	<nav id="menu">
+		<div class="inner">
+			<h2>Menu</h2>
+			<ul class="links">
+				<li><a href="@pathto(index)">Home</a></li>
+				<li><a href="@pathto(education)">Education</a></li>
+				<li><a href="@pathto(genealogy)">Genealogy</a></li>
+				<li><a href="@pathto(programming)">Programming</a></li>
+				<li><a href="@pathto(research)">Research</a></li>
+				<li><a href="@pathto(teaching)">Teaching</a></li>
+				<li><a href="@pathto(nature)">Nature</a></li>
+				<li><a href="@pathto(skateboarding)">Skateboarding</a></li>
+				<li><a href="@pathto(links)">Links</a></li>
+				<li><a href="@pathto(recommended_software)">Recommended Software</a></li>
 			</ul>
-		</li>
-
-		<li class ="dm_li">
-			<div class="dm_text">hobbies</div>
-
-			<ul class="drop_submenu">
-				<li class="dsm_li">
-					<a href="@pathto(hobbies/hockey)">hockey</a>
-				</li>
-				<li class="dsm_li">
-					<a href="@pathto(hobbies/nature)">nature</a>
-				</li>
-				<li class="dsm_li">
-					<a href="@pathto(hobbies/skateboarding)">skateboarding</a>
-				</li>
-			</ul>
-		</li>
-
-		<li class ="dm_li">
-			<div class="dm_text">resources</div>
-
-			<ul class="drop_submenu">
-				<li class="dsm_li">
-					<a href="@pathto(resources/links)">links</a>
-				</li>
-				<li class="dsm_li">
-					<a href="@pathto(resources/recommended_software)">recommended software</a>
-				</li>
-				<li class="dsm_li">
-					<a href="@pathto(resources/utas_wireless)">utas wireless</a>
-				</li>
-			</ul>
-		</li>
-
-		<li></li>
-	</ul>
-</nav>
+			<a href="#" class="close">Close</a>
+		</div>
+	</nav>

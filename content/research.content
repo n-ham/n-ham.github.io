@@ -1,0 +1,87 @@
+<!-- Wrapper -->
+<section id="wrapper">
+	<header>
+		<div class="inner">
+			<h2>Research</h2>
+		</div>
+	</header>
+
+	<!-- Content -->
+	<div class="wrapper">
+		<div class="inner">
+			<h4>Research Interests</h4>
+			<p>
+				My main research interests are diagram semigroups and algebras, along with notions of symmetry for finite strategic-form games, though I typically find most problems under the very broad umbrellas of algebra and combinatorics interesting.
+			</p>
+
+			<h4>Theses</h4>
+			<ul>
+				<li> 'The Planar Modular Partition Monoid', PhD Thesis, 2015, Supervisors: Des FitzGerald and Peter Jarvis <br>
+					 [<a href="https://eprints.utas.edu.au/23029/">eprints</a>, <a href="https://arxiv.org/abs/1808.07156">arXiv</a>]</li>
+				<li> 'Some Structure Properties of Finite Normal-Form Games', Honours Thesis, 2011, Supervisor: Des FitzGerald <br>
+					 [<a href="https://arxiv.org/abs/1905.00636">arXiv</a>, <a href="https://gitlab.com/n-ham-papers/honours-thesis/">GitLab</a>, <a href="pdfs/Some_Structure_Properties_of_Finite_Normal-Form_Games.pdf">pdf</a>]</li>
+			</ul>
+
+			<h4>Published Papers</h4>
+			<ul>
+				<li> 'Enumeration of idempotents in planar diagram monoids' (with Igor Dolinka, James East, Athanasios Evangelou, Des FitzGerald, James Hyde, Nicholas Loughlin, James Mitchell) <br>
+					 [<a href="https://www.sciencedirect.com/science/article/pii/S0021869318306550">Journal of Algebra</a>, <a href="https://arxiv.org/abs/1507.04838">arXiv</a>]</li>
+
+				<li> 'Enumeration of idempotents in diagram semigroups and algebras' (with Igor Dolinka, James East, Athanasios Evangelou, Des FitzGerald, James Hyde, Nicholas Loughlin) <br>
+					 [<a href="https://www.sciencedirect.com/science/article/pii/S0097316514001563">Journal of Combinatorial Theory, Series A</a>, <a href="https://arxiv.org/abs/1408.2021">arXiv</a>]</li>
+			</ul>
+
+			<h4>Unpublished Papers</h4>
+			<ul>
+				<li> 'Lattice paths and submonoids of $\mathbb{Z}^2$' (with James East) <br>
+					 [<a href="https://arxiv.org/abs/1811.05735">arXiv</a>]</li>
+
+				<li> 'Notions of Symmetry for Finite Strategic-Form Games' <br>
+					 [<a href="https://arxiv.org/abs/1311.4766">arXiv</a>, <a href="https://arxiv.org/abs/1311.4766v1">arXiv v1</a>] [recent drafts - <a href="https://gitlab.com/n-ham-paper-drafts/symmetry-notions-for-finite-strategic-form-games">GitLab</a>, <a href="pdfs/Notions of Anonymity, Fairness and Symmetry for Finite Strategic-Form Games.pdf">pdf</a>]</li> 
+			</ul>
+
+			<h4>Working Papers</h4>
+			<ul>
+				<li> 'Lattice path conjectures' <br>
+					 [recent drafts - <a href="https://gitlab.com/n-ham-paper-drafts/lattice-path-conjectures">GitLab</a>, <a href="pdfs/Lattice Path Conjectures.pdf">pdf</a>]</li> 
+			</ul>
+
+			<h4>Acknowledgements</h4>
+			<ul>
+				<li> 'Fiscal and Monetary Policy in Australia: an SVAR Model*' (Mardi Dungey, Renée Fry) <br>
+					 [<a href="https://www.researchgate.net/profile/Mardi_Dungey/publication/228433588_Fiscal_and_Monetary_Policy_in_Australia_an_SVAR_Model/links/551184730cf20bfdad4e7621/Fiscal-and-Monetary-Policy-in-Australia-an-SVAR-Model.pdf">ResearchGate</a>]</li>
+				<li> 'GAP Package Semigroups' <br>
+					 [<a href="https://gap-packages.github.io/Semigroups/">GitHub</a>]</li>
+			</ul>
+
+			<h4>Conference Talks</h4>
+			<ul>
+				<li> 'The mod-$m$ diagram monoids' - 33rd Annual Victorian Algebra Conference, 4th Annual Australian Mathematical Sciences Student Conference <br>
+					 [<a href="pdfs/nchamVAC33.pdf">slides</a>]</li>
+				<li> 'The Fauser Monoid' - 32nd Annual Victorian Algebra Conference, 58th Annual AustMS Meeting <br>
+					 [<a href="pdfs/nchamFauser14.pdf">slides</a>]</li>
+				<li> 'Classifications of Symmetric Normal Form Games' - 31st Annual Victorian Algebra Conference, 57th Annual AustMS Meeting <br>
+					 [<a href="pdfs/nchamVAC31.pdf">slides</a>]</li>
+			</ul>
+
+			<h4>OEIS Contributions</h4>
+			<p>
+				The On-Line Encyclopedia of Integer Sequences (OEIS) is an online database of integer sequences. It was created and maintained by Neil Sloane while a researcher at AT&T Labs. Some of the integer sequences that I have made contributions to are:
+				<ul>
+					<li><a href="https://oeis.org/A005043">A005043</a></li>
+					<li><a href="https://oeis.org/A005165">A005165</a></li>
+					<li><a href="https://oeis.org/A035343">A035343</a></li>
+					<li><a href="https://oeis.org/A067955">A067955</a></li>
+					<li><a href="https://oeis.org/A097609">A097609</a></li>
+					<li><a href="https://oeis.org/A308087">A308087</a></li>
+				</ul>
+			</p>
+
+			<h4>Organised Seminars & Conferences</h4>
+			<ul>
+				<li>I was treasurer of the <a href="https://www.amssc.org/2015/">4th Annual Australian Mathematical Sciences Student Conference</a>, held at the University of Tasmania from the 30th November until the 2nd of December 2015</li>
+				<li>From 2012-2014 I organised the $G$-seminar weekly at the University of Tasmania. Primarily talks had an algebraic flavour, with the name playfully hinting towards a common theme of objects containing $G$ such as Groups, semiGroups, Games and Gombinatorics</li>
+			</ul>
+		</div>
+	</div>
+</section>

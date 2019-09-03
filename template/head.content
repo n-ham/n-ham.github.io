@@ -1,22 +1,21 @@
-<title>
-	nham - @pagetitle
-</title>
+<title>n-ham</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="@pathtofile(site/assets/css/main.css)" />
+<link rel="stylesheet" href="@pathtofile(site/assets/css/pagestyle.css)" />
+<noscript><link rel="stylesheet" href="@pathtofile(site/assets/css/noscript.css)" /></noscript>
+<link rel="stylesheet" href="@pathtofile(site/assets/css/pre.css)" />
 
-<link rel='stylesheet' type='text/css' href='@pathtofile(site/css/dropmenu.css)'>
-<link rel='stylesheet' type='text/css' href='@pathtofile(site/css/pagestyle.css)'>
-<link rel='stylesheet' type='text/css' href='@pathtofile(site/css/pre.css)'>
-<link rel='icon' type='image/png' href='@pathtofile("site/files/favicon.ico")'>
-
-<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+<link rel='icon' type='image/png' href='@pathtofile("site/images/favicon.ico")'>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-63230603-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-63230603-2"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-63230603-1');
+  gtag('config', 'UA-63230603-2');
 </script>
 
 <!-- uses google-code-prettify for syntax highlighting 
@@ -44,12 +43,4 @@
 </script>
 <script type="text/javascript" 
 	    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js">
-</script>
-
-<!-- hack redirecting to a secure protocol when users 
-     visit domain using an insecure protocol -->
-<script>
-	var host = "n-ham.github.io";
-	if ((host == window.location.host) && (window.location.protocol != "https:"))
-		window.location.protocol = "https";	
 </script>
