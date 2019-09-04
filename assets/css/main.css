@@ -3133,6 +3133,7 @@ input, select, textarea {
 				}
 
 				#header nav a[href="#menu"] {
+					font-size: 20px;
 					text-decoration: none;
 					-moz-transition: background-color 0.2s ease-in-out;
 					-webkit-transition: background-color 0.2s ease-in-out;
@@ -3198,6 +3199,7 @@ input, select, textarea {
 					}
 
 						#header nav a[href="#menu"] {
+							font-size: 20px;
 							box-shadow: none;
 							padding: 0 1em;
 							border-radius: 0;
@@ -3212,6 +3214,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#header nav a[href="#menu"] {
+				font-size: 20px;
 				width: 4em;
 				white-space: nowrap;
 				text-indent: 4em;
