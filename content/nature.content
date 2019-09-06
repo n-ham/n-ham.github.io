@@ -9,8 +9,6 @@
 	<!-- Content -->
 	<div class="wrapper">
 		<div class="inner">
-			Hiking and exploring nature can be pretty amazing. Though please respect the earth (try to not disturb things), the environment (take all rubbish away with you) and other animals (you're visiting their home), it is more rewarding that way! Also make sure you have the appropriate food, water and waterproof gear to cover for the worst-case-scenario of where you are visiting.
-
 			<p align="center">
 				<img src="@pathtofile(site/hobbies/pics/nature1.jpg)" style="margin-top: 10px; margin-bottom: 10px">
 				<img src="@pathtofile(site/hobbies/pics/nature2.jpg)" style="margin-top: 10px; margin-bottom: 10px">
