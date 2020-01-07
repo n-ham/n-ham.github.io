@@ -6,17 +6,17 @@
 -->
 <html>
 	<head>
-		@input(template/head.content)
+		@input{!p}(template/head.content)
 	</head>
 	<body class="is-preload">
 
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
-				@input(template/menu.content)
+				@input{!p}(template/menu.content)
 
-				@inputcontent
+				@content{!p}()
 
-				@input(template/footer.content)
+				@input{!p}(template/footer.content)
 			</div>
 
 		<!-- Scripts -->
