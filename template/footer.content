@@ -7,7 +7,7 @@
 				@input(template/icons.content)
 
 				<p>
-					<b>Mirrors:</b> [<a href="https://n-ham.com/">Official</a>] [<a href="https://n-ham.bitbucket.io/">BitBucket</a>] [<a href="https://n-ham.github.io/">GitHub</a>] [<a href="https://n-ham.gitlab.io/">GitLab</a>] [<a href="https://n-ham.netlify.com/">Netlify</a>]
+					<b>Mirrors:</b> [<a href="https://n-ham.com/">Official</a>] [<a href="https://n-ham.bitbucket.io/">BitBucket</a>] [<a href="https://n-ham.github.io/">GitHub</a>] [<a href="https://n-ham.gitlab.io/">GitLab</a>] [<a href="https://n-ham.netlify.com/">Netlify</a>] [<a href="https://n-ham.vercel.app/">Vercel</a>]
 				</p>
 
 				<p>
