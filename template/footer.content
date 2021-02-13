@@ -11,7 +11,7 @@
 				</p>
 
 				<p>
-					Page was last built on @[current-date] at @[current-time] (@[build-timezone]).
+					Page was last built on $[current-date] at $[current-time] ($[build-timezone]).
 				</p>
 			</center>
 		</div>
