@@ -54,6 +54,9 @@
 					I placed inside the top 1% globally in the last two challenges, 32nd out of 7897 in the Ants challenge and 36th out of 4617 in the Planet Wars challenge (<a href="http://web.archive.org/web/20140216143242/http://ants.aichallenge.org/rankings.php">global Ants leaderboard</a>, <a href="http://web.archive.org/web/20110819174404/http://ai-contest.com/rankings.php">global Planet Wars leaderboard</a>);
 				</li>
 				<li>
+					You can find my implementation of my strategy for Planet Wars <a href="https://github.com/n-ham/Antimatroid-Planet-Wars-Bot">here</a> and my implementation of my strategy for Ants <a href="https://github.com/n-ham/Antimatroid-Ants-Bot">here</a>.
+				</li>
+				<li>
 					I had the highest ranked version 1 bot in the Ants challenge (it is possible to sort the <a href="http://web.archive.org/web/20140216143242/http://ants.aichallenge.org/rankings.php">global leaderboard</a> by version number, however there is no direct link).
 				</li>
 				<li>
