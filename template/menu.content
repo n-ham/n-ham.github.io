@@ -19,6 +19,7 @@
 				<li><a href="@pathto(teaching)">Teaching</a></li>
 				<li><a href="@pathto(nature)">Nature</a></li>
 				<li><a href="@pathto(skateboarding)">Skateboarding</a></li>
+				<li><a href="@pathto(piracy)">Yarr!</a></li>
 				<li><a href="@pathto(links)">Links</a></li>
 				<li><a href="@pathto(recommended_software)">Recommended Software</a></li>
 			</ul>
