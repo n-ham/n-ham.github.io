@@ -82,7 +82,7 @@
 				<img src="@pathtofile(site/piracy/images/pisshead2.JPG)"><br><br>
 				<img src="@pathtofile(site/piracy/images/pisshead3.JPG)"><br><br>
 				<img src="@pathtofile(site/piracy/images/pisshead4.jpg)"><br><br>
-				<img src="@pathtofile(site/piracy/images/quick go.jpg)"><br><br>
+				<img src="@pathtofile(site/piracy/images/quick go.jpg)"><br><br> <!-- note I tampered with the dob on this id, do not try to do this if you're willingly onside with the abusers -->
 				<img src="@pathtofile(site/piracy/images/shadesony2.JPG)"><br><br>
 				<img src="@pathtofile(site/piracy/images/skiguy.JPG)"><br><br>
 				<img src="@pathtofile(site/piracy/images/Stress Bunny.gif)"><br><br>
