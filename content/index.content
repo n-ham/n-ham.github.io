@@ -35,6 +35,18 @@
 				<p align="center">
 					<a href="#" class="image"><img src="@pathtofile(site/hobbies/pics/jump.jpg)" width="450px"></a>
 				</p>
+
+				<div class="content">
+					<p>
+						I'm the creator and developer of a website generator called <a href="https://nift.dev">Nift</a> which seems to benchmark as the world's fastest, though more people are encouraged to run and release their own benchmarks, you can even use Nift to make a website for the benchmarks. 
+					</p>
+
+					<p align="center"><img class="image" src="@pathtofile(site/images/rabbit.png)" alt="Nift logo" style="max-width: 250px"></p>
+
+					<p>
+						I also, at least independently, coined the term <a href="https://wr3ckreational.org">wreckreational</a> which was intended as an extreme sports group with an appreciation for what different objects, animals, humans etc. go through in order for people to train up to fight abuse. Unfortunately it did not take long for some of the worst abusers on this planet to use their normal tactics to prevent the group from going in the desired direction. People are still encouraged to learn about the abuse problems on this planet through various pathways and help rescue people from having to play along for abusers around this planet.
+					</p>
+				</div>
 			</div>
 		</section>
 
