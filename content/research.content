@@ -44,6 +44,9 @@
 			<ul>
 				<li> 'Lattice path conjectures' <br>
 					 [recent drafts - <a href="https://gitlab.com/n-ham-paper-drafts/lattice-path-conjectures">GitLab</a>, <a href="@pathtofile('site/pdfs/Lattice Path Conjectures.pdf')">pdf</a>]</li> 
+				<li> 'Exploring Euclid's Orchard' <br>
+					 [recent drafts - <a href="@pathtofile('site/pdfs/Exploring Euclid\'s Orchard.pdf')">pdf</a>] <br>
+					 (also James East typesetted his approach for the <a href="@pathtofile('site/pdfs/EO - authored by James East.pdf')">Density of Euclid's Orchard</a>)</li> 
 			</ul>
 
 			<h4>Acknowledgements</h4>
