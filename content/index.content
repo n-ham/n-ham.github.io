@@ -33,7 +33,7 @@
 		<section id="four" class="wrapper style1">
 			<div class="inner">
 				<p align="center">
-					<a href="#" class="image"><img src="@pathtofile(site/hobbies/pics/skate1.jpg)" width="450px"></a>
+					<img src="@pathtofile(site/hobbies/pics/skate1.jpg)" width="450px">
 				</p>
 
 				<div class="content">
