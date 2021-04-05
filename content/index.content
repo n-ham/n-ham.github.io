@@ -16,8 +16,8 @@
 </p>
 
 <center>
-	<img src="@pathtofile(output/images/wr3ck.png)" width="550px"><br>
-	<img src="@pathtofile(output/images/3C.png)" width="100px" style="margin-top:-30px; max-width:30%">
+	<a href="https://wr3ck.com"><img src="@pathtofile(output/images/wr3ck.png)" width="550px"></a><br>
+	<a href="https://wr3ck.com"><img src="@pathtofile(output/images/3C.png)" width="100px" style="margin-top:-30px; max-width:30%"></a>
 </center>
 
 <p>
@@ -25,7 +25,7 @@
 </p>
 
 <center>
-	<img src="@pathtofile(output/images/wr3ck2.png)" width="650px">
+	<a href="https://wr3ck.com"><img src="@pathtofile(output/images/wr3ck2.png)" width="650px"></a>
 	<img class="image" src="@pathtofile(output/hobbies/pics/skate2.jpg)" alt="" />
 </center>
 
