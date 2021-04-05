@@ -67,6 +67,12 @@ h1
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
+
+    transform: rotate(2deg);
+	-webkit-transform: rotate(2deg);  /* Safari */
+	-moz-transform: rotate(2deg);     /* Firefox */
+	-ms-transform: rotate(2deg);      /* IE */
+	-o-transform: rotate(2deg);       /* Opera */
 }
 
 h1, h2, h3, h4, h5
@@ -94,6 +100,12 @@ a:hover
 {
 	max-width: 80%;
 	text-align: left;
+
+	transform: rotate(-1deg);
+	-webkit-transform: rotate(-1deg);  /* Safari */
+	-moz-transform: rotate(-1deg);     /* Firefox */
+	-ms-transform: rotate(-1deg);      /* IE */
+	-o-transform: rotate(-1deg);       /* Opera */
 }
 
 img
