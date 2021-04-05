@@ -54,7 +54,7 @@ body
 h1
 {
 	font-family: "CyberspaceRaceway";
-	font-size: 25px;
+	font-size: 6vw;
 	overflow-x: scroll;
 	-webkit-user-select: none; /* Chrome/Safari */
 	-moz-user-select: none; /* Firefox */
