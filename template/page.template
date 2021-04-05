@@ -4,10 +4,10 @@
 	</head>
 
 	<body>
-		@input("template/menu.content")
-
 		<center>
 			<div id="content">
+				@input("template/menu.content")
+				
 				@content
 
 				@input("template/footer.content")
