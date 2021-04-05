@@ -13,4 +13,6 @@
 	<p>
 		Page was last built using <a href="https://nift.dev">Nift</a> on $[current-date] at $[current-time] ($[build-timezone]).
 	</p>
+
+	<img src="@pathtofile(output/images/devil-toon.png)" width="250px">
 </center>
