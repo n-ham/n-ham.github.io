@@ -1,53 +1,32 @@
-<!-- Banner -->
-	<section id="banner">
-		<div class="inner">
-			<div class="logo"><span class="icon fa-gem"></span></div>
-			<h2>Personal Website of Nicholas Ham</h2>
-		</div>
-	</section>
+<h1>Nicholas Ham</h1>
+<p>
+	This is the personal site of Nicholas Ham. I hold a doctorate in mathematics from the University of Tasmania, which I did having the advisors of <a href="https://scholar.google.com/citations?user=IGXAO_cAAAAJ&hl=en&oi=ao">Desmond FitzGerald</a> and <a href="https://www.utas.edu.au/profiles/staff/maths-physics/peter-jarvis">Peter Jarvis</a> (<a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=PD+jarvis&btnG=">Google Scholar</a><#--, <a href="http://www-theory.phys.utas.edu.au/theory/jarvis/jarvis.html">personal</a>--#>). 
+</p>
 
-<!-- Wrapper -->
-	<section id="wrapper">
+<center><img class="image" src="@pathtofile(output/hobbies/pics/nature2.jpg)" alt="" /></center>
 
-		<!-- One -->
-		<section id="one" class="wrapper spotlight style2">
-			<div class="inner">
-				<img class="image" src="@pathtofile(site/hobbies/pics/nature2.jpg)" alt="" />
-				<div class="content">
-					This is the personal site of Nicholas Ham. I hold a doctorate in mathematics from the University of Tasmania, which I did having the advisors of <a href="https://scholar.google.com/citations?user=IGXAO_cAAAAJ&hl=en&oi=ao">Desmond FitzGerald</a> and <a href="https://www.utas.edu.au/profiles/staff/maths-physics/peter-jarvis">Peter Jarvis</a> (<a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=PD+jarvis&btnG=">Google Scholar</a><#--, <a href="http://www-theory.phys.utas.edu.au/theory/jarvis/jarvis.html">personal</a>--#>). 
-				</p>
-			</div>
-		</section>
+<p>
+	On top of completing a mathematics major during undergrad, I also completed majors in analytical economics and applied computing. Furthermore I contributed to designing and building an international programming competition sponsored by Google, and have experience teaching both mathematics and economics classes at the undergraduate level.
+</p>
 
-		<!-- Three -->
-		<section id="three" class="wrapper alt spotlight style1">
-			<div class="inner">
-				<img class="image" src="@pathtofile(site/hobbies/pics/skate2.jpg)" alt="" />
-				<div class="content">
-					On top of completing a mathematics major during undergrad, I also completed majors in analytical economics and applied computing. Furthermore I contributed to designing and building an international programming competition sponsored by Google, and have experience teaching both mathematics and economics classes at the undergraduate level.
-				</div>
-			</div>
-		</section>
+<center><img class="image" src="@pathtofile(output/hobbies/pics/skate2.jpg)" alt="" /></center>
 
-		<!-- Four -->
-		<section id="four" class="wrapper style1">
-			<div class="inner">
-				<p align="center">
-					<img src="@pathtofile(site/hobbies/pics/skate1.jpg)" width="450px">
-				</p>
+<p>
+	I'm the creator and developer of a website generator called <a href="https://nift.dev">Nift</a> which seems to benchmark as the world's fastest, though more people are encouraged to run and release their own benchmarks, you can even use Nift to make a website for the benchmarks. 
+</p>
 
-				<div class="content">
-					<p>
-						I'm the creator and developer of a website generator called <a href="https://nift.dev">Nift</a> which seems to benchmark as the world's fastest, though more people are encouraged to run and release their own benchmarks, you can even use Nift to make a website for the benchmarks. 
-					</p>
+<center><a href="https://nift.dev"><img class="image" src="@pathtofile(output/images/jack-jumper-text.svg)" alt="Nift logo" style="max-width: 300px"></a></center>
 
-					<p align="center"><a href="https://nift.dev"><img class="image" src="@pathtofile(site/images/rabbit.png)" alt="Nift logo" style="max-width: 250px"></a></p>
+<p>
+	I also, at least independently, combined the terms <mono>wreck</mono> and <mono>reational</mono> to coin the term <a href="https://wr3ckreational.org">wreckreational</a> which was intended as an extreme sports group with an appreciation for what different objects, animals, humans etc. go through in order for people to train up to fight abuse. People are encouraged to learn about the abuse problems on this planet through various pathways and help rescue people from having to play along for abusers around this planet. 
+</p>
 
-					<p>
-						I also, at least independently, coined the term <a href="https://wr3ckreational.org">wreckreational</a> which was intended as an extreme sports group with an appreciation for what different objects, animals, humans etc. go through in order for people to train up to fight abuse. Unfortunately it did not take long for some of the worst abusers on this planet to use their normal tactics to prevent the group from going in the desired direction. People are still encouraged to learn about the abuse problems on this planet through various pathways and help rescue people from having to play along for abusers around this planet. The Nift <a href="https://nift.dev/coe.html">code of etiquette</a> and <a href="@pathto(piracy)">piracy background</a> part of this website might help get you started. Unfortunately the hospitals, authorities, tertiary system etc. are often stuck having to blindly follow orders due to how people victim to having to play along for abusers are treated otherwise, so people need to find other ways to help turn these problems around globally. Thankfully when I went through the claim was all PhD theses had to be examined externally and am reasonably confident mine was, at least the corrections asked for were mostly quite reasoanble, though be careful of anyone claiming they contributed to that. Also be weary of people graduating by publication, it is one method being used for things like affirmative action and typically requires less input externally about the candidate properly reaching the doctorate level on something and being competent and knowing what they are and are not competent at etc., similar goes for places overrun by abusers and affirmative action which are able to graduate people to then go on to powerful positions who knowingly or unknowingly contribute to people being stuck victim to playing along for abusers. 
-					</p>
-				</div>
-			</div>
-		</section>
 
-	</section>
+<center><img src="@pathtofile(output/hobbies/pics/skate1.jpg)" width="450px"></center>
+<p>
+	The Nift <a href="https://nift.dev/coe.html">code of etiquette</a> and <a href="@pathto(piracy)">piracy history/background</a> page on this website might help get you started. Unfortunately many facets of society are often stuck having to blindly follow orders due to how people victim to having to play along for abusers are treated otherwise, so people need to find other ways to help turn these problems around globally.
+</p>
+
+<p>
+	Thankfully when I went through the claim was all PhD theses had to be examined externally and am reasonably confident mine was, at least the corrections asked for were mostly quite reasoanble and dug quite far in to various aspects, though be weary of anyone claiming they contributed to that. Also be weary of people graduating by publication, it is one method being used for things like affirmative action and typically requires less input externally about the candidate properly reaching the doctorate level on something and being competent and knowing what they are and are not competent at etc., similar goes for places overrun by abusers and affirmative action which are able to graduate people to then go on to powerful positions who knowingly or unknowingly contribute to people being stuck victim to playing along for abusers. 
+</p>
