@@ -11,6 +11,10 @@
 	</p>
 
 	<p>
+		<b>Source:</b> [<a href="https://github.com/n-ham/n-ham.github.io/">GitHub</a>]
+	</p>
+
+	<p>
 		Page was last built using <a href="https://nift.dev">Nift</a> on $[current-date] at $[current-time] ($[build-timezone]).
 	</p>
 
