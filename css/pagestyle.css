@@ -54,7 +54,7 @@ body
 h1
 {
 	font-family: "CyberspaceRaceway";
-	font-size: 6vw;
+	font-size: 5vw;
 	overflow-x: scroll;
 	-webkit-user-select: none; /* Chrome/Safari */
 	-moz-user-select: none; /* Firefox */
@@ -68,11 +68,11 @@ h1
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
 
-    transform: rotate(2deg);
-	-webkit-transform: rotate(2deg);  /* Safari */
-	-moz-transform: rotate(2deg);     /* Firefox */
-	-ms-transform: rotate(2deg);      /* IE */
-	-o-transform: rotate(2deg);       /* Opera */
+    transform: rotate(1deg);
+	-webkit-transform: rotate(1deg);  /* Safari */
+	-moz-transform: rotate(1deg);     /* Firefox */
+	-ms-transform: rotate(1deg);      /* IE */
+	-o-transform: rotate(1deg);       /* Opera */
 }
 
 h1, h2, h3, h4, h5
@@ -101,11 +101,11 @@ a:hover
 	max-width: 80%;
 	text-align: left;
 
-	transform: rotate(-1deg);
-	-webkit-transform: rotate(-1deg);  /* Safari */
-	-moz-transform: rotate(-1deg);     /* Firefox */
-	-ms-transform: rotate(-1deg);      /* IE */
-	-o-transform: rotate(-1deg);       /* Opera */
+	transform: rotate(-0.5deg);
+	-webkit-transform: rotate(-0.5deg);  /* Safari */
+	-moz-transform: rotate(-0.5deg);     /* Firefox */
+	-ms-transform: rotate(-0.5deg);      /* IE */
+	-o-transform: rotate(-0.5deg);       /* Opera */
 }
 
 img
