@@ -1,0 +1,10 @@
+#mid
+{
+	overflow: hidden;
+	float: right;
+	right: 0 !important;
+	top: 0 !important;
+	margin-right: 20px;
+	max-width: 30%;
+	width: 50px;
+}
