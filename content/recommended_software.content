@@ -27,6 +27,10 @@ I single-boot Ubuntu on most of my machines as I have found it to be the least t
 </ul>
 
 <p>
+	"Looking deeper, Linux's importance to the Web is even more extreme. By W3Cook's analysis of Alexa's data, 96.3 percent of the top 1 million web servers are running Linux. The remainder is split between Windows, 1.9 percent, and FreeBSD, 1.8 percent."
+</p>
+
+<p>
 	The steps I follow when installing ubuntu onto a machine may be found <a href="https://github.com/n-ham/guides/blob/master/install-ubuntu.sh">here</a>. 
 </p>
 
