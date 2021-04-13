@@ -31,6 +31,14 @@ I single-boot Ubuntu on most of my machines as I have found it to be the least t
 </p>
 
 <p>
+	"The Linux operating system runs all 500 of the world’s fastest supercomputers, which help to advance artificial intelligence, machine learning and even COVID-19 research."
+</p>
+
+<p>
+	"I have heard it said, though not been able to verify, that Linux runs on more than 90% of public clouds, more than 60% of embedded systems and IoT devices, as much as 99% of supercomputers and more than 80% of smartphones. If these claims are even close to the truth, it attests to the success and versatility of Linux."
+</p>
+
+<p>
 	The steps I follow when installing ubuntu onto a machine may be found <a href="https://github.com/n-ham/guides/blob/master/install-ubuntu.sh">here</a>. 
 </p>
 
