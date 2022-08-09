@@ -1,0 +1,35 @@
+<h1>KEA140 Business Statistics</h1>
+<h3>Teaching materials for KEA140 at UTAS 2016</h3>
+
+<ul>
+	<li>
+		<a href="@pathtofile('output/pdfs/KEA140/slides/M2FL1 Statistics - objectives, motivation, purpose & important terms.pdf')">Module 2 Face Lecture 1</a>
+	</li>
+	<li>
+		<a href="@pathtofile('output/pdfs/KEA140/slides/M2FL2 Data - sources, survey errors, sampling methods & properties.pdf')">Module 2 Face Lecture 2</a>
+	</li>
+	<li>
+		<a href="@pathtofile('output/pdfs/KEA140/slides/M2FL3 Graphical & tabular methods of obtaining information from data.pdf')">Module 2 Face Lecture 3</a>
+	</li>
+	<li>
+		<a href="@pathtofile('output/pdfs/KEA140/avi/M2VL1.avi')">Module 2 Video Lecture 1</a> [<a href="@pathtofile('output/pdfs/KEA140/slides/M2VL1 Central tendency measures for ungrouped raw univariate data.pdf')">slides</a>]
+	</li>
+	<li>
+		<a href="@pathtofile('output/pdfs/KEA140/avi/M2VL2.avi')">Module 2 Video Lecture 2</a> [<a href="@pathtofile('output/pdfs/KEA140/slides/M2VL2 Dispersion measures for ungrouped raw univariate data.pdf')">slides</a>]
+	</li>
+	<li>
+		<a href="@pathtofile('output/pdfs/KEA140/avi/M2VL3.avi')">Module 2 Video Lecture 3</a> [<a href="@pathtofile('output/pdfs/KEA140/slides/M2VL3 Central tendency measures for grouped univariate data.pdf')">slides</a>]
+	</li>
+	<li>
+		<a href="@pathtofile('output/pdfs/KEA140/avi/M2VL4.avi')">Module 2 Video Lecture 4</a> [<a href="@pathtofile('output/pdfs/KEA140/slides/M2VL4 Dispersion measures for grouped univariate data.pdf')">slides</a>]
+	</li>
+	<li>
+		<a href="@pathtofile('output/pdfs/KEA140/avi/M2VL5.avi')">Module 2 Video Lecture 5</a> [<a href="@pathtofile('output/pdfs/KEA140/slides/M2VL5 Linear regression for numerical bivariate data - Part I.pdf')">slides</a>]
+	</li>
+	<li>
+		<a href="@pathtofile('output/pdfs/KEA140/avi/M2VL6.avi')">Module 2 Video Lecture 6</a> [<a href="@pathtofile('output/pdfs/KEA140/slides/M2VL6 Linear regression for numerical bivariate data - Part II.pdf')">slides</a>]
+	</li>
+	<li>
+		<a href="@pathtofile('output/pdfs/KEA140/avi/M2VL7.avi')">Module 2 Video Lecture 7</a>
+	</li>
+</ul>

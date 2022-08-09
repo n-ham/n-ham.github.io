@@ -1,61 +1,19 @@
-<!-- Wrapper -->
-<section id="wrapper">
-	<header>
-		<div class="inner">
-			<h2>Skateboarding</h2>
-		</div>
-	</header>
-
-	<!-- Content -->
-	<div class="wrapper">
-		<div class="inner">
-			<p align="center">
-				<img src="@pathtofile(site/hobbies/pics/skate1.jpg)"><br><br>
-				<img src="@pathtofile(site/hobbies/pics/skate2.jpg)"><br><br>
-				<img src="@pathtofile(site/hobbies/pics/skate3.jpg)"><br><br>
-				<img src="@pathtofile(site/hobbies/pics/skate4.jpg)"><br><br>
-				<img src="@pathtofile(site/hobbies/pics/skate5.jpg)"><br><br>
-				<img src="@pathtofile(site/hobbies/pics/skate6.jpg)"><br><br>
-				<img src="@pathtofile(site/hobbies/pics/skate7.jpg)"><br><br>
-				<img src="@pathtofile(site/hobbies/pics/skate8.jpg)"><br><br>
-				<img src="@pathtofile(site/hobbies/pics/skate9.jpg)"><br><br>
-				<img src="@pathtofile(site/hobbies/pics/skate10.jpg)"><br><br>
-				<img src="@pathtofile(site/hobbies/pics/skate11.jpg)"><br><br>
-				<img src="@pathtofile(site/hobbies/pics/skate12.jpg)"><br><br>
-				<img src="@pathtofile(site/hobbies/pics/skate13.jpg)"><br><br>
-				<img src="@pathtofile(site/hobbies/pics/skate14.jpg)"><br><br>
-				<img src="@pathtofile(site/hobbies/pics/skate15.jpg)">
-			</p>
-
-			<p align="center">
-				<video width="480" height="320" controls="controls">
-					<source src="@pathtofile(site/hobbies/vids/skate1.mp4)" type="video/mp4">
-				</video>
-			</p>
-
-			<p align="center">
-				<video width="480" height="320" controls="controls">
-					<source src="@pathtofile(site/hobbies/vids/skate2.mp4)" type="video/mp4">
-				</video>
-			</p>
-
-			<p align="center">
-				<video width="480" height="320" controls="controls">
-					<source src="@pathtofile(site/hobbies/vids/skate3.mp4)" type="video/mp4">
-				</video>
-			</p>
-
-			<p align="center">
-				<video width="480" height="320" controls="controls">
-					<source src="@pathtofile(site/hobbies/vids/skate4.mp4)" type="video/mp4">
-				</video>
-			</p>
-
-			<p align="center">
-				<video width="480" height="320" controls="controls">
-					<source src="@pathtofile(site/hobbies/vids/skate5.mp4)" type="video/mp4">
-				</video>
-			</p>
-		</div>
-	</div>
-</section>
+<h1>Wood Pushing</h1>
+<p align="center">
+	<img src="@pathtofile(output/hobbies/pics/skate1.jpg)"><br><br>
+	<img src="@pathtofile(output/hobbies/pics/bowl.jpg)"><br><br>
+	<img src="@pathtofile(output/hobbies/pics/skate2.jpg)"><br><br>
+	<img src="@pathtofile(output/hobbies/pics/skate3.jpg)"><br><br>
+	<img src="@pathtofile(output/hobbies/pics/skate4.jpg)"><br><br>
+	<img src="@pathtofile(output/hobbies/pics/skate5.jpg)"><br><br>
+	<img src="@pathtofile(output/hobbies/pics/skate6.jpg)"><br><br>
+	<img src="@pathtofile(output/hobbies/pics/skate7.jpg)"><br><br>
+	<img src="@pathtofile(output/hobbies/pics/skate8.jpg)"><br><br>
+	<img src="@pathtofile(output/hobbies/pics/skate9.jpg)"><br><br>
+	<img src="@pathtofile(output/hobbies/pics/skate10.jpg)"><br><br>
+	<img src="@pathtofile(output/hobbies/pics/skate11.jpg)"><br><br>
+	<img src="@pathtofile(output/hobbies/pics/skate12.jpg)"><br><br>
+	<img src="@pathtofile(output/hobbies/pics/skate13.jpg)"><br><br>
+	<img src="@pathtofile(output/hobbies/pics/skate14.jpg)"><br><br>
+	<img src="@pathtofile(output/hobbies/pics/skate15.jpg)">
+</p>

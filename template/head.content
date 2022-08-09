@@ -1,12 +1,19 @@
-<title>n-ham</title>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-<link rel="stylesheet" href="@pathtofile(site/assets/css/main.css)" />
-<link rel="stylesheet" href="@pathtofile(site/assets/css/pagestyle.css)" />
-<noscript><link rel="stylesheet" href="@pathtofile(site/assets/css/noscript.css)" /></noscript>
-<link rel="stylesheet" href="@pathtofile(site/assets/css/pre.css)" />
+<title>n-ham - $[title]</title>
 
-<link rel='icon' type='image/png' href='@pathtofile("site/images/favicon.ico")'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="@pathtofile(output/css/pagestyle.css)" />
+<link rel="stylesheet" href="@pathtofile(output/css/menu.css)" />
+<link rel="stylesheet" href="@pathtofile(output/css/mid.css)" />
+
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script type="text/javascript" 
+	    src="@pathtofile(output/js/menu.js)">
+</script>
+
+<link rel='icon' type='image/png' href='@pathtofile("output/images/tassie-devil.png")'>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-63230603-2"></script>
@@ -26,12 +33,12 @@
 <script src="https://kit.fontawesome.com/b51e6952ec.js"></script>
 
 <!-- uses MathJax CDC for LaTeX support
-     see http://docs.mathjax.org/en/latest/start.html for more info -->
+	 see http://docs.mathjax.org/en/latest/start.html for more info -->
 <script type="text/x-mathjax-config">
 	MathJax.Hub.Config
 	({
 		extensions: ["tex2jax.js"],
-    	jax: ["input/TeX", "output/HTML-CSS"],
+		jax: ["input/TeX", "output/HTML-CSS"],
 		tex2jax: 
 		{
 			inlineMath: [['$','$'], ['\\(','\\)']],
@@ -42,5 +49,5 @@
 	});
 </script>
 <script type="text/javascript" 
-	    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js">
+		src="https://cdn.mathjax.org/mathjax/latest/MathJax.js">
 </script>

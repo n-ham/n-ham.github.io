@@ -1,30 +1,18 @@
-<!DOCTYPE HTML>
-<!--
-	Solid State by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
-		@input{!p}(template/head.content)
+		@input("template/head.content")
 	</head>
-	<body class="is-preload">
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
-				@input{!p}(template/menu.content)
+	<body>
+		<center>
+			<div id="content">
+				@input("template/menu.content")
+				
+				@content
 
-				@content{!p}()
-
-				@input{!p}(template/footer.content)
+				@input("template/footer.content")
 			</div>
-
-		<!-- Scripts -->
-			<script src="@pathtofile(site/assets/js/jquery.min.js)"></script>
-			<script src="@pathtofile(site/assets/js/jquery.scrollex.min.js)"></script>
-			<script src="@pathtofile(site/assets/js/browser.min.js)"></script>
-			<script src="@pathtofile(site/assets/js/breakpoints.min.js)"></script>
-			<script src="@pathtofile(site/assets/js/util.js)"></script>
-			<script src="@pathtofile(site/assets/js/main.js)"></script>
+		</center>
 	</body>
 </html>
+

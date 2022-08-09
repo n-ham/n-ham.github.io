@@ -1,27 +1,17 @@
-<!-- Header -->
-	<header id="header" class="alt">
-		<h1><a href="index.html">Personal Site of Nicholas Ham</a></h1>
-		<nav>
-			<a href="#menu">Menu</a>
-		</nav>
-	</header>
-
-<!-- Menu -->
-	<nav id="menu">
-		<div class="inner">
-			<h2>Menu</h2>
-			<ul class="links">
-				<li><a href="@pathto(index)">Home</a></li>
-				<li><a href="@pathto(education)">Education</a></li>
-				<li><a href="@pathto(genealogy)">Genealogy</a></li>
-				<li><a href="@pathto(programming)">Programming</a></li>
-				<li><a href="@pathto(research)">Research</a></li>
-				<li><a href="@pathto(teaching)">Teaching</a></li>
-				<li><a href="@pathto(nature)">Nature</a></li>
-				<li><a href="@pathto(skateboarding)">Skateboarding</a></li>
-				<li><a href="@pathto(links)">Links</a></li>
-				<li><a href="@pathto(recommended_software)">Recommended Software</a></li>
-			</ul>
-			<a href="#" class="close">Close</a>
-		</div>
-	</nav>
+<div class="topnav" id="myTopnav">
+  <a href="@pathto(index)">Home</a>
+  <a href="@pathto(education)">Education</a>
+  <a href="@pathto(genealogy)">Genealogy</a>
+  <a href="@pathto(programming)">Programming</a>
+  <a href="@pathto(research)">Research</a>
+  <a href="@pathto(teaching)">Teaching</a>
+  <a href="@pathto(nature)">Nature</a>
+  <a href="@pathto(skateboarding)">Skateboarding</a>
+  @/*<a href="@pathto(piracy)">Yarr!!</a>
+  <a href="https://wr3ck.com">Wr3ckreational</a>*/
+  <a href="@pathto(links)">Links</a>
+  <a href="@pathto(recommended_software)">Recommended Software</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <i class="fa fa-bars"></i>
+  </a>
+</div>

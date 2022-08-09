@@ -1,18 +1,22 @@
 <!-- Footer -->
-	<section id="footer">
-		<div class="inner">
-			<center>
-				<img src="@pathtofile(site/images/signature.png)" width="200px"><br><br>
+<center>
+	<br><hr>
 
-				@input(template/icons.content)
+	<img src="@pathtofile(output/images/signature.png)" width="200px"><br>
 
-				<p>
-					<b>Mirrors:</b> [<a href="https://n-ham.com/">Official</a>] [<a href="https://n-ham.bitbucket.io/">BitBucket</a>] [<a href="https://n-ham.github.io/">GitHub</a>] [<a href="https://n-ham.gitlab.io/">GitLab</a>] [<a href="https://n-ham.netlify.com/">Netlify</a>]
-				</p>
+	@input(template/icons.content)<br>
 
-				<p>
-					Page was last built on @currentdate at @currenttime (@timezone).
-				</p>
-			</center>
-		</div>
-	</section>
+	<p>
+		<b>Mirrors:</b> [<a href="https://n-ham.com/">Official</a>] [<a href="https://n-ham.bitbucket.io/">BitBucket</a>] [<a href="https://n-ham.github.io/">GitHub</a>] [<a href="https://n-ham.gitlab.io/">GitLab</a>]
+	</p>
+
+	<p>
+		<b>Source:</b> [<a href="https://github.com/n-ham/n-ham.github.io/">GitHub</a>]
+	</p>
+
+	<p>
+		Page was last built using <a href="https://nift.dev">Nift</a> on $[current-date] at $[current-time] ($[build-timezone]).
+	</p>
+
+	<img src="@pathtofile(output/images/devil-toon.png)" width="250px">
+</center>
