@@ -1,19 +1,20 @@
-<html>
+<!doctype html>
+<html lang="en">
 	<head>
-		<title>n-ham - nature</title>
+		<title>n-ham</title>
 		
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<link rel="stylesheet" href="css/pagestyle.css" />
-		<link rel="stylesheet" href="css/menu.css" />
-		<link rel="stylesheet" href="css/mid.css" />
+		<link rel="stylesheet" href="css/pagestyle.css">
+		<link rel="stylesheet" href="css/font-awesome.css">
+		<link rel="stylesheet" href="css/menu.css">
+		<link rel="stylesheet" href="css/mid.css">
 		
 		<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		
-		<script type="text/javascript" 
-			    src="js/menu.js">
-		</script>
+		<script defer type="text/javascript" src="js/menu.js"></script>
 		
 		<link rel='icon' type='image/png' href='images/tassie-devil.png'>
 		
@@ -27,53 +28,47 @@
 		  gtag('config', 'UA-63230603-2');
 		</script>
 		
-		<!-- uses google-code-prettify for syntax highlighting 
-		     see https://github.com/google/code-prettify/ for more info -->
-		<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
-		
 		<!-- uses Font Awesome for vector icons and social logos -->
 		<script src="https://kit.fontawesome.com/b51e6952ec.js"></script>
-		
-		<!-- uses MathJax CDC for LaTeX support
-			 see http://docs.mathjax.org/en/latest/start.html for more info -->
-		<script type="text/x-mathjax-config">
-			MathJax.Hub.Config
-			({
-				extensions: ["tex2jax.js"],
-				jax: ["input/TeX", "output/HTML-CSS"],
-				tex2jax: 
-				{
-					inlineMath: [['$','$'], ['\\(','\\)']],
-					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-					processEscapes: true
-				},
-				"HTML-CSS": { availableFonts: ["MathJax TeX"] }
-			});
-		</script>
-		<script type="text/javascript" 
-				src="https://cdn.mathjax.org/mathjax/latest/MathJax.js">
-		</script>
 	</head>
 
 	<body>
 		<center>
-			<div id="content">
-				<div class="topnav" id="myTopnav">
-				  <a href="index.html">Home</a>
-				  <a href="education.html">Education</a>
-				  <a href="genealogy.html">Genealogy</a>
-				  <a href="programming.html">Programming</a>
-				  <a href="research.html">Research</a>
-				  <a href="teaching.html">Teaching</a>
-				  <a href="nature.html">Nature</a>
-				  <a href="skateboarding.html">Skateboarding</a>
-				  <a href="links.html">Links</a>
-				  <a href="recommended_software.html">Recommended Software</a>
-				  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-				  <i class="fa fa-bars"></i>
-				  </a>
+			<div class="menu-bars">
+			  <i id="open-menu-icon" class="fas fa-toggle fa-bars fa-1-5x" onclick="show_menu()"></i>
+			</div>
+			
+			<div id="menu-page">
+				<div class="menu-cross" >
+					<i id="close-menu-icon" class="fas fa-toggle fa-times fa-1-5x" onclick="close_menu()"></i>
 				</div>
 				
+				<nav id="nav" class="noselect">
+					<ul>
+						<a class="item" href="index.html"><li class="li-menu li-dark">home</li></a>
+						<li class="item li-menu li-dark has-submenu" onclick="toggle_submenu(0)">
+							<a tabindex="0" class="item-link">work</a>
+							<ul class="submenu" align="center">
+			          <li class="subitem"><a href="programming.html">Programming</a></li>
+			          <li class="subitem"><a href="research.html">Research</a></li>
+			          <li class="subitem"><a href="education.html">Education</a></li>
+			          <li class="subitem"><a href="teaching.html">Teaching</a></li>
+			          <li class="subitem"><a href="genealogy.html">Genealogy</a></li>
+			          <li class="subitem"><a href="links.html">Links</a></li>
+							</ul>
+						</li>
+						<li class="item li-menu li-dark has-submenu" onclick="toggle_submenu(1)">
+							<a tabindex="0" class="item-link">play</a>
+							<ul class="submenu">
+			          <li class="subitem"><a href="nature.html">Nature</a></li>
+			          <li class="subitem"><a href="skateboarding.html">Skateboarding</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
+			<div id="content">
 				<h1>Nature</h1>
 				<p align="center">
 					<img src="hobbies/pics/nature1.jpg" style="margin-top: 10px; margin-bottom: 10px">
@@ -87,23 +82,16 @@
 				</p>
 
 				<!-- Footer -->
-				<center>
-					<br><hr>
+				<div id="footer" align="center">
+					<br><hr><br>
 				
-					<img src="images/signature.png" width="200px"><br>
-				
-					<p>
-						<noselect>
-							<a href="mailto:contact@n-ham.com" title="Email" class="fa"><i class="far fa-envelope fa-2x"></i></a> &nbsp; 
-							<a href="https://facebook.com/nick.ham" title="Facebook" class="bb"><i class="fab fa-facebook fa-2x"></i></a> &nbsp;
-							<a href="https://orcid.org/0000-0002-4984-1711" title="ORCID" class="orcid"><i class="fab fa-orcid fa-2x"></i></a> &nbsp;
-							<a href="https://scholar.google.com/citations?user=vV-pxo4AAAAJ&hl=en" title="Google Scholar" class="fa"><i class="fab fa-google fa-2x"></i></a> <br><br>
-							<a href="https://github.com/n-ham" title="GitHub" class="gh"><i class="fab fa-github fa-2x"></i></a> &nbsp; 
-							<a href="https://gitlab.com/n-ham" title="GitLab" class="gl"><i class="fab fa-gitlab fa-2x"></i></a> &nbsp; 
-							<a href="https://bitbucket.org/n-ham" title="BitBucket" class="bb"><i class="fab fa-bitbucket fa-2x"></i></a> &nbsp;
-							<a href="https://arxiv.org/a/ham_n_2.html" title="arXiv" class="fa"><i class="fas fa-archive fa-2x"></i></a>
-						</noselect>
-					</p><br>
+					<noselect>
+						<a href="https://github.com/n-ham" title="GitHub" class="gh"><i class="fab fa-github fa-2x"></i></a> &nbsp; 
+						<a href="mailto:contact@n-ham.com" title="Email" class="fa"><i class="far fa-envelope fa-2x"></i></a> &nbsp; 
+						<a href="https://orcid.org/0000-0002-4984-1711" title="ORCID" class="orcid"><i class="fab fa-orcid fa-2x"></i></a> &nbsp;
+						<a href="https://scholar.google.com/citations?user=vV-pxo4AAAAJ&hl=en" title="Google Scholar" class="fa"><i class="fab fa-google fa-2x"></i></a> &nbsp;
+						<a href="https://arxiv.org/a/ham_n_2.html" title="arXiv" class="fa"><i class="fas fa-archive fa-2x"></i></a>
+					</noselect><br><br>
 				
 					<p>
 						<b>Mirrors:</b> [<a href="https://n-ham.com/">Official</a>] [<a href="https://n-ham.bitbucket.io/">BitBucket</a>] [<a href="https://n-ham.github.io/">GitHub</a>] [<a href="https://n-ham.gitlab.io/">GitLab</a>]
@@ -114,13 +102,12 @@
 					</p>
 				
 					<p>
-						Page was last built using <a href="https://nift.dev">Nift</a> on Tuesday August 09 2022 at 10:23:00 (AEST).
+						Page was last built using <a href="https://nift.dev">Nift</a> on Monday October 31 2022 at 13:55:28 (AEDT).
 					</p>
 				
 					<img src="images/devil-toon.png" width="250px">
-				</center>
+				</div>
 			</div>
 		</center>
 	</body>
 </html>
-

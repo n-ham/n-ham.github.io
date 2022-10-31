@@ -1,70 +1,158 @@
-/* Add a black background color to the top navigation */
-.topnav 
-{
-  background-color: #53575c;
-  overflow: hidden;
-  float: left;
-  left: 0;
-  top: 0;
-  margin-left: 20px;
-  max-width: 30%;
-  max-height: 200px;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a 
-{
-  float: left;
-  display: none;
-  color: #ffffff;
-  text-align: center;
-  padding: 10px 10px;
-  margin-bottom:0px;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover 
-{
-  background-color: #4CAF50;
-  color: black;
-}
-
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon 
-{
-  display: none;
-}
-
-.topnav a:not(:first-child) 
-{
-  display: none;
-}
-
-.topnav a.icon 
-{
-  float: left;
-  display: block;
-}
-
-.topnav.responsive
-{
-  position: relative;
-  overflow-y: scroll;
-  margin-right: 20px;
-}
-
-.topnav.responsive a.icon 
-{
+.menu-bars, .menu-cross {
   position: absolute;
-  left: 0;
-  top: 0;
+  top: 1.1em;
+  right: 1em;
+  text-align: center;
 }
 
-.topnav.responsive a 
-{
-  float: none;
-  display: block;
+.menu-col-mode {
+  position: flex;
   text-align: center;
+  padding-bottom: 1em;
+}
+
+#col-mode-icon, #close-menu-icon, #open-menu-icon {
+  width: 1.25em;
+  height: 1.25em;
+  padding-top: 0.1em;
+}
+
+.menu-icons {
+  position: absolute;
+  top: 1.1em;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-buttons {
+  line-height: 3em;
+}
+
+#menu-logo {
+  position: flex;
+  margin: 0 auto;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  width: 75px;
+  max-width: 90%;
+}
+@media (min-width: 500px) {
+  @media (min-height: 500px) {
+    #menu-logo {
+      position: fixed;
+      bottom: 5px;
+      left: 15px;
+      padding-bottom: 0px;
+    }
+    .menu-col-mode, .menu-cross, .menu-bars {
+      position: fixed;
+      bottom: 1.1em;
+      right: 1em;
+      padding-bottom: 0em;
+    }
+  }
+}
+
+#menu-logo-img {
+  display: none;
+}
+
+#menu-page {
+  visibility: hidden;
+  position: fixed; /*absolute/fixed both work*/
+  overflow-y: auto;
+  background: #1f2223; /*181a1b 1f2223*/
+  padding-top: 4em;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+
+nav ul {
+  padding-left: 0px;
+  position: relative;
+}
+
+nav a, nav a li {
+  font-size: 15pt;
+  text-decoration: none !important;
+}
+
+@media (max-width: 130px) {
+  nav a, nav a li {
+    font-size: 15vw;
+  }
+}
+
+
+.li-dark {
+  background: #1f2223;
+}
+.li-dark, .li-dark a {
+  color: white;
+}
+.li-dark:hover {
+  background: #1f2223;
+}
+
+.li-light, .li-rnbw {
+  background: transparent;
+}
+.li-light, .li-light a,
+.li-rnbw, .li-rnbw a {
+  color: #1f2223;
+}
+.li-light:hover, .li-rnbw:hover {
+  background: rgba(200, 200, 200, 0.5);
+}
+
+.item, .item li {
+  padding: 0.5em 0px;
+}
+
+.li-dark:hover .item-link, .li-dark:hover {
+  color: #c78016;
+}
+.li-light:hover .item-link, .li-light:hover,
+.li-rnbw:hover .item-link, .li-rnbw:hover {
+  color: white;
+}
+
+.has-submenu {
+  cursor: grab;
+  overflow-x: hidden;
+}
+
+.item-link::after {
+  font-family: "fa-solid";
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 900;
+  content: "\f078";
+  padding-left: 5px;
+}
+
+.submenu {
+  display: none;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.submenu li {
+  padding: 0.5em;
+}
+.li-dark .submenu a:hover {
+  color: #c78016;
+}
+.li-light .submenu a:hover {
+  color: white;
+}
+.li-rnbw .submenu a:hover {
+  color: white;
 }

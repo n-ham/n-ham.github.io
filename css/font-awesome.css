@@ -1,0 +1,135 @@
+@font-face
+{
+  font-family: "fa-brands";
+  src: url("../fonts/fa-brands-400.ttf")  format("truetype");
+}
+@font-face
+{
+  font-family: "fa-solid";
+  src: url("../fonts/fa-solid-900.ttf")   format("truetype");
+}
+
+.icons-0x, .icons-0x:focus {
+  width: calc(100% - 1.2em);
+  margin: 0 auto;
+}
+.icons-1x, .icons-1x:focus {
+  width: calc(100% - 2.2em);
+  padding-right: 1em;
+}
+.icons-2x, .icons-2x:focus {
+  width: calc(100% - 3.6em);
+  margin: 0 auto;
+}
+
+.fab {
+  font-family: "fa-brands";
+}
+.fas {
+  font-family: "fa-solid";
+}
+
+.fab, .fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.fa-dark, .fa-dark-alt {
+  color: white;
+}
+.fa-dark:hover, .fa-dark-alt:hover {
+  color: #c78016;
+}
+.fa-light, .fa-light-alt, .fa-rnbw, .fa-rnbw-alt {
+  color: #181a1b;
+}
+.fa-light:hover, .fa-rnbw:hover {
+  color: white;
+}
+.fa-light-alt:hover, .fa-rnbw-alt:hover {
+  color: #1a598a;
+}
+
+.fa-1x {
+  font-size: 1em;
+}
+.fa-1-5x {
+  font-size: 1.5em !important;
+  vertical-align: middle;
+}
+.fa-2x {
+  font-size: 2em !important;
+  vertical-align: middle;
+}
+
+/**
+ * brands
+ */
+.fa-discord:before {
+  content: "\f392";
+}
+.fa-github:before {
+  content: "\f09b";
+}
+.fa-twitter-square:before {
+  content: "\f081"; 
+}
+
+/**
+ * solid
+ */
+.fa-angle-down::before {
+  content: "\f107"; 
+}
+.fa-bars:before {
+  content: "\f0c9"; 
+}
+.fa-check:before {
+  content: "\f00c";
+}
+.fa-comment-dots:before {
+  content: "\f4ad"; 
+}
+.fa-down-arr:before {
+  content: "\f078";
+}
+.fa-droplet:before {
+  content: "\f043";
+}
+.fa-envelope:before {
+  content: "\f0e0";
+}
+.fa-key:before {
+  content: "\f084";
+}
+.fa-lightbulb:before {
+  content: "\f0eb";
+}
+.fa-magnifying-glass:before {
+  content: "\f002";
+}
+.fa-microphone:before {
+  content: "\f130";
+}
+.fa-moon:before {
+  content:  "\f186";
+}
+.fa-rainbow:before {
+  content:  "\f75b";
+}
+.fa-times:before {
+  content: "\f00d";
+}
+.fa-user:before {
+  content: "\f007";
+}
+
+.fa-pad {
+  padding: 0.53em 0.45em 0.68em;
+}

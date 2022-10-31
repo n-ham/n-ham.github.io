@@ -1,19 +1,20 @@
-<html>
+<!doctype html>
+<html lang="en">
 	<head>
-		<title>n-ham - research</title>
+		<title>n-ham</title>
 		
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<link rel="stylesheet" href="css/pagestyle.css" />
-		<link rel="stylesheet" href="css/menu.css" />
-		<link rel="stylesheet" href="css/mid.css" />
+		<link rel="stylesheet" href="css/pagestyle.css">
+		<link rel="stylesheet" href="css/font-awesome.css">
+		<link rel="stylesheet" href="css/menu.css">
+		<link rel="stylesheet" href="css/mid.css">
 		
 		<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		
-		<script type="text/javascript" 
-			    src="js/menu.js">
-		</script>
+		<script defer type="text/javascript" src="js/menu.js"></script>
 		
 		<link rel='icon' type='image/png' href='images/tassie-devil.png'>
 		
@@ -27,55 +28,48 @@
 		  gtag('config', 'UA-63230603-2');
 		</script>
 		
-		<!-- uses google-code-prettify for syntax highlighting 
-		     see https://github.com/google/code-prettify/ for more info -->
-		<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
-		
 		<!-- uses Font Awesome for vector icons and social logos -->
 		<script src="https://kit.fontawesome.com/b51e6952ec.js"></script>
-		
-		<!-- uses MathJax CDC for LaTeX support
-			 see http://docs.mathjax.org/en/latest/start.html for more info -->
-		<script type="text/x-mathjax-config">
-			MathJax.Hub.Config
-			({
-				extensions: ["tex2jax.js"],
-				jax: ["input/TeX", "output/HTML-CSS"],
-				tex2jax: 
-				{
-					inlineMath: [['$','$'], ['\\(','\\)']],
-					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-					processEscapes: true
-				},
-				"HTML-CSS": { availableFonts: ["MathJax TeX"] }
-			});
-		</script>
-		<script type="text/javascript" 
-				src="https://cdn.mathjax.org/mathjax/latest/MathJax.js">
-		</script>
 	</head>
 
 	<body>
 		<center>
-			<div id="content">
-				<div class="topnav" id="myTopnav">
-				  <a href="index.html">Home</a>
-				  <a href="education.html">Education</a>
-				  <a href="genealogy.html">Genealogy</a>
-				  <a href="programming.html">Programming</a>
-				  <a href="research.html">Research</a>
-				  <a href="teaching.html">Teaching</a>
-				  <a href="nature.html">Nature</a>
-				  <a href="skateboarding.html">Skateboarding</a>
-				  <a href="links.html">Links</a>
-				  <a href="recommended_software.html">Recommended Software</a>
-				  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-				  <i class="fa fa-bars"></i>
-				  </a>
+			<div class="menu-bars">
+			  <i id="open-menu-icon" class="fas fa-toggle fa-bars fa-1-5x" onclick="show_menu()"></i>
+			</div>
+			
+			<div id="menu-page">
+				<div class="menu-cross" >
+					<i id="close-menu-icon" class="fas fa-toggle fa-times fa-1-5x" onclick="close_menu()"></i>
 				</div>
 				
+				<nav id="nav" class="noselect">
+					<ul>
+						<a class="item" href="index.html"><li class="li-menu li-dark">home</li></a>
+						<li class="item li-menu li-dark has-submenu" onclick="toggle_submenu(0)">
+							<a tabindex="0" class="item-link">work</a>
+							<ul class="submenu" align="center">
+			          <li class="subitem"><a href="programming.html">Programming</a></li>
+			          <li class="subitem"><a href="research.html">Research</a></li>
+			          <li class="subitem"><a href="education.html">Education</a></li>
+			          <li class="subitem"><a href="teaching.html">Teaching</a></li>
+			          <li class="subitem"><a href="genealogy.html">Genealogy</a></li>
+			          <li class="subitem"><a href="links.html">Links</a></li>
+							</ul>
+						</li>
+						<li class="item li-menu li-dark has-submenu" onclick="toggle_submenu(1)">
+							<a tabindex="0" class="item-link">play</a>
+							<ul class="submenu">
+			          <li class="subitem"><a href="nature.html">Nature</a></li>
+			          <li class="subitem"><a href="skateboarding.html">Skateboarding</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
+			<div id="content">
 				<h1>Research</h1>
-				<h4>Research Interests</h4>
 				<p>
 					My main research interests are diagram semigroups and algebras, along with notions of symmetry for finite strategic-form games, though I typically find most problems under the very broad umbrellas of algebra and combinatorics interesting.
 				</p>
@@ -83,7 +77,7 @@
 				<h4>Theses</h4>
 				<ul>
 					<li> 'The Planar Modular Partition Monoid', PhD Thesis, 2015, Supervisors: Des FitzGerald and Peter Jarvis <br>
-						 [<a href="https://eprints.utas.edu.au/23029/">eprints</a>, <a href="https://arxiv.org/abs/1808.07156">arXiv</a>, <a href="pdfs/The Planar Modular Partition Monoid.pdf">pdf</a>]</li>
+						 [<a href="https://eprints.utas.edu.au/23029/">eprints</a>, <a href="https://arxiv.org/abs/1808.07156">arXiv</a>]</li>
 					<li> 'Some Structure Properties of Finite Normal-Form Games', Honours Thesis, 2011, Supervisor: Des FitzGerald <br>
 						 [<a href="https://arxiv.org/abs/1905.00636">arXiv</a>, <a href="https://gitlab.com/n-ham-papers/honours-thesis/">GitLab</a>, <a href="pdfs/Some_Structure_Properties_of_Finite_Normal-Form_Games.pdf">pdf</a>]</li>
 				</ul>
@@ -97,7 +91,7 @@
 						 [<a href="https://www.sciencedirect.com/science/article/pii/S0097316514001563">Journal of Combinatorial Theory, Series A</a>, <a href="https://arxiv.org/abs/1408.2021">arXiv</a>]</li>
 				
 					<li> 'Lattice paths and submonoids of $\mathbb{Z}^2$' (with James East) <br>
-						 [<a href="https://arxiv.org/abs/1811.05735">arXiv</a>, to appear in <mono>Annals of Combinatorics</mono>]</li>
+						 [<a href="https://link.springer.com/article/10.1007/s00026-021-00546-3">Annals of Combinatorics</a>, <a href="https://arxiv.org/abs/1811.05735">arXiv</a>]</li>
 				</ul>
 				
 				<h4>Unpublished Papers</h4>
@@ -106,7 +100,7 @@
 						 [<a href="https://arxiv.org/abs/1311.4766">arXiv</a>, <a href="https://arxiv.org/abs/1311.4766v1">arXiv v1</a>] [recent drafts - <a href="https://gitlab.com/n-ham-paper-drafts/symmetry-notions-for-finite-strategic-form-games">GitLab</a>, <a href="pdfs/Notions of Anonymity, Fairness and Symmetry for Finite Strategic-Form Games.pdf">pdf</a>]</li> 
 				</ul>
 				
-				<h4>Working Papers</h4>
+				<h4>Unfinished Papers</h4>
 				<ul>
 					<li> 'Lattice path conjectures' <br>
 						 [recent drafts - <a href="https://gitlab.com/n-ham-paper-drafts/lattice-path-conjectures">GitLab</a>, <a href="pdfs/Lattice Path Conjectures.pdf">pdf</a>]</li> 
@@ -148,28 +142,21 @@
 				
 				<h4>Organised Seminars & Conferences</h4>
 				<ul>
-					<li>I was treasurer of the <a href="https://www.amssc.org/2015/">4th Annual Australian Mathematical Sciences Student Conference</a>, held at the University of Tasmania from the 30th November until the 2nd of December 2015</li>
-					<li>From 2012-2014 I organised the $G$-seminar weekly at the University of Tasmania. Primarily talks had an algebraic flavour, with the name playfully hinting towards a common theme of objects containing $G$ such as Groups, semiGroups, Games and Gombinatorics</li>
+					<li>Treasurer of the <a href="https://www.amssc.org/2015/">4th Annual Australian Mathematical Sciences Student Conference</a>, held at the University of Tasmania from the 30th November until the 2nd of December 2015</li>
+					<li>Organised a weekly algebra seminar at the University of Tasmania from 2012-2014.</li>
 				</ul>
 
 				<!-- Footer -->
-				<center>
-					<br><hr>
+				<div id="footer" align="center">
+					<br><hr><br>
 				
-					<img src="images/signature.png" width="200px"><br>
-				
-					<p>
-						<noselect>
-							<a href="mailto:contact@n-ham.com" title="Email" class="fa"><i class="far fa-envelope fa-2x"></i></a> &nbsp; 
-							<a href="https://facebook.com/nick.ham" title="Facebook" class="bb"><i class="fab fa-facebook fa-2x"></i></a> &nbsp;
-							<a href="https://orcid.org/0000-0002-4984-1711" title="ORCID" class="orcid"><i class="fab fa-orcid fa-2x"></i></a> &nbsp;
-							<a href="https://scholar.google.com/citations?user=vV-pxo4AAAAJ&hl=en" title="Google Scholar" class="fa"><i class="fab fa-google fa-2x"></i></a> <br><br>
-							<a href="https://github.com/n-ham" title="GitHub" class="gh"><i class="fab fa-github fa-2x"></i></a> &nbsp; 
-							<a href="https://gitlab.com/n-ham" title="GitLab" class="gl"><i class="fab fa-gitlab fa-2x"></i></a> &nbsp; 
-							<a href="https://bitbucket.org/n-ham" title="BitBucket" class="bb"><i class="fab fa-bitbucket fa-2x"></i></a> &nbsp;
-							<a href="https://arxiv.org/a/ham_n_2.html" title="arXiv" class="fa"><i class="fas fa-archive fa-2x"></i></a>
-						</noselect>
-					</p><br>
+					<noselect>
+						<a href="https://github.com/n-ham" title="GitHub" class="gh"><i class="fab fa-github fa-2x"></i></a> &nbsp; 
+						<a href="mailto:contact@n-ham.com" title="Email" class="fa"><i class="far fa-envelope fa-2x"></i></a> &nbsp; 
+						<a href="https://orcid.org/0000-0002-4984-1711" title="ORCID" class="orcid"><i class="fab fa-orcid fa-2x"></i></a> &nbsp;
+						<a href="https://scholar.google.com/citations?user=vV-pxo4AAAAJ&hl=en" title="Google Scholar" class="fa"><i class="fab fa-google fa-2x"></i></a> &nbsp;
+						<a href="https://arxiv.org/a/ham_n_2.html" title="arXiv" class="fa"><i class="fas fa-archive fa-2x"></i></a>
+					</noselect><br><br>
 				
 					<p>
 						<b>Mirrors:</b> [<a href="https://n-ham.com/">Official</a>] [<a href="https://n-ham.bitbucket.io/">BitBucket</a>] [<a href="https://n-ham.github.io/">GitHub</a>] [<a href="https://n-ham.gitlab.io/">GitLab</a>]
@@ -180,13 +167,12 @@
 					</p>
 				
 					<p>
-						Page was last built using <a href="https://nift.dev">Nift</a> on Friday January 21 2022 at 18:09:17 (AEDT).
+						Page was last built using <a href="https://nift.dev">Nift</a> on Monday October 31 2022 at 14:07:54 (AEDT).
 					</p>
 				
 					<img src="images/devil-toon.png" width="250px">
-				</center>
+				</div>
 			</div>
 		</center>
 	</body>
 </html>
-

@@ -1,59 +1,49 @@
 @font-face 
 {
 	font-family: "oxygen";
-	src: url("../otf/OxygenMono-Regular.otf") format("truetype");
+	src: url("../fonts/OxygenMono-Regular.otf") format("truetype");
 }
 
 @font-face 
 {
 	font-family: "CyberspaceRaceway";
-	src: url("../ttf/CyberspaceRacewayFront-lWGD.ttf") format("truetype");
+	src: url("../fonts/CyberspaceRacewayFront-lWGD.ttf") format("truetype");
 }
 
-@font-face 
-{
-	font-family: "MonstersAttack";
-	src: url("../ttf/MonstersAttack-WpDz.ttf") format("truetype");
-}
-
-@font-face 
-{
-	font-family: "Lightningvolt";
-	src: url("../ttf/Lightningvolt-xoqm.ttf") format("truetype");
-}
-
-mnstr
-{
-	font-family:"MonstersAttack";
-	color: #509716;
-	font-size: 16pt;
-}
-
-flsh
-{
-	font-family:"Lightningvolt";
-	color: #f2fa19;
-	font-size: 25pt;
-}
-
-html
-{
-	overflow-y: auto;
+html, body, div, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+header, hgroup, output, ruby,
+section, summary, time, mark, audio, video {
+	margin:  0 0 0 0;
+	line-height: 1.25em;
+	box-sizing: border-box;
 	max-width: 100%;
 }
 
 body
 {
-	background: #313438;
+	background: #181a1b; /*#313438 1f2223*/
 	color: #ffffff;
 	font-family: "oxygen";
-	margin-top: 30px;
-	margin-bottom: 30px;
+	max-width: 100%;
+	min-height: 100%;
+}
+
+#footer, #footer p {
+	line-height: 1.25em;
 }
 
 h1
 {
 	font-family: "CyberspaceRaceway";
+	padding: 0.5em;
 	font-size: 5vw;
 	overflow-x: scroll;
 	-webkit-user-select: none; /* Chrome/Safari */
@@ -74,9 +64,19 @@ h1, h2, h3, h4, h5
 	text-align: center;
 }
 
-ul, li
-{
-	text-align: left;
+ul li {
+  list-style: none;
+  list-style-position: inside !important;
+}
+
+#content ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #cf7327; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  font-size: 12pt;
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 0.75em; /* Also needed for space (tweak if needed) */
+  margin-left: 0em; /* Also needed for space (tweak if needed) */
 }
 
 a
@@ -92,6 +92,7 @@ a:hover
 
 #content
 {
+	overflow-y: auto;
 	max-width: 80%;
 	text-align: left;
 }
@@ -101,15 +102,6 @@ img
 	max-width: 80%;
 	margin-top: 20px;
 	margin-bottom: 30px;
-	border-radius: 10px;
-	-webkit-user-select: none; /* Chrome/Safari */
-	-moz-user-select: none; /* Firefox */
-	-ms-user-select: none; /* IE10+ */
-}
-
-video, iframe
-{
-	max-width: 80%;
 	border-radius: 10px;
 	-webkit-user-select: none; /* Chrome/Safari */
 	-moz-user-select: none; /* Firefox */
@@ -133,7 +125,6 @@ a.fa
 	text-decoration:none;
 
 	outline: 0;
-	color:grey;
 
 	transition-property: color;
 	-o-transition:0.8s;
@@ -143,120 +134,6 @@ a.fa
 	transition:0.8s;
 }
 
-a.fa:hover
-{
-	color:#71818a;
-
-	-o-transition:0.3s;
-	-ms-transition:0.3s;
-	-moz-transition:0.3s;
-	-webkit-transition:0.3s;
-	transition:0.3s;
-}
-
-a.bb
-{
-	text-decoration:none;
-
-	outline: 0;
-	color:#409adb;
-
-	transition-property: color;
-	-o-transition:0.8s;
-	-ms-transition:0.8s;
-	-moz-transition:0.8s;
-	-webkit-transition:0.8s;
-	transition:0.8s;
-}
-
-a.bb:hover
-{
-	color:#305da6;
-
-	-o-transition:0.3s;
-	-ms-transition:0.3s;
-	-moz-transition:0.3s;
-	-webkit-transition:0.3s;
-	transition:0.3s;
-}
-
-a.gh
-{
-	text-decoration:none;
-
-	outline: 0;
-	color:grey;
-
-	transition-property: color;
-	-o-transition:0.8s;
-	-ms-transition:0.8s;
-	-moz-transition:0.8s;
-	-webkit-transition:0.8s;
-	transition:0.8s;
-}
-
-a.gh:hover
-{
-	color:#71818a;
-
-	-o-transition:0.3s;
-	-ms-transition:0.3s;
-	-moz-transition:0.3s;
-	-webkit-transition:0.3s;
-	transition:0.3s;
-}
-
-a.gl
-{
-	text-decoration:none;
-
-	outline: 0;
-	color:#f2b02c;
-
-	transition-property: color;
-	-o-transition:0.8s;
-	-ms-transition:0.8s;
-	-moz-transition:0.8s;
-	-webkit-transition:0.8s;
-	transition:0.8s;
-}
-
-a.gl:hover
-{
-	color:#e88523;
-
-	-o-transition:0.3s;
-	-ms-transition:0.3s;
-	-moz-transition:0.3s;
-	-webkit-transition:0.3s;
-	transition:0.3s;
-}
-
-a.orcid
-{
-	text-decoration:none;
-
-	outline: 0;
-	color:#6dde2c;
-
-	transition-property: color;
-	-o-transition:0.8s;
-	-ms-transition:0.8s;
-	-moz-transition:0.8s;
-	-webkit-transition:0.8s;
-	transition:0.8s;
-}
-
-a.orcid:hover
-{
-	color:#6ed433;
-
-	-o-transition:0.3s;
-	-ms-transition:0.3s;
-	-moz-transition:0.3s;
-	-webkit-transition:0.3s;
-	transition:0.3s;
-}
 
 mono
 {
@@ -275,18 +152,18 @@ mono
 /* Track */
 ::-webkit-scrollbar-track 
 {
- 	background: #313438; 
+ 	background: #181a1b; 
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb 
 {
- 	background: #53575c;
+ 	background: #4CAF50;
 	border-radius: 10px;
 }
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover 
+/*::-webkit-scrollbar-thumb:hover 
 {
  	background: #4CAF50; 
-}
+}*/
