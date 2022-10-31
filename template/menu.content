@@ -1,17 +1,33 @@
-<div class="topnav" id="myTopnav">
-  <a href="@pathto(index)">Home</a>
-  <a href="@pathto(education)">Education</a>
-  <a href="@pathto(genealogy)">Genealogy</a>
-  <a href="@pathto(programming)">Programming</a>
-  <a href="@pathto(research)">Research</a>
-  <a href="@pathto(teaching)">Teaching</a>
-  <a href="@pathto(nature)">Nature</a>
-  <a href="@pathto(skateboarding)">Skateboarding</a>
-  @/*<a href="@pathto(piracy)">Yarr!!</a>
-  <a href="https://wr3ck.com">Wr3ckreational</a>*/
-  <a href="@pathto(links)">Links</a>
-  <a href="@pathto(recommended_software)">Recommended Software</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-  <i class="fa fa-bars"></i>
-  </a>
+<div class="menu-bars">
+  <i id="open-menu-icon" class="fas fa-toggle fa-bars fa-1-5x" onclick="show_menu()"></i>
+</div>
+
+<div id="menu-page">
+	<div class="menu-cross" >
+		<i id="close-menu-icon" class="fas fa-toggle fa-times fa-1-5x" onclick="close_menu()"></i>
+	</div>
+	
+	<nav id="nav" class="noselect">
+		<ul>
+			<a class="item" href="@pathto(index)"><li class="li-menu li-dark">home</li></a>
+			<li class="item li-menu li-dark has-submenu" onclick="toggle_submenu(0)">
+				<a tabindex="0" class="item-link">work</a>
+				<ul class="submenu" align="center">
+          <li class="subitem"><a href="@pathto(programming)">Programming</a></li>
+          <li class="subitem"><a href="@pathto(research)">Research</a></li>
+          <li class="subitem"><a href="@pathto(education)">Education</a></li>
+          <li class="subitem"><a href="@pathto(teaching)">Teaching</a></li>
+          <li class="subitem"><a href="@pathto(genealogy)">Genealogy</a></li>
+          <li class="subitem"><a href="@pathto(links)">Links</a></li>
+				</ul>
+			</li>
+			<li class="item li-menu li-dark has-submenu" onclick="toggle_submenu(1)">
+				<a tabindex="0" class="item-link">play</a>
+				<ul class="submenu">
+          <li class="subitem"><a href="@pathto(nature)">Nature</a></li>
+          <li class="subitem"><a href="@pathto(skateboarding)">Skateboarding</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
 </div>

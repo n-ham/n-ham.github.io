@@ -1,8 +1,6 @@
 <!-- Footer -->
-<center>
-	<br><hr>
-
-	<img src="@pathtofile(output/images/signature.png)" width="200px"><br>
+<div id="footer" align="center">
+	<br><hr><br>
 
 	@input(template/icons.content)<br>
 
@@ -19,4 +17,4 @@
 	</p>
 
 	<img src="@pathtofile(output/images/devil-toon.png)" width="250px">
-</center>
+</div>

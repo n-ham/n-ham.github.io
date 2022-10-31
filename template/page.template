@@ -1,13 +1,14 @@
-<html>
+<!doctype html>
+<html lang="en">
 	<head>
 		@input("template/head.content")
 	</head>
 
 	<body>
 		<center>
+			@input("template/menu.content")
+
 			<div id="content">
-				@input("template/menu.content")
-				
 				@content
 
 				@input("template/footer.content")
@@ -15,4 +16,3 @@
 		</center>
 	</body>
 </html>
-

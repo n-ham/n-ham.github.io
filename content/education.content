@@ -74,14 +74,14 @@
 	<li>BFA281 - Financial Management</li>
 </ul>
 
-<p>
+@/*<p>
 	Transcript: [<a href="@pathto(output/pdfs/Academic Transcript.pdf)">pdf</a>] (measure theory is missing for whatever reason) <br>
 	Undergrad: [<a href="@pathto(output/pdfs/2010 B Ec Sc.pdf)">pdf</a>] <br>
 	Honours: [<a href="@pathto(output/pdfs/2011 B Sc Hons.pdf)">pdf</a>] <br>
 	PhD: [<a href="@pathto(output/pdfs/PhD.pdf)">pdf</a>] <br>
-</p>
+</p>*/
 
-<section>
+@/*<section>
 	<center>
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/yeCU7uO9ugQ" frameborder="0" title="So you want to do a phd in maths" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</center>
@@ -109,4 +109,4 @@
 	<center>
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/qQXhNI7cyCQ" frameborder="0" title="So you want to do a phd in maths" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</center>
-</section>
+</section>*/

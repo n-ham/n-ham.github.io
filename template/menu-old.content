@@ -1,0 +1,14 @@
+<div class="topnav" id="myTopnav">
+  <a href="@pathto(index)">Home</a>
+  <a href="@pathto(programming)">Programming</a>
+  <a href="@pathto(research)">Research</a>
+  <a href="@pathto(education)">Education</a>
+  <a href="@pathto(teaching)">Teaching</a>
+  <a href="@pathto(genealogy)">Genealogy</a>
+  <a href="@pathto(nature)">Nature</a>
+  <a href="@pathto(skateboarding)">Skateboarding</a>
+  <a href="@pathto(links)">Links</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <i class="fa fa-bars"></i>
+  </a>
+</div>
