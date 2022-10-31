@@ -43,20 +43,25 @@ body
 h1
 {
 	font-family: "CyberspaceRaceway";
-	padding: 0.5em;
+	max-width: 95%;
+	padding: 25px;
 	font-size: 5vw;
 	overflow-x: scroll;
 	-webkit-user-select: none; /* Chrome/Safari */
 	-moz-user-select: none; /* Firefox */
 	-ms-user-select: none; /* IE10+ */
 
-	background-color: #ff1493;
-    background-image: linear-gradient(180deg, #c922c9, #ff1493);
-    background-size: 20%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
+	color: #ff1493;
+}
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 30px;
+	}
+}
+@media screen and (min-width: 1000px) {
+	h1 {
+		font-size: 50px;
+	}
 }
 
 h1, h2, h3, h4, h5
@@ -94,6 +99,7 @@ a:hover
 {
 	overflow-y: auto;
 	max-width: 80%;
+	width: 850px;
 	text-align: left;
 }
 
@@ -146,7 +152,7 @@ mono
 ::-webkit-scrollbar 
 {
 	width: 10px;
-	height: 10px;
+	height: 0px;
 }
 
 /* Track */

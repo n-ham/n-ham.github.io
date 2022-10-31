@@ -156,3 +156,7 @@ nav a, nav a li {
 .li-rnbw .submenu a:hover {
   color: white;
 }
+
+.subitem a {
+  font-size: 1em;
+}
