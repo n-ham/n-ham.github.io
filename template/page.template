@@ -14,5 +14,7 @@
 				@input("template/footer.content")
 			</div>
 		</center>
+
+		<script defer type="text/javascript" src="@pathtofile(output/assets/js/menu.js)"></script>
 	</body>
 </html>

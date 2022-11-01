@@ -16,5 +16,9 @@
 		Page was last built using <a href="https://nift.dev">Nift</a> on $[current-date] at $[current-time] ($[build-timezone]).
 	</p>
 
-	<img src="@pathtofile(output/images/devil-toon.png)" width="250px">
+	<picture alt="tassie devil">
+		<source srcset="@pathtofile(output/assets/images/500/devil-toon.png)" media="(max-width: 750px)">
+		<source srcset="@pathtofile(output/assets/images/devil-toon.png)">
+		<img src="@pathtofile(output/assets/images/devil-toon.png)" alt="tassie devil" loading="lazy" width="250px">
+	</picture>
 </div>

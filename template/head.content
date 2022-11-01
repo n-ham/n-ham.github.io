@@ -1,29 +1,11 @@
 <title>n-ham</title>
 
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport"    content="width=device-width, initial-scale=1">
+<meta name="description" content="personal site of nicholas ham">
 
-<link rel="stylesheet" href="@pathtofile(output/css/pagestyle.css)">
-<link rel="stylesheet" href="@pathtofile(output/css/font-awesome.css)">
-<link rel="stylesheet" href="@pathtofile(output/css/menu.css)">
-<link rel="stylesheet" href="@pathtofile(output/css/mid.css)">
+<link rel="stylesheet" href="@pathtofile(output/assets/css/pagestyle.css)">
+<link rel="stylesheet" href="@pathtofile(output/assets/css/font-awesome.css)">
+<link rel="stylesheet" href="@pathtofile(output/assets/css/menu.css)">
 
-<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<script defer type="text/javascript" src="@pathtofile(output/js/menu.js)"></script>
-
-<link rel='icon' type='image/png' href='@pathtofile("output/images/tassie-devil.png")'>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-63230603-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-63230603-2');
-</script>
-
-<!-- uses Font Awesome for vector icons and social logos -->
-<script src="https://kit.fontawesome.com/b51e6952ec.js"></script>
+<link rel="icon" type="image/png" href="@pathtofile(output/assets/images/tassie-devil.png)">

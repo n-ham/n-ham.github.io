@@ -1,7 +1,7 @@
 <noselect>
-	<a href="https://github.com/n-ham" title="GitHub" class="gh"><i class="fab fa-github fa-2x"></i></a> &nbsp; 
-	<a href="mailto:contact@n-ham.com" title="Email" class="fa"><i class="far fa-envelope fa-2x"></i></a> &nbsp; 
-	<a href="https://orcid.org/0000-0002-4984-1711" title="ORCID" class="orcid"><i class="fab fa-orcid fa-2x"></i></a> &nbsp;
-	<a href="https://scholar.google.com/citations?user=vV-pxo4AAAAJ&hl=en" title="Google Scholar" class="fa"><i class="fab fa-google fa-2x"></i></a> &nbsp;
-	<a href="https://arxiv.org/a/ham_n_2.html" title="arXiv" class="fa"><i class="fas fa-archive fa-2x"></i></a>
-</noselect><br>
+	<a href="https://github.com/n-ham" title="GitHub"><i class="fa fa-github fa-green"></i></a> 
+	<a href="mailto:contact@n-ham.com" title="Email"><i class="fa fa-envelope fa-green"></i></a> 
+	<a href="https://orcid.org/0000-0002-4984-1711" title="ORCID"><i class="fa fa-orcid fa-green"></i></a>
+	<a href="https://scholar.google.com/citations?user=vV-pxo4AAAAJ&hl=en" title="Google Scholar"><i class="fa fa-google fa-green"></i></a>
+	<a href="https://arxiv.org/a/ham_n_2.html" title="arXiv"><i class="fa fa-box-archive fa-green"></i></a>
+</noselect>

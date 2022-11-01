@@ -1,19 +1,19 @@
 <h1>Wood Pushing</h1>
 <p align="center">
-	<img src="@pathtofile(output/hobbies/pics/skate1.jpg)"><br><br>
-	<img src="@pathtofile(output/hobbies/pics/bowl.jpg)"><br><br>
-	<img src="@pathtofile(output/hobbies/pics/skate2.jpg)"><br><br>
-	<img src="@pathtofile(output/hobbies/pics/skate3.jpg)"><br><br>
-	<img src="@pathtofile(output/hobbies/pics/skate4.jpg)"><br><br>
-	<img src="@pathtofile(output/hobbies/pics/skate5.jpg)"><br><br>
-	<img src="@pathtofile(output/hobbies/pics/skate6.jpg)"><br><br>
-	<img src="@pathtofile(output/hobbies/pics/skate7.jpg)"><br><br>
-	<img src="@pathtofile(output/hobbies/pics/skate8.jpg)"><br><br>
-	<img src="@pathtofile(output/hobbies/pics/skate9.jpg)"><br><br>
-	<img src="@pathtofile(output/hobbies/pics/skate10.jpg)"><br><br>
-	<img src="@pathtofile(output/hobbies/pics/skate11.jpg)"><br><br>
-	<img src="@pathtofile(output/hobbies/pics/skate12.jpg)"><br><br>
-	<img src="@pathtofile(output/hobbies/pics/skate13.jpg)"><br><br>
-	<img src="@pathtofile(output/hobbies/pics/skate14.jpg)"><br><br>
-	<img src="@pathtofile(output/hobbies/pics/skate15.jpg)">
+	<img src="@pathtofile(output/assets/images/hobbies/skate1.jpg)">
+	<img src="@pathtofile(output/assets/images/hobbies/bowl.jpg)"  >
+	<img src="@pathtofile(output/assets/images/hobbies/skate2.jpg)">
+	<img src="@pathtofile(output/assets/images/hobbies/skate3.jpg)"  loading="lazy">
+	<img src="@pathtofile(output/assets/images/hobbies/skate4.jpg)"  loading="lazy">
+	<img src="@pathtofile(output/assets/images/hobbies/skate5.jpg)"  loading="lazy">
+	<img src="@pathtofile(output/assets/images/hobbies/skate6.jpg)"  loading="lazy">
+	<img src="@pathtofile(output/assets/images/hobbies/skate7.jpg)"  loading="lazy">
+	<img src="@pathtofile(output/assets/images/hobbies/skate8.jpg)"  loading="lazy">
+	<img src="@pathtofile(output/assets/images/hobbies/skate9.jpg)"  loading="lazy">
+	<img src="@pathtofile(output/assets/images/hobbies/skate10.jpg)" loading="lazy">
+	<img src="@pathtofile(output/assets/images/hobbies/skate11.jpg)" loading="lazy">
+	<img src="@pathtofile(output/assets/images/hobbies/skate12.jpg)" loading="lazy">
+	<img src="@pathtofile(output/assets/images/hobbies/skate13.jpg)" loading="lazy">
+	<img src="@pathtofile(output/assets/images/hobbies/skate14.jpg)" loading="lazy">
+	<img src="@pathtofile(output/assets/images/hobbies/skate15.jpg)" loading="lazy">
 </p>

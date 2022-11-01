@@ -1,11 +1,11 @@
 <h1>Nature</h1>
 <p align="center">
-	<img src="@pathtofile(output/hobbies/pics/nature1.jpg)" style="margin-top: 10px; margin-bottom: 10px">
-	<img src="@pathtofile(output/hobbies/pics/nature2.jpg)" style="margin-top: 10px; margin-bottom: 10px">
-	<img src="@pathtofile(output/hobbies/pics/nature3.jpg)" style="margin-top: 10px; margin-bottom: 10px">
-	<img src="@pathtofile(output/hobbies/pics/nature4.jpg)" style="margin-top: 10px; margin-bottom: 10px">
-	<img src="@pathtofile(output/hobbies/pics/nature5.jpg)" style="margin-top: 10px; margin-bottom: 10px">
-	<img src="@pathtofile(output/hobbies/pics/nature6.jpg)" style="margin-top: 10px; margin-bottom: 10px">
-	<img src="@pathtofile(output/hobbies/pics/nature7.jpg)" style="margin-top: 10px; margin-bottom: 10px">
-	<img src="@pathtofile(output/hobbies/pics/nature8.jpg)" style="margin-top: 10px; margin-bottom: 10px">
+	<img src="@pathtofile(output/assets/images/hobbies/nature1.jpg)">
+	<img src="@pathtofile(output/assets/images/hobbies/nature2.jpg)">
+	<img src="@pathtofile(output/assets/images/hobbies/nature3.jpg)">
+	<img src="@pathtofile(output/assets/images/hobbies/nature4.jpg)" loading="lazy">
+	<img src="@pathtofile(output/assets/images/hobbies/nature5.jpg)" loading="lazy">
+	<img src="@pathtofile(output/assets/images/hobbies/nature6.jpg)" loading="lazy">
+	<img src="@pathtofile(output/assets/images/hobbies/nature7.jpg)" loading="lazy">
+	<img src="@pathtofile(output/assets/images/hobbies/nature8.jpg)" loading="lazy">
 </p>

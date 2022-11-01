@@ -8,19 +8,19 @@
 </p>
 
 <center>
-	<a href="https://nift.dev"><img class="image" id="logo" src="@pathtofile(output/images/rabbit-tags-white.png)" alt="Nift logo" style="max-width: 300px"></a>
+	<a href="https://nift.dev">
+		<picture>
+			<source srcset="@pathtofile(output/assets/images/500/nift-logo.png)" media="(max-width: 750px)">
+			<source srcset="@pathtofile(output/assets/images/nift-logo.png)">
+			<img src="@pathtofile(output/assets/images/nift-logo.png)" alt="nift logo" style="max-width: 300px">
+		</picture>
+	</a>
 </center>
 
 <p>
 	On top of completing a mathematics major during undergrad, I completed majors in analytical economics and applied computing. I also contributed to designing and building an international programming competition sponsored by Google, and have experience teaching both mathematics and economics classes at the undergraduate level.
 </p>
 
-<center><img class="image" src="@pathtofile(output/hobbies/pics/nature2.jpg)" alt="" /></center>
-
-@/*<script style="width:100%" onload="resize_images()">
-	function resize_images() {
-		const logo    = document.getElementById("logo");
-
-
-	}
-</script>*/
+@/*<center>
+	<img class="image" src="@pathtofile(output/hobbies/pics/nature2.jpg)" alt="" />
+</center>*/

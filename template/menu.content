@@ -1,33 +1,35 @@
 <div class="menu-bars">
-  <i id="open-menu-icon" class="fas fa-toggle fa-bars fa-1-5x" onclick="show_menu()"></i>
+  <i id="open-menu-icon" class="fa fa-bars fa-green" onclick="show_menu()"></i>
 </div>
 
 <div id="menu-page">
-	<div class="menu-cross" >
-		<i id="close-menu-icon" class="fas fa-toggle fa-times fa-1-5x" onclick="close_menu()"></i>
-	</div>
-	
-	<nav id="nav" class="noselect">
-		<ul>
-			<a class="item" href="@pathto(index)"><li class="li-menu li-dark">home</li></a>
-			<li class="item li-menu li-dark has-submenu" onclick="toggle_submenu(0)">
-				<a tabindex="0" class="item-link">work</a>
-				<ul class="submenu" align="center">
+  <div class="menu-cross" >
+    <i id="close-menu-icon" class="fa fa-xmark fa-green" onclick="close_menu()"></i>
+  </div>
+  
+  <nav id="nav" class="noselect">
+    <ul>
+      <li class="item li-menu li-dark">
+        <a class="item-link" href="@pathto(index)">home</a>
+      </li>
+      <li class="item li-menu li-dark has-submenu" onclick="toggle_submenu(0)">
+        <a tabindex="0" class="submenu-link">work</a>
+        <ul class="submenu" align="center">
           <li class="subitem"><a href="@pathto(programming)">Programming</a></li>
           <li class="subitem"><a href="@pathto(research)">Research</a></li>
           <li class="subitem"><a href="@pathto(education)">Education</a></li>
           <li class="subitem"><a href="@pathto(teaching)">Teaching</a></li>
           <li class="subitem"><a href="@pathto(genealogy)">Genealogy</a></li>
           <li class="subitem"><a href="@pathto(links)">Links</a></li>
-				</ul>
-			</li>
-			<li class="item li-menu li-dark has-submenu" onclick="toggle_submenu(1)">
-				<a tabindex="0" class="item-link">play</a>
-				<ul class="submenu">
+        </ul>
+      </li>
+      <li class="item li-menu li-dark has-submenu" onclick="toggle_submenu(1)">
+        <a tabindex="0" class="submenu-link">play</a>
+        <ul class="submenu">
           <li class="subitem"><a href="@pathto(nature)">Nature</a></li>
           <li class="subitem"><a href="@pathto(skateboarding)">Skateboarding</a></li>
-				</ul>
-			</li>
-		</ul>
-	</nav>
+        </ul>
+      </li>
+    </ul>
+  </nav>
 </div>
