@@ -10,7 +10,7 @@
    viewBox="0 0 500 500"
    version="1.1"
    id="svg4"
-   sodipodi:docname="envelope-regular.svg"
+   sodipodi:docname="angle-up-solid.svg"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
   <metadata
      id="metadata10">
@@ -40,7 +40,7 @@
      id="namedview6"
      showgrid="false"
      inkscape:zoom="0.4609375"
-     inkscape:cx="256"
+     inkscape:cx="224"
      inkscape:cy="256"
      inkscape:window-x="0"
      inkscape:window-y="24"
@@ -48,8 +48,7 @@
      inkscape:current-layer="svg4" />
   <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
   <path
-     d="m 30.372882,152.2373 c 0,-30.407 24.643856,-55.05086 55.050845,-55.05086 H 415.72882 c 30.36398,0 55.05085,24.64386 55.05085,55.05086 v 220.20338 c 0,30.36398 -24.68687,55.05085 -55.05085,55.05085 H 85.423727 c -30.406989,0 -55.050845,-24.68687 -55.050845,-55.05085 z m 41.288135,0 v 19.00974 l 148.379253,121.8 c 17.71949,14.62288 43.35253,14.62288 61.07202,0 l 148.37925,-121.8 v -19.7839 c 0,-6.79534 -6.19322,-13.76271 -13.76272,-13.76271 H 85.423727 c -7.603897,0 -13.76271,6.96737 -13.76271,13.76271 z m 0,72.42627 v 147.77711 c 0,7.5695 6.158813,13.76272 13.76271,13.76272 H 415.72882 c 7.5695,0 13.76272,-6.19322 13.76272,-13.76272 V 224.66357 L 307.34746,324.95932 c -33.0305,27.09534 -80.51186,27.09534 -114.31652,0 z"
+     d="m 220.92542,190.48475 c 12.5,-12.5 32.8,-12.5 45.3,0 l 160,160 c 12.5,12.5 12.5,32.8 0,45.3 -12.5,12.5 -32.8,12.5 -45.3,0 l -137.4,-137.4 -137.4,137.3 c -12.499996,12.5 -32.799996,12.5 -45.299996,0 -12.5,-12.5 -12.5,-32.8 0,-45.3 l 159.999996,-160 z"
      id="path2"
-     inkscape:connector-curvature="0"
-     style="stroke-width:0.86016953" />
+     inkscape:connector-curvature="0" />
 </svg>

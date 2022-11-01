@@ -100,16 +100,17 @@ a:hover
 #content
 {
 	overflow-y: auto;
-	max-width: 80%;
+	max-width: 90%;
 	width: 850px;
 	text-align: left;
 }
 
 img
 {
-	max-width: 80%;
-	margin-top: 20px;
-	margin-bottom: 30px;
+	max-width: 100%;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	border-radius: 10px;
 	-webkit-user-select: none; /* Chrome/Safari */
 	-moz-user-select: none; /* Firefox */

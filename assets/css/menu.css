@@ -1,7 +1,7 @@
 .menu-bars, .menu-cross {
   position: absolute;
-  top: 1.1em;
-  right: 1em;
+  top: 1em;
+  left: 1em;
   text-align: center;
 }
 
@@ -40,7 +40,6 @@ nav a {
 }
 
 .has-submenu {
-  cursor: grab;
   overflow-x: hidden;
 }
 
@@ -52,12 +51,15 @@ nav a {
   padding-left: 5px;
   vertical-align: middle;
 }
-.li-menu:hover .item-link, .li-menu:hover .submenu-link  {  
+.submenu-link-active::after {
+  content: url("../icons/angle-up-solid.svg"); 
+}
+.item-link:hover, .submenu-link:hover {
   /*filter: invert(42%) sepia(93%) saturate(800%) hue-rotate(100deg) brightness(119%) contrast(119%);*/
   filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(187deg) brightness(119%) contrast(119%);
 }
 .li-menu:hover {
-  background: #181a1b;
+  /*background: #181a1b;*/
 }
 
 .submenu {
