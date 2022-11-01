@@ -2,12 +2,14 @@
 {
 	font-family: "oxygen";
 	src: url("../fonts/OxygenMono-Regular.otf") format("truetype");
+	font-display: fallback;
 }
 
 @font-face 
 {
 	font-family: "CyberspaceRaceway";
 	src: url("../fonts/CyberspaceRacewayFront-lWGD.ttf") format("truetype");
+	font-display: fallback;
 }
 
 html, body, div, applet, object,
@@ -165,7 +167,7 @@ mono
 ::-webkit-scrollbar-thumb 
 {
  	background: #5fb267;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 }
 
 /* Handle on hover */
