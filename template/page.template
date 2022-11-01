@@ -5,7 +5,7 @@
 	</head>
 
 	<body>
-		<center>
+		<div align="center">
 			@input("template/menu.content")
 
 			<div id="content">
@@ -13,7 +13,7 @@
 
 				@input("template/footer.content")
 			</div>
-		</center>
+		</div>
 
 		<script defer type="text/javascript" src="@pathtofile(output/assets/js/menu.js)"></script>
 	</body>

@@ -17,8 +17,19 @@
 	</p>
 
 	<picture alt="tassie devil">
-		<source srcset="@pathtofile(output/assets/images/500/devil-toon.png)" media="(max-width: 750px)">
-		<source srcset="@pathtofile(output/assets/images/devil-toon.png)">
-		<img src="@pathtofile(output/assets/images/devil-toon.png)" alt="tassie devil" loading="lazy" width="250px">
+		<source
+			media="(max-width: 750px)"
+			srcset="@pathtofile(output/assets/images/w=500px/devil-toon.png)"
+		>
+		<source 
+			srcset="@pathtofile(output/assets/images/devil-toon.png)"
+		>
+		<img 
+			src="@pathtofile(output/assets/images/devil-toon.png)" 
+			alt="tassie devil" 
+			loading = "lazy"
+			height = auto
+			width  = 300
+		>
 	</picture>
 </div>
