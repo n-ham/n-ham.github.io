@@ -4,68 +4,52 @@
 		<title>n-ham</title>
 		
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport"    content="width=device-width, initial-scale=1">
+		<meta name="description" content="personal site of nicholas ham">
 		
-		<link rel="stylesheet" href="css/pagestyle.css">
-		<link rel="stylesheet" href="css/font-awesome.css">
-		<link rel="stylesheet" href="css/menu.css">
-		<link rel="stylesheet" href="css/mid.css">
+		<link rel="stylesheet" href="assets/css/pagestyle.css">
+		<link rel="stylesheet" href="assets/css/font-awesome.css">
+		<link rel="stylesheet" href="assets/css/menu.css">
 		
-		<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		
-		<script defer type="text/javascript" src="js/menu.js"></script>
-		
-		<link rel='icon' type='image/png' href='images/tassie-devil.png'>
-		
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-63230603-2"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-		
-		  gtag('config', 'UA-63230603-2');
-		</script>
-		
-		<!-- uses Font Awesome for vector icons and social logos -->
-		<script src="https://kit.fontawesome.com/b51e6952ec.js"></script>
+		<link rel="icon" type="image/png" href="assets/images/tassie-devil.png">
 	</head>
 
 	<body>
 		<center>
 			<div class="menu-bars">
-			  <i id="open-menu-icon" class="fas fa-toggle fa-bars fa-1-5x" onclick="show_menu()"></i>
+			  <i id="open-menu-icon" class="fa fa-bars fa-green" onclick="show_menu()"></i>
 			</div>
 			
 			<div id="menu-page">
-				<div class="menu-cross" >
-					<i id="close-menu-icon" class="fas fa-toggle fa-times fa-1-5x" onclick="close_menu()"></i>
-				</div>
-				
-				<nav id="nav" class="noselect">
-					<ul>
-						<a class="item" href="index.html"><li class="li-menu li-dark">home</li></a>
-						<li class="item li-menu li-dark has-submenu" onclick="toggle_submenu(0)">
-							<a tabindex="0" class="item-link">work</a>
-							<ul class="submenu" align="center">
+			  <div class="menu-cross" >
+			    <i id="close-menu-icon" class="fa fa-xmark fa-green" onclick="close_menu()"></i>
+			  </div>
+			  
+			  <nav id="nav" class="noselect">
+			    <ul>
+			      <li class="item li-menu li-dark">
+			        <a class="item-link" href="index.html">home</a>
+			      </li>
+			      <li class="item li-menu li-dark has-submenu" onclick="toggle_submenu(0)">
+			        <a tabindex="0" class="submenu-link">work</a>
+			        <ul class="submenu" align="center">
 			          <li class="subitem"><a href="programming.html">Programming</a></li>
 			          <li class="subitem"><a href="research.html">Research</a></li>
 			          <li class="subitem"><a href="education.html">Education</a></li>
 			          <li class="subitem"><a href="teaching.html">Teaching</a></li>
 			          <li class="subitem"><a href="genealogy.html">Genealogy</a></li>
 			          <li class="subitem"><a href="links.html">Links</a></li>
-							</ul>
-						</li>
-						<li class="item li-menu li-dark has-submenu" onclick="toggle_submenu(1)">
-							<a tabindex="0" class="item-link">play</a>
-							<ul class="submenu">
+			        </ul>
+			      </li>
+			      <li class="item li-menu li-dark has-submenu" onclick="toggle_submenu(1)">
+			        <a tabindex="0" class="submenu-link">play</a>
+			        <ul class="submenu">
 			          <li class="subitem"><a href="nature.html">Nature</a></li>
 			          <li class="subitem"><a href="skateboarding.html">Skateboarding</a></li>
-							</ul>
-						</li>
-					</ul>
-				</nav>
+			        </ul>
+			      </li>
+			    </ul>
+			  </nav>
 			</div>
 
 			<div id="content">
@@ -152,12 +136,12 @@
 					<br><hr><br>
 				
 					<noselect>
-						<a href="https://github.com/n-ham" title="GitHub" class="gh"><i class="fab fa-github fa-2x"></i></a> &nbsp; 
-						<a href="mailto:contact@n-ham.com" title="Email" class="fa"><i class="far fa-envelope fa-2x"></i></a> &nbsp; 
-						<a href="https://orcid.org/0000-0002-4984-1711" title="ORCID" class="orcid"><i class="fab fa-orcid fa-2x"></i></a> &nbsp;
-						<a href="https://scholar.google.com/citations?user=vV-pxo4AAAAJ&hl=en" title="Google Scholar" class="fa"><i class="fab fa-google fa-2x"></i></a> &nbsp;
-						<a href="https://arxiv.org/a/ham_n_2.html" title="arXiv" class="fa"><i class="fas fa-archive fa-2x"></i></a>
-					</noselect><br><br>
+						<a href="https://github.com/n-ham" title="GitHub"><i class="fa fa-github fa-green"></i></a> 
+						<a href="mailto:contact@n-ham.com" title="Email"><i class="fa fa-envelope fa-green"></i></a> 
+						<a href="https://orcid.org/0000-0002-4984-1711" title="ORCID"><i class="fa fa-orcid fa-green"></i></a>
+						<a href="https://scholar.google.com/citations?user=vV-pxo4AAAAJ&hl=en" title="Google Scholar"><i class="fa fa-google fa-green"></i></a>
+						<a href="https://arxiv.org/a/ham_n_2.html" title="arXiv"><i class="fa fa-box-archive fa-green"></i></a>
+					</noselect><br>
 				
 					<p>
 						<b>Mirrors:</b> [<a href="https://n-ham.com/">Official</a>] [<a href="https://n-ham.bitbucket.io/">BitBucket</a>] [<a href="https://n-ham.github.io/">GitHub</a>] [<a href="https://n-ham.gitlab.io/">GitLab</a>]
@@ -168,12 +152,18 @@
 					</p>
 				
 					<p>
-						Page was last built using <a href="https://nift.dev">Nift</a> on Monday October 31 2022 at 13:55:28 (AEDT).
+						Page was last built using <a href="https://nift.dev">Nift</a> on Tuesday November 01 2022 at 15:43:52 (AEDT).
 					</p>
 				
-					<img src="images/devil-toon.png" width="250px">
+					<picture alt="tassie devil">
+						<source srcset="assets/images/500/devil-toon.png" media="(max-width: 750px)">
+						<source srcset="assets/images/devil-toon.png">
+						<img src="assets/images/devil-toon.png" alt="tassie devil" loading="lazy" width="250px">
+					</picture>
 				</div>
 			</div>
 		</center>
+
+		<script defer type="text/javascript" src="assets/js/menu.js"></script>
 	</body>
 </html>

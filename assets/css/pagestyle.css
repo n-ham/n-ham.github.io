@@ -87,12 +87,12 @@ ul li {
 a
 {
 	text-decoration: none;
-	color: #4CAF50;
+	color: #5fb267;
 }
 
 a:hover
 {
-	color: #09ed11;
+	color: #14bdff;
 }
 
 #content
@@ -114,7 +114,7 @@ img
 	-ms-user-select: none; /* IE10+ */
 }
 
-noselect, br
+.noselect, br
 {
 	-webkit-user-select: none; /* Chrome/Safari */
 	-moz-user-select: none; /* Firefox */
@@ -164,12 +164,12 @@ mono
 /* Handle */
 ::-webkit-scrollbar-thumb 
 {
- 	background: #4CAF50;
+ 	background: #5fb267;
 	border-radius: 10px;
 }
 
 /* Handle on hover */
-/*::-webkit-scrollbar-thumb:hover 
+::-webkit-scrollbar-thumb:hover 
 {
- 	background: #4CAF50; 
-}*/
+ 	background: #14bdff; 
+}
