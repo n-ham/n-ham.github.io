@@ -12,8 +12,8 @@
       <li class="item li-menu li-dark">
         <a class="item-link" href="@pathto(index)">home</a>
       </li>
-      <li class="item li-menu li-dark has-submenu" onclick="toggle_submenu(0)">
-        <a tabindex="0" class="submenu-link">work</a>
+      <li class="item li-menu li-dark has-submenu">
+        <a tabindex="0" href="#" class="submenu-link" onclick="toggle_submenu(0)">work</a>
         <ul class="submenu" align="center">
           <li class="subitem"><a href="@pathto(programming)">Programming</a></li>
           <li class="subitem"><a href="@pathto(research)">Research</a></li>
@@ -23,8 +23,8 @@
           <li class="subitem"><a href="@pathto(links)">Links</a></li>
         </ul>
       </li>
-      <li class="item li-menu li-dark has-submenu" onclick="toggle_submenu(1)">
-        <a tabindex="0" class="submenu-link">play</a>
+      <li class="item li-menu li-dark has-submenu">
+        <a tabindex="0" href="#" class="submenu-link" onclick="toggle_submenu(1)">play</a>
         <ul class="submenu">
           <li class="subitem"><a href="@pathto(nature)">Nature</a></li>
           <li class="subitem"><a href="@pathto(skateboarding)">Skateboarding</a></li>

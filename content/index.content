@@ -12,16 +12,16 @@
 		<picture>
 			<source 
 				media="(max-width: 750px)"
-				srcset="@pathtofile(output/assets/images/w=500px/nift-logo.png)"
+				srcset="@pathtofile(output/assets/images/w=500px/nift-logo.webp)"
 			>
 			<source
-				srcset="@pathtofile(output/assets/images/nift-logo.png)"
+				srcset="@pathtofile(output/assets/images/nift-logo.webp)"
 			>
 			<img 
-				src="@pathtofile(output/assets/images/nift-logo.png)" 
+				src="@pathtofile(output/assets/images/nift-logo.webp)" 
 				alt="nift logo" 
-				height = auto
-				width  = 350px
+				height = 125
+				width  = 375
 			>
 		</picture>
 	</a>

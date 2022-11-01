@@ -7,16 +7,16 @@
 		<picture>
 			<source
 				media="(max-width: 750px)"
-				srcset="@pathtofile(output/assets/images/w=500px/nift-logo.png)"
+				srcset="@pathtofile(output/assets/images/w=500px/nift-logo.webp)"
 			>
 			<source
-				srcset="@pathtofile(output/assets/images/nift-logo.png)"
+				srcset="@pathtofile(output/assets/images/nift-logo.webp)"
 			>
 			<img 
-				src="@pathtofile(output/assets/images/nift-logo.png)" 
+				src="@pathtofile(output/assets/images/nift-logo.webp)" 
 				alt="nift logo" 
-				height = auto
-				width  = 400
+				height = 125
+				width  = 375
 			>
 		</picture>
 	</a>
@@ -30,16 +30,16 @@
 		<picture>
 			<source
 				media="(max-width: 750px)"
-				srcset="@pathtofile(output/assets/images/w=500px/lolcat-cc.png)"
+				srcset="@pathtofile(output/assets/images/w=500px/lolcat-cc.webp)"
 			>
 			<source
-				srcset="@pathtofile(output/assets/images/lolcat-cc.png)"
+				srcset="@pathtofile(output/assets/images/lolcat-cc.webp)"
 			>
 			<img
-				src="@pathtofile(output/assets/images/lolcat-cc.png)"
+				src="@pathtofile(output/assets/images/lolcat-cc.webp)"
 				alt="lolcat-cc logo"
-				height = auto
-				width  = 350
+				height = 240
+				width  = 300
 			>
 		</picture>
 	</a>
@@ -50,7 +50,7 @@
 </p>
 
 <div align="center">
-	<img class="image" src="@pathtofile(output/assets/images/ants.png)" alt="lolcat-cc logo" style="max-width: 300px">
+	<img class="image" src="@pathtofile(output/assets/images/ants.webp)" alt="lolcat-cc logo" style="max-width: 300px">
 </div>
 
 <h4>contributions</h4>

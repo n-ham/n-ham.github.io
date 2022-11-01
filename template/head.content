@@ -8,4 +8,4 @@
 <link rel="stylesheet" href="@pathtofile(output/assets/css/font-awesome.css)">
 <link rel="stylesheet" href="@pathtofile(output/assets/css/menu.css)">
 
-<link rel="icon" type="image/png" href="@pathtofile(output/assets/images/tassie-devil.png)">
+<link rel="icon" type="image/png" href="@pathtofile(output/assets/images/favicon.png)">

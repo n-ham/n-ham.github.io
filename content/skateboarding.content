@@ -2,7 +2,7 @@
 <p align="center">
 	<img src="@pathtofile(output/assets/images/hobbies/skate1.jpg)">
 	<img src="@pathtofile(output/assets/images/hobbies/bowl.jpg)"  >
-	<img src="@pathtofile(output/assets/images/hobbies/skate2.jpg)">
+	<img src="@pathtofile(output/assets/images/hobbies/skate2.jpg)"  loading="lazy">
 	<img src="@pathtofile(output/assets/images/hobbies/skate3.jpg)"  loading="lazy">
 	<img src="@pathtofile(output/assets/images/hobbies/skate4.jpg)"  loading="lazy">
 	<img src="@pathtofile(output/assets/images/hobbies/skate5.jpg)"  loading="lazy">

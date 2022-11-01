@@ -19,16 +19,16 @@
 	<picture alt="tassie devil">
 		<source
 			media="(max-width: 750px)"
-			srcset="@pathtofile(output/assets/images/w=500px/devil-toon.png)"
+			srcset="@pathtofile(output/assets/images/w=500px/devil-toon.webp)"
 		>
 		<source 
-			srcset="@pathtofile(output/assets/images/devil-toon.png)"
+			srcset="@pathtofile(output/assets/images/devil-toon.webp)"
 		>
 		<img 
-			src="@pathtofile(output/assets/images/devil-toon.png)" 
+			src="@pathtofile(output/assets/images/devil-toon.webp)" 
 			alt="tassie devil" 
 			loading = "lazy"
-			height = auto
+			height = 200
 			width  = 300
 		>
 	</picture>
