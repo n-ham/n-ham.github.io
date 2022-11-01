@@ -15,7 +15,7 @@
 	</head>
 
 	<body>
-		<center>
+		<div align="center">
 			<div class="menu-bars">
 			  <i id="open-menu-icon" class="fa fa-bars fa-green" onclick="show_menu()"></i>
 			</div>
@@ -94,17 +94,28 @@
 					</p>
 				
 					<p>
-						Page was last built using <a href="https://nift.dev">Nift</a> on Tuesday November 01 2022 at 15:43:52 (AEDT).
+						Page was last built using <a href="https://nift.dev">Nift</a> on Tuesday November 01 2022 at 16:42:18 (AEDT).
 					</p>
 				
 					<picture alt="tassie devil">
-						<source srcset="assets/images/500/devil-toon.png" media="(max-width: 750px)">
-						<source srcset="assets/images/devil-toon.png">
-						<img src="assets/images/devil-toon.png" alt="tassie devil" loading="lazy" width="250px">
+						<source
+							media="(max-width: 750px)"
+							srcset="assets/images/w=500px/devil-toon.png"
+						>
+						<source 
+							srcset="assets/images/devil-toon.png"
+						>
+						<img 
+							src="assets/images/devil-toon.png" 
+							alt="tassie devil" 
+							loading = "lazy"
+							height = auto
+							width  = 300
+						>
 					</picture>
 				</div>
 			</div>
-		</center>
+		</div>
 
 		<script defer type="text/javascript" src="assets/js/menu.js"></script>
 	</body>
