@@ -2,7 +2,7 @@
 <div id="footer" align="center">
 	<br><hr><br>
 
-	@input(template/icons.content)<br>
+	@input(templates/icons.template)<br>
 
 	<p>
 		<b>Mirrors:</b> [<a href="https://n-ham.com/">Official</a>] [<a href="https://n-ham.bitbucket.io/">BitBucket</a>] [<a href="https://n-ham.github.io/">GitHub</a>] [<a href="https://n-ham.gitlab.io/">GitLab</a>]

@@ -1,0 +1,8 @@
+<title>n-ham</title>
+
+<meta charset="utf-8">
+<meta name="viewport"    content="width=device-width, initial-scale=1">
+<meta name="description" content="personal site of nicholas ham">
+
+<link rel="stylesheet" href="@pathtofile(output/assets/css/style.css)" media="print" onload="this.media='all'">
+<link rel="icon" type="image/png" href="@pathtofile(output/assets/images/favicon.png)" media="print" onload="this.media='all'">

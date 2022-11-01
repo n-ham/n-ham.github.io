@@ -1,11 +1,11 @@
-19:11:51 Tuesday November 01 2022
+22:21:52 Tuesday November 01 2022
 'kma315'
 'kma315'
-'template/page.template'
+'templates/html.template'
 
 'content/kma315.content'
-'template/footer.content'
-'template/head.content'
-'template/icons.content'
-'template/menu.content'
-'template/page.template'
+'templates/footer.template'
+'templates/head.template'
+'templates/html.template'
+'templates/icons.template'
+'templates/menu.template'

@@ -1,17 +1,17 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		@input("template/head.content")
+		@input("templates/head.template")
 	</head>
 
 	<body>
 		<div align="center">
-			@input("template/menu.content")
+			@input("templates/menu.template")
 
 			<div id="content">
 				@content
 
-				@input("template/footer.content")
+				@input("templates/footer.template")
 			</div>
 		</div>
 

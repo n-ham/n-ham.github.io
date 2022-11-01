@@ -1,44 +1,48 @@
+'assets/css/style'
+"style'"
+'templates/css.template'
+
 'education'
 'education'
-'template/page.template'
+'templates/html.template'
 
 'genealogy'
 'genealogy'
-'template/page.template'
+'templates/html.template'
 
 'index'
 'index'
-'template/page.template'
+'templates/html.template'
 
 'kea140'
 'kea140'
-'template/page.template'
+'templates/html.template'
 
 'kma315'
 'kma315'
-'template/page.template'
+'templates/html.template'
 
 'links'
 'links'
-'template/page.template'
+'templates/html.template'
 
 'nature'
 'nature'
-'template/page.template'
+'templates/html.template'
 
 'programming'
 'programming'
-'template/page.template'
+'templates/html.template'
 
 'research'
 'research'
-'template/page.template'
+'templates/html.template'
 
 'skateboarding'
 'skateboarding'
-'template/page.template'
+'templates/html.template'
 
 'teaching'
 'teaching'
-'template/page.template'
+'templates/html.template'
 
