@@ -8,7 +8,7 @@ let current_hue      = 100,
 	cycle_hue_active = 0,
 	active_hue_listeners = 0,
 	cycle_hue_count  = 0,
-	cycle_hue_mode   = cycle_mode_mouse,
+	cycle_hue_mode   = cycle_mode_focus,
 	cycle_hue_sleep  = 150;
 
 function cycle_hue_sleep_fn(ms) {
@@ -74,7 +74,7 @@ function add_cycle_hue_listeners() {
 		active_hue_listeners = 1;
 		document.getElementById("body").addEventListener("mouseenter", start_cycling_hue);
 		document.getElementById("body").addEventListener("mouseleave", stop_cycling_hue);
-		window.addEventListener("blur", stop_cycling_hue);
+		@//window.addEventListener("blur", stop_cycling_hue);
 		@//document.getElementById("body").onmouseenter = start_cycling_hue;
 		@//document.getElementById("body").onmouseleave = stop_cycling_hue;
 	}
@@ -97,7 +97,7 @@ function remove_cycle_hue_listeners() {
 		active_hue_listeners = 0;
 		document.getElementById("body").removeEventListener("mouseenter", start_cycling_hue);
 		document.getElementById("body").removeEventListener("mouseleave", stop_cycling_hue);
-		window.removeEventListener("blur", stop_cycling_hue);
+		@//window.removeEventListener("blur", stop_cycling_hue);
 		@//document.getElementById("body").removeAttribute("mouseenter");
 		@//document.getElementById("body").removeAttribute("mouseleave");
 	}
