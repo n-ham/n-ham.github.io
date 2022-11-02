@@ -74,6 +74,7 @@ function add_cycle_hue_listeners() {
 		active_hue_listeners = 1;
 		document.getElementById("body").addEventListener("mouseenter", start_cycling_hue);
 		document.getElementById("body").addEventListener("mouseleave", stop_cycling_hue);
+		window.addEventListener("blur", stop_cycling_hue);
 		@//document.getElementById("body").onmouseenter = start_cycling_hue;
 		@//document.getElementById("body").onmouseleave = stop_cycling_hue;
 	}
@@ -96,6 +97,7 @@ function remove_cycle_hue_listeners() {
 		active_hue_listeners = 0;
 		document.getElementById("body").removeEventListener("mouseenter", start_cycling_hue);
 		document.getElementById("body").removeEventListener("mouseleave", stop_cycling_hue);
+		window.removeEventListener("blur", stop_cycling_hue);
 		@//document.getElementById("body").removeAttribute("mouseenter");
 		@//document.getElementById("body").removeAttribute("mouseleave");
 	}
@@ -121,4 +123,4 @@ function cycle_hue_init() {
 cycle_hue_init();
 @//set_cycle_mode(cycle_mode_mouse);
 @//set_cycle_mode(cycle_mode_focus); 
-@//start_cycling_hue();
+start_cycling_hue();
