@@ -1,12 +1,10 @@
 <div class="menu-bars">
-  <img id="open-menu-icon" onclick="show_menu()" src="@pathto(output/assets/icons/inverted/bars-solid.png)">
-  @//<i id="open-menu-icon" class="fa fa-bars fa-green" onclick="show_menu()"></i>
+  <i id="open-menu-icon" class="fa fa-bars-png fa-rnbw" onclick="show_menu()"></i>
 </div>
 
 <div id="menu-page">
   <div class="menu-cross" >
-    <img id="close-menu-icon" onclick="close_menu()" src="@pathto(output/assets/icons/inverted/xmark-solid.png)">
-    @//<i id="close-menu-icon" class="fa fa-xmark fa-green" onclick="close_menu()"></i>
+    <i id="close-menu-icon" class="fa fa-xmark-png fa-rnbw" onclick="close_menu()"></i>
   </div>
   
   <nav id="nav" class="noselect">
