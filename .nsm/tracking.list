@@ -1,6 +1,10 @@
 'assets/css/style'
-"style'"
+'style'
 'templates/css.template'
+
+'assets/js/bundle'
+'bundle'
+'templates/js.template'
 
 'education'
 'education'

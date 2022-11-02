@@ -1,10 +1,12 @@
 <div class="menu-bars">
-  <i id="open-menu-icon" class="fa fa-bars fa-green" onclick="show_menu()"></i>
+  <img id="open-menu-icon" onclick="show_menu()" src="@pathto(output/assets/icons/inverted/bars-solid.png)">
+  @//<i id="open-menu-icon" class="fa fa-bars fa-green" onclick="show_menu()"></i>
 </div>
 
 <div id="menu-page">
   <div class="menu-cross" >
-    <i id="close-menu-icon" class="fa fa-xmark fa-green" onclick="close_menu()"></i>
+    <img id="close-menu-icon" onclick="close_menu()" src="@pathto(output/assets/icons/inverted/xmark-solid.png)">
+    @//<i id="close-menu-icon" class="fa fa-xmark fa-green" onclick="close_menu()"></i>
   </div>
   
   <nav id="nav" class="noselect">
@@ -13,7 +15,7 @@
         <a class="item-link" href="@pathto(index)">home</a>
       </li>
       <li class="item li-menu li-dark has-submenu">
-        <a tabindex="0" href="#" class="submenu-link" onclick="toggle_submenu(0)">work</a>
+        <a tabindex="0" href="#" class="submenu-link" onclick="toggle_submenu(0)">work<i class="submenu-link-icon fa fa-angle-down-png fa-1x"></i></a>
         <ul class="submenu" align="center">
           <li class="subitem"><a href="@pathto(programming)">Programming</a></li>
           <li class="subitem"><a href="@pathto(research)">Research</a></li>
@@ -24,7 +26,7 @@
         </ul>
       </li>
       <li class="item li-menu li-dark has-submenu">
-        <a tabindex="0" href="#" class="submenu-link" onclick="toggle_submenu(1)">play</a>
+        <a tabindex="0" href="#" class="submenu-link" onclick="toggle_submenu(1)">play<i class="submenu-link-icon fa fa-angle-down-png fa-1x"></i></a>
         <ul class="submenu">
           <li class="subitem"><a href="@pathto(nature)">Nature</a></li>
           <li class="subitem"><a href="@pathto(skateboarding)">Skateboarding</a></li>

@@ -35,8 +35,9 @@
 /**
  * brands
  */
+
 .fa-github:before {
-  content: url("@pathtofile(output/assets/icons/github.svg)"); 
+  content: url("@pathtofile(output/assets/icons/github.svg)");
 }
 .fa-google:before {
   content: url("@pathtofile(output/assets/icons/google.svg)"); 
@@ -45,12 +46,25 @@
   content: url("@pathtofile(output/assets/icons/orcid.svg)"); 
 }
 
+.fa-github-png{
+  content: url('@pathtofile(output/assets/icons/inverted/github.png)');
+}
+.fa-google-png {
+  content: url("@pathtofile(output/assets/icons/inverted/google.png)"); 
+}
+.fa-orcid-png {
+  content: url("@pathtofile(output/assets/icons/inverted/orcid.png)"); 
+}
+
 
 /**
  * solid
  */
 .fa-angle-down:before {
   content: url("@pathtofile(output/assets/icons/angle-down-solid.svg)"); 
+}
+.fa-angle-up:before {
+  content: url("@pathtofile(output/assets/icons/angle-up-solid.svg)"); 
 }
 .fa-bars:before {
   content: url("@pathtofile(output/assets/icons/bars-solid.svg)"); 
@@ -65,6 +79,21 @@
   content: url("@pathtofile(output/assets/icons/xmark-solid.svg)"); 
 }
 
-.fa-pad {
-  padding: 0.53em 0.45em 0.68em;
+.fa-angle-down-png {
+  content: url("@pathtofile(output/assets/icons/inverted/angle-down-solid.png)"); 
+}
+.fa-angle-up-png {
+  content: url("@pathtofile(output/assets/icons/inverted/angle-up-solid.png)"); 
+}
+.fa-bars-png {
+  content: url("@pathtofile(output/assets/icons/inverted/bars-solid.png)"); 
+}
+.fa-box-archive-png {
+  content: url("@pathtofile(output/assets/icons/inverted/box-archive-solid.png)"); 
+}
+.fa-envelope-png {
+  content: url("@pathtofile(output/assets/icons/inverted/envelope-regular.png)"); 
+}
+.fa-xmark-png {
+  content: url("@pathtofile(output/assets/icons/inverted/xmark-solid.png)"); 
 }

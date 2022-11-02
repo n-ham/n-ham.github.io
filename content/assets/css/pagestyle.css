@@ -12,6 +12,29 @@
 	font-display: fallback;
 }
 
+:root {
+  --blue: #6495ed;
+  --rnbw-color: #6495ed;
+  --rnbw-color-hover: #14bdff;
+  --fa-angle-path: url("@pathto(output/assets/icons/inverted/angle-down-solid.png)");
+}
+
+.cycle-hue-color {
+	color: var(--rnbw-color);
+}
+
+.cycle-hue-color-hover:hover {
+	color: var(--rnbw-color-hover);
+}
+
+.cycle-hue-bg, .fa-rnbw {
+	background-color: var(--rnbw-color);
+}
+
+.cycle-hue-bg-hover:hover, .fa-rnbw:hover {
+	background-color: var(--rnbw-color-hover);
+}
+
 html, body, div, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -53,7 +76,8 @@ h1
 	-moz-user-select: none; /* Firefox */
 	-ms-user-select: none; /* IE10+ */
 
-	color: #ff1493;
+	/*color: #ff1493;*/
+	color: var(--rnbw-color-hover);
 }
 @media screen and (max-width: 600px) {
 	h1 {
@@ -89,12 +113,14 @@ ul li {
 a
 {
 	text-decoration: none;
-	color: #5fb267;
+	/*color: #5fb267;*/
+	color: var(--rnbw-color);
 }
 
 a:hover
 {
-	color: #14bdff;
+	/*color: #14bdff;*/
+	color: var(--rnbw-color-hover);
 }
 
 #content
@@ -111,7 +137,7 @@ img
 	height: auto;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 	-webkit-user-select: none; /* Chrome/Safari */
 	-moz-user-select: none; /* Firefox */
 	-ms-user-select: none; /* IE10+ */
@@ -127,6 +153,7 @@ img
 hr
 {
 	max-width: 100%;
+	border: 1px solid var(--rnbw-color-hover);
 }
 
 a.fa
@@ -167,12 +194,16 @@ mono
 /* Handle */
 ::-webkit-scrollbar-thumb 
 {
- 	background: #5fb267;
+ 	/*background: #5fb267;*/
+
+ 	background: var(--rnbw-color);
+
 	/*border-radius: 10px;*/
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover 
 {
- 	background: #14bdff; 
+ 	/*background: #14bdff;*/ 
+ 	background: var(--rnbw-color-hover); 
 }

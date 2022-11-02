@@ -5,10 +5,19 @@
   text-align: center;
 }
 
+.menu-bars:hover, .menu-cross:hover {
+  cursor: grab;
+}
+
 #close-menu-icon, #open-menu-icon {
   width: 1.25em;
   height: 1.25em;
-  padding-top: 0.1em;
+  padding-top: 0em;
+  background-color: var(--rnbw-color);
+}
+
+#close-menu-icon:hover, #open-menu-icon:hover {
+  background-color: var(--rnbw-color-hover);
 }
 
 #menu-page {
@@ -43,8 +52,8 @@ nav a {
   overflow-x: hidden;
 }
 
-.submenu-link::after {
-  content: url("@pathtofile(output/assets/icons/angle-down-solid.svg)"); 
+@/*.submenu-link::after {
+  content: url("@pathtofile(output/assets/icons/angle-down-solid.svg)");
   display: inline-block;
   filter: invert(100%);
   width: 1em;
@@ -53,10 +62,17 @@ nav a {
 }
 .submenu-link-active::after {
   content: url("@pathtofile(output/assets/icons/angle-up-solid.svg)"); 
+}*/
+.submenu-link i {
+  background-color: white;
+}
+.submenu-link:hover i {
+  background-color: var(--rnbw-color-hover);
 }
 .item-link:hover, .submenu-link:hover {
   /*filter: invert(42%) sepia(93%) saturate(800%) hue-rotate(100deg) brightness(119%) contrast(119%);*/
-  filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(187deg) brightness(119%) contrast(119%);
+  /*filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(187deg) brightness(119%) contrast(119%);*/
+  color: var(--rnbw-color-hover);
 }
 .li-menu:hover {
   /*background: #181a1b;*/
@@ -77,5 +93,5 @@ nav a {
   font-size: 1em;
 }
 .subitem a:hover {
-  color: #14bdff;
+  /*color: #14bdff;*/
 }
