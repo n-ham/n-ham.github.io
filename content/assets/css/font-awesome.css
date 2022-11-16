@@ -81,9 +81,11 @@
 
 .fa-angle-down-png {
   content: url("@pathtofile(output/assets/icons/inverted/angle-down-solid.png)"); 
+  margin-left: 5px;
 }
 .fa-angle-up-png {
   content: url("@pathtofile(output/assets/icons/inverted/angle-up-solid.png)"); 
+  margin-left: 5px;
 }
 .fa-bars-png {
   content: url("@pathtofile(output/assets/icons/inverted/bars-solid.png)"); 
