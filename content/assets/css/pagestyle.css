@@ -65,6 +65,16 @@ body
 	line-height: 1.25em;
 }
 
+::-moz-selection {
+	color: #181a1b;
+	background-color: var(--rnbw-color);
+}
+
+::selection {
+	color: #181a1b;
+	background-color: var(--rnbw-color);
+}
+
 h1
 {
 	font-family: "CyberspaceRaceway";
