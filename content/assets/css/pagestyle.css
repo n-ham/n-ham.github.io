@@ -144,7 +144,7 @@ img
 	-ms-user-select: none; /* IE10+ */
 }
 
-.noselect, br
+.noselect, br, .fa
 {
 	-webkit-user-select: none; /* Chrome/Safari */
 	-moz-user-select: none; /* Firefox */
