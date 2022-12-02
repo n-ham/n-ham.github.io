@@ -1,9 +1,9 @@
 11:32:33 Friday December 02 2022
-'genealogy'
-'genealogy'
+'generative_art'
+'generative_art'
 'templates/html.template'
 
-'content/genealogy.content'
+'content/generative_art.content'
 'post-build.f'
 'templates/footer.template'
 'templates/head.template'

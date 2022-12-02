@@ -138,7 +138,7 @@ a:hover
 {
 	overflow-y: auto;
 	max-width: 90%;
-	width: 850px;
+	max-width: 850px;
 	text-align: left;
 }
 
@@ -152,6 +152,13 @@ img
 	-webkit-user-select: none; /* Chrome/Safari */
 	-moz-user-select: none; /* Firefox */
 	-ms-user-select: none; /* IE10+ */
+}
+
+video
+{
+	vertical-align: middle;
+	margin: 5px 0;
+	max-height: 300px;
 }
 
 .noselect, br, .fa
