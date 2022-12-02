@@ -29,5 +29,5 @@
 </p>
 
 <script>
-	document.getElementById("content").style.maxWidth = "75%";
+	document.getElementById("content").style.width = "75%";
 </script>
