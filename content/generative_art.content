@@ -1,33 +1,35 @@
 <h1>Generative Art</h1>
-<p align="center">
-	<video autoplay loop muted playsinline title="@booyah"><source src="https://i.imgur.com/1ubqMtm.mp4" type="video/mp4"></video>
-	<video autoplay loop muted playsinline title="@booyah"><source src="https://i.imgur.com/NOWJorp.mp4" type="video/mp4"></video>
-	<video autoplay loop muted playsinline title="@booyah"><source src="https://i.imgur.com/UXLDgF7.mp4" type="video/mp4"></video>
-	<video autoplay loop muted playsinline title="@booyah"><source src="https://i.imgur.com/XzaVTh7.mp4" type="video/mp4"></video>
-	<video autoplay loop muted playsinline title="@xxLONGOLONGOxx"><source src="https://i.imgur.com/ktcdxjX.mp4" type="video/mp4"></video>
-	<video autoplay loop muted playsinline title="@Jaesen_Moreaux"><source src="https://i.imgur.com/yRL5kmS.mp4" type="video/mp4"></video>
-	<video autoplay loop muted playsinline title="@Jaesen_Moreaux"><source src="https://i.imgur.com/F37oiL4.mp4" type="video/mp4"></video>
-	<video autoplay loop muted playsinline title="@SoaringBrain"><source src="https://i.imgur.com/mwDBoHO.mp4" type="video/mp4"></video>
-	<video autoplay loop muted playsinline title="@Jaesen_Moreaux"><source src="https://i.imgur.com/PXLWKOO.mp4" type="video/mp4"></video>
-	<video autoplay loop muted playsinline title="@destinykrainbow"><source src="https://i.imgur.com/RteCxlZ.mp4" type="video/mp4"></video>
-	<video autoplay loop muted playsinline title="@SterlingEly"><source src="https://i.imgur.com/WM13aSY.mp4" type="video/mp4"></video>
-	<video autoplay loop muted playsinline title="@AI_Cursed"><source src="https://i.imgur.com/se4GCpY.mp4" type="video/mp4"></video>
-	<video autoplay loop muted playsinline title="@BadBeanLLC"><source src="https://i.imgur.com/ipP7aBF.mp4" type="video/mp4"></video>
-	<video autoplay loop muted playsinline title="@AI_Cursed"><source src="https://i.imgur.com/QB9pteE.mp4" type="video/mp4"></video>
-	<video autoplay loop muted playsinline title="@booyah"><source src="https://i.imgur.com/5O5ncDG.mp4" type="video/mp4"></video>
-	<video autoplay loop muted playsinline title="@image_in_1"><source src="https://i.imgur.com/TuFNR8d.mp4" type="video/mp4"></video>
-	<video autoplay loop muted playsinline title="@timetravelr2025"><source src="https://i.imgur.com/Z1gX2d2.mp4" type="video/mp4"></video>
-	<video autoplay loop muted playsinline title="@_Aerox_x"><source src="https://i.imgur.com/rpAOP5q.mp4" type="video/mp4"></video>
-	<video autoplay loop muted playsinline title="@xxLONGOLONGOxx"><source src="https://i.imgur.com/P5sSC1H.mp4" type="video/mp4"></video>
-	<video autoplay loop muted playsinline title="@destinykrainbow"><source src="https://i.imgur.com/dAIITnU.mp4" type="video/mp4"></video>
-	<video autoplay loop muted playsinline title="@amli_art"><source src="https://i.imgur.com/Jga4nUl.mp4" type="video/mp4"></video>
-	<video autoplay loop muted playsinline title="@amli_art"><source src="https://i.imgur.com/dXkVO2P.mp4" type="video/mp4"></video>
-</p>
+<div align="center">
+	<p align="center" style="max-width:90%">
+		<video autoplay loop muted playsinline title="@booyah"><source src="https://i.imgur.com/1ubqMtm.mp4" type="video/mp4"></video>
+		<video autoplay loop muted playsinline title="@booyah"><source src="https://i.imgur.com/NOWJorp.mp4" type="video/mp4"></video>
+		<video autoplay loop muted playsinline title="@booyah"><source src="https://i.imgur.com/UXLDgF7.mp4" type="video/mp4"></video>
+		<video autoplay loop muted playsinline title="@booyah"><source src="https://i.imgur.com/XzaVTh7.mp4" type="video/mp4"></video>
+		<video autoplay loop muted playsinline title="@xxLONGOLONGOxx"><source src="https://i.imgur.com/ktcdxjX.mp4" type="video/mp4"></video>
+		<video autoplay loop muted playsinline title="@Jaesen_Moreaux"><source src="https://i.imgur.com/yRL5kmS.mp4" type="video/mp4"></video>
+		<video autoplay loop muted playsinline title="@Jaesen_Moreaux"><source src="https://i.imgur.com/F37oiL4.mp4" type="video/mp4"></video>
+		<video autoplay loop muted playsinline title="@SoaringBrain"><source src="https://i.imgur.com/mwDBoHO.mp4" type="video/mp4"></video>
+		<video autoplay loop muted playsinline title="@Jaesen_Moreaux"><source src="https://i.imgur.com/PXLWKOO.mp4" type="video/mp4"></video>
+		<video autoplay loop muted playsinline title="@destinykrainbow"><source src="https://i.imgur.com/RteCxlZ.mp4" type="video/mp4"></video>
+		<video autoplay loop muted playsinline title="@SterlingEly"><source src="https://i.imgur.com/WM13aSY.mp4" type="video/mp4"></video>
+		<video autoplay loop muted playsinline title="@AI_Cursed"><source src="https://i.imgur.com/se4GCpY.mp4" type="video/mp4"></video>
+		<video autoplay loop muted playsinline title="@BadBeanLLC"><source src="https://i.imgur.com/ipP7aBF.mp4" type="video/mp4"></video>
+		<video autoplay loop muted playsinline title="@AI_Cursed"><source src="https://i.imgur.com/QB9pteE.mp4" type="video/mp4"></video>
+		<video autoplay loop muted playsinline title="@booyah"><source src="https://i.imgur.com/5O5ncDG.mp4" type="video/mp4"></video>
+		<video autoplay loop muted playsinline title="@image_in_1"><source src="https://i.imgur.com/TuFNR8d.mp4" type="video/mp4"></video>
+		<video autoplay loop muted playsinline title="@timetravelr2025"><source src="https://i.imgur.com/Z1gX2d2.mp4" type="video/mp4"></video>
+		<video autoplay loop muted playsinline title="@_Aerox_x"><source src="https://i.imgur.com/rpAOP5q.mp4" type="video/mp4"></video>
+		<video autoplay loop muted playsinline title="@xxLONGOLONGOxx"><source src="https://i.imgur.com/P5sSC1H.mp4" type="video/mp4"></video>
+		<video autoplay loop muted playsinline title="@destinykrainbow"><source src="https://i.imgur.com/dAIITnU.mp4" type="video/mp4"></video>
+		<video autoplay loop muted playsinline title="@amli_art"><source src="https://i.imgur.com/Jga4nUl.mp4" type="video/mp4"></video>
+		<video autoplay loop muted playsinline title="@amli_art"><source src="https://i.imgur.com/dXkVO2P.mp4" type="video/mp4"></video>
+	</p>
 
-<p align="center">
-	<a href="https://imgur.com/a/fPLXYXB">more</a>
-</p>
+	<p align="center">
+		<a href="https://imgur.com/a/fPLXYXB">more</a>
+	</p>
+</div>
 
 <script>
-	document.getElementById("content").style.width = "75%";
+	document.getElementById("content").style.width = "85%";
 </script>
