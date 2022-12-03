@@ -161,6 +161,13 @@ video
 	max-height: 300px;
 }
 
+.inline-img
+{
+	vertical-align: middle;
+	margin: 5px 5px;
+	max-height: 300px;
+}
+
 .noselect, br, .fa
 {
 	-webkit-user-select: none; /* Chrome/Safari */

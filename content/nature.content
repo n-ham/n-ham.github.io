@@ -1,11 +1,17 @@
 <h1>Nature</h1>
-<p align="center">
-	<img src="@pathtofile(output/assets/images/hobbies/nature1.jpg)">
-	<img src="@pathtofile(output/assets/images/hobbies/nature2.jpg)">
-	<img src="@pathtofile(output/assets/images/hobbies/nature3.jpg)" loading="lazy">
-	<img src="@pathtofile(output/assets/images/hobbies/nature4.jpg)" loading="lazy">
-	<img src="@pathtofile(output/assets/images/hobbies/nature5.jpg)" loading="lazy">
-	<img src="@pathtofile(output/assets/images/hobbies/nature6.jpg)" loading="lazy">
-	<img src="@pathtofile(output/assets/images/hobbies/nature7.jpg)" loading="lazy">
-	<img src="@pathtofile(output/assets/images/hobbies/nature8.jpg)" loading="lazy">
-</p>
+<div align="center">
+	<p align="center" style="max-width:90%">
+		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/nature1.jpg)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/nature2.jpg)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/nature3.jpg)" loading="lazy">
+		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/nature4.jpg)" loading="lazy">
+		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/nature5.jpg)" loading="lazy">
+		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/nature6.jpg)" loading="lazy">
+		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/nature7.jpg)" loading="lazy">
+		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/nature8.jpg)" loading="lazy">
+	</p>
+</div>
+
+<script>
+	document.getElementById("content").style.width = "85%";
+</script>

@@ -1,19 +1,25 @@
 <h1>Wood Pushing</h1>
-<p align="center">
-	<img src="@pathtofile(output/assets/images/hobbies/skate1.jpg)">
-	<img src="@pathtofile(output/assets/images/hobbies/bowl.jpg)"  >
-	<img src="@pathtofile(output/assets/images/hobbies/skate2.jpg)"  loading="lazy">
-	<img src="@pathtofile(output/assets/images/hobbies/skate3.jpg)"  loading="lazy">
-	<img src="@pathtofile(output/assets/images/hobbies/skate4.jpg)"  loading="lazy">
-	<img src="@pathtofile(output/assets/images/hobbies/skate5.jpg)"  loading="lazy">
-	<img src="@pathtofile(output/assets/images/hobbies/skate6.jpg)"  loading="lazy">
-	<img src="@pathtofile(output/assets/images/hobbies/skate7.jpg)"  loading="lazy">
-	<img src="@pathtofile(output/assets/images/hobbies/skate8.jpg)"  loading="lazy">
-	<img src="@pathtofile(output/assets/images/hobbies/skate9.jpg)"  loading="lazy">
-	<img src="@pathtofile(output/assets/images/hobbies/skate10.jpg)" loading="lazy">
-	<img src="@pathtofile(output/assets/images/hobbies/skate11.jpg)" loading="lazy">
-	<img src="@pathtofile(output/assets/images/hobbies/skate12.jpg)" loading="lazy">
-	<img src="@pathtofile(output/assets/images/hobbies/skate13.jpg)" loading="lazy">
-	<img src="@pathtofile(output/assets/images/hobbies/skate14.jpg)" loading="lazy">
-	<img src="@pathtofile(output/assets/images/hobbies/skate15.jpg)" loading="lazy">
-</p>
+<div align="center">
+	<p align="center" style="max-width:90%">
+		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/skate1.jpg)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/bowl.jpg)"  >
+		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/skate2.jpg)"  loading="lazy">
+		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/skate3.jpg)"  loading="lazy">
+		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/skate4.jpg)"  loading="lazy">
+		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/skate5.jpg)"  loading="lazy">
+		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/skate6.jpg)"  loading="lazy">
+		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/skate7.jpg)"  loading="lazy">
+		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/skate8.jpg)"  loading="lazy">
+		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/skate9.jpg)"  loading="lazy">
+		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/skate10.jpg)" loading="lazy">
+		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/skate11.jpg)" loading="lazy">
+		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/skate12.jpg)" loading="lazy">
+		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/skate13.jpg)" loading="lazy">
+		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/skate14.jpg)" loading="lazy">
+		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/skate15.jpg)" loading="lazy">
+	</p>
+</div>
+
+<script>
+	document.getElementById("content").style.width = "85%";
+</script>
