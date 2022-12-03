@@ -28,7 +28,7 @@
 </div>
 
 <p>
-	I also enjoy playing around with <a href="@pathto(generative_art)">generative art</a> using existing images/videos as my canvas by using <a href="https://opencv.org/">opencv</a> to access the RGB values at each pixel, coding c/c++ to generate frames with custom RGB@ent(<->)HSV conversion algorithms (none of <a href="https://stackoverflow.com/questions/3018313/algorithm-to-convert-rgb-to-hsv-and-hsv-to-rgb-in-range-0-255-for-both">these</a> work correctly), then combine the generated frames using <a href="https://ffmpeg.org/">ffmpeg</a>.
+	I also enjoy playing around with <a href="@pathto(generative_art)">generative art</a> using existing images/videos as my canvas by using <a href="https://opencv.org/">opencv</a> to access the RGB values at each pixel, coding c/c++ to generate frames using various algorithmic techniques along with custom RGB@ent(<->)HSV conversion algorithms (none of <a href="https://stackoverflow.com/questions/3018313/algorithm-to-convert-rgb-to-hsv-and-hsv-to-rgb-in-range-0-255-for-both">these</a> work correctly), then combine the generated frames using <a href="https://ffmpeg.org/">ffmpeg</a>.
 </p>
 
 <p>
