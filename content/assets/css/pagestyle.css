@@ -207,7 +207,7 @@ mono
 /* width */
 ::-webkit-scrollbar 
 {
-	width: 10px;
+	width: 8px;
 	height: 0px;
 }
 
