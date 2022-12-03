@@ -51,7 +51,7 @@ section, summary, time, mark, audio, video {
 	box-sizing: border-box;
 	max-width: 100%;
 
-	scrollbar-color: var(--rnbw-color) #181a1b !important;
+	scrollbar-color: var(--rnbw-color) transparent !important;
 }
 
 body
