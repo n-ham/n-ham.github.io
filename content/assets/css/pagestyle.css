@@ -50,6 +50,8 @@ section, summary, time, mark, audio, video {
 	line-height: 1.25em;
 	box-sizing: border-box;
 	max-width: 100%;
+
+	scrollbar-color: var(--rnbw-color) #181a1b !important;
 }
 
 body
