@@ -28,5 +28,9 @@
 </div>
 
 <p>
+	I also enjoy playing around with <a href="@pathto(generative_art)">generative art</a> using existing images/videos as my canvas by using <a href="https://opencv.org/">opencv</a> to access the RGB values at each pixel, coding c/c++ to generate frames with custom RGB@ent(<->)HSV conversion algorithms (none of <a href="https://stackoverflow.com/questions/3018313/algorithm-to-convert-rgb-to-hsv-and-hsv-to-rgb-in-range-0-255-for-both">these</a> work correctly), then combine the generated frames using <a href="https://ffmpeg.org/">ffmpeg</a>.
+</p>
+
+<p>
 	On top of completing a mathematics major during undergrad, I completed majors in analytical economics and applied computing. I also contributed to designing and building an international programming competition sponsored by Google, and have experience teaching both mathematics and economics classes at the undergraduate level.
 </p>
