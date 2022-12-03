@@ -3,10 +3,10 @@
 	<p align="center" style="max-width:90%">
 		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/skate1.jpg)">
 		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/bowl.jpg)"  >
-		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/skate2.jpg)"  loading="lazy">
-		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/skate3.jpg)"  loading="lazy">
-		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/skate4.jpg)"  loading="lazy">
-		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/skate5.jpg)"  loading="lazy">
+		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/skate2.jpg)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/skate3.jpg)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/skate4.jpg)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/skate5.jpg)">
 		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/skate6.jpg)"  loading="lazy">
 		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/skate7.jpg)"  loading="lazy">
 		<img class="inline-img" src="@pathtofile(output/assets/images/hobbies/skate8.jpg)"  loading="lazy">
