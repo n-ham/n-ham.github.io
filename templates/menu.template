@@ -26,7 +26,7 @@
       <li class="item li-menu li-dark has-submenu">
         <a tabindex="0" href="#" class="submenu-link" onclick="toggle_submenu(1)">play<i class="submenu-link-icon fa fa-angle-down-png fa-1x"></i></a>
         <ul class="submenu">
-          <li class="subitem"><a href="@pathto(generative_art)">Generative Art</a></li>
+          <li class="subitem"><a href="@pathto(generative_art)">Art</a></li>
           <li class="subitem"><a href="@pathto(nature)">Nature</a></li>
           <li class="subitem"><a href="@pathto(skateboarding)">Skateboarding</a></li>
         </ul>
