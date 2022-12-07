@@ -31,6 +31,9 @@
           <li class="subitem"><a href="@pathto(skateboarding)">skateboarding</a></li>
         </ul>
       </li>
+      <li class="item li-menu li-dark">
+        <a class="item-link" href="@pathto(save_utas)">save utas</a>
+      </li>
     </ul>
   </nav>
 </div>
