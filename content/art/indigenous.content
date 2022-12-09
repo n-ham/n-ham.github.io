@@ -1,0 +1,58 @@
+<h1>Indigenous Artwork</h1>
+<div align="center">
+	<div id="notice" style="margin: 5em 0">
+		<h2>Notice</h2>
+
+		<p>
+			Please note that these pieces of artwork have had the colours digitally animated with my own code when I do not have indigenous ancestry, this may be offensive to some visitors to the website particularly those with Aboriginal and/or Torres Straight Islander ancestry.
+		</p>
+
+		<p>
+			Anyone with Aboriginal and/or Torres Straight Islander ancestry and an interest in learning to use the code to achieve different digital animation styles is welcome to reach out, as are any artists of indigenous artwork who would like to have the colours of their artwork digitally animated.
+		</p>
+
+		<p>
+			We respect and honour Aboriginal and Torres Strait Islander Elders past, present and future. We acknowledge the stories, traditions and living cultures of Aboriginal and Torres Strait Islander peoples on this land and commit to building a brighter future together (<a href="https://australianstogether.org.au/resources-2/welcome-to-and-acknowledgement-of-country/">more info</a>).
+		</p>
+
+		<p align="center">
+			<a href="#" onclick="reveal()">reveal</a>
+		</p>
+	</div>
+
+	<div id="artwork" style="display: none">
+		<p align="center" style="max-width:90%">
+			<video onclick="playpause(this)" autoplay loop muted playsinline title="https://www.pinterest.com.au/pin/557179785149110907/"><source src="https://i.imgur.com/7aM6S90.mp4" type="video/mp4"></video><br>
+
+			<video onclick="playpause(this)" autoplay loop muted playsinline title="https://www.portfoliopictureframers.com.au/blogs/news/how-to-frame-aboriginal-art"><source src="https://i.imgur.com/mQuO0x2.mp4" type="video/mp4"></video><br>
+
+			<video onclick="playpause(this)" autoplay loop muted playsinline title="https://www.englishwithsophia.com/aboriginal-art-painting-video/"><source src="https://i.imgur.com/dw1hOsU.mp4" type="video/mp4"></video><br>
+
+			<video onclick="playpause(this)" autoplay loop muted playsinline title="we are 27 creative"><source src="https://i.imgur.com/b6at6uC.mp4" type="video/mp4"></video><br>
+
+			<video onclick="playpause(this)" autoplay loop muted playsinline title="we are 27 creative"><source src="https://i.imgur.com/sS9Blyo.mp4" type="video/mp4"></video><br>
+
+			<video onclick="playpause(this)" autoplay loop muted playsinline title="we are 27 creative"><source src="https://i.imgur.com/WdZqV43.mp4" type="video/mp4"></video><br>
+		</p>
+
+		<p>
+			We respect and honour Aboriginal and Torres Strait Islander Elders past, present and future. We acknowledge the stories, traditions and living cultures of Aboriginal and Torres Strait Islander peoples on this land and commit to building a brighter future together (<a href="https://australianstogether.org.au/resources-2/welcome-to-and-acknowledgement-of-country/">more info</a>).
+		</p>
+	</div>
+</div>
+
+<script>
+	document.getElementById("content").style.width = "85%";
+
+	function playpause(elmnt) {
+		if(elmnt.paused)
+			elmnt.play();
+		else
+			elmnt.pause();
+	}
+
+	function reveal() {
+		document.getElementById("notice").style.display = "none";
+		document.getElementById("artwork").style.display = "inline-block";
+	}
+</script>

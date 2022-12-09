@@ -1,9 +1,9 @@
 03:07:53 Saturday December 10 2022
-'index'
-'index'
+'art/gradient_eruption'
+'gradient_eruption'
 'templates/html.template'
 
-'content/index.content'
+'content/art/gradient_eruption.content'
 'post-build.f'
 'templates/footer.template'
 'templates/head.template'

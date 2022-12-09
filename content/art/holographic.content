@@ -1,0 +1,17 @@
+<h1>Holographic</h1>
+<div align="center">
+	<p align="center" style="max-width:90%">
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@SterlingEly"><source src="https://i.imgur.com/n2Hyan6.mp4" type="video/mp4"></video>
+	</p>
+</div>
+
+<script>
+	document.getElementById("content").style.width = "85%";
+
+	function playpause(elmnt) {
+		if(elmnt.paused)
+			elmnt.play();
+		else
+			elmnt.pause();
+	}
+</script>

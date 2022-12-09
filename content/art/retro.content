@@ -1,0 +1,26 @@
+<h1>Retro</h1>
+<div align="center">
+	<p align="center" style="max-width:90%">
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@Signalnoise"><source src="https://i.imgur.com/M4GHB75.mp4" type="video/mp4"></video><br>
+
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@lenymo"><source src="https://i.imgur.com/w1Jni2v.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@SopmacArt"><source src="https://i.imgur.com/H45cGZX.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@SopmacArt"><source src="https://i.imgur.com/C67XTxW.mp4" type="video/mp4"></video><br>
+
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@SopmacArt"><source src="https://i.imgur.com/Vg88uIZ.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@SopmacArt"><source src="https://i.imgur.com/bnw1Oqy.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@SopmacArt"><source src="https://i.imgur.com/CxFxYOC.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@SopmacArt"><source src="https://i.imgur.com/awrluhb.mp4" type="video/mp4"></video><br>
+	</p>
+</div>
+
+<script>
+	document.getElementById("content").style.width = "85%";
+
+	function playpause(elmnt) {
+		if(elmnt.paused)
+			elmnt.play();
+		else
+			elmnt.pause();
+	}
+</script>

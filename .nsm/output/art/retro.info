@@ -1,9 +1,9 @@
 03:07:53 Saturday December 10 2022
-'index'
-'index'
+'art/retro'
+'retro'
 'templates/html.template'
 
-'content/index.content'
+'content/art/retro.content'
 'post-build.f'
 'templates/footer.template'
 'templates/head.template'

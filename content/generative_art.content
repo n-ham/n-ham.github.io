@@ -1,137 +1,18 @@
 <h1>Generative Art</h1>
-<div align="center">
-	<p>
-		click to play
-	</p>
-	<p align="center" style="max-width:90%">
-		<video onclick="playpause(this)" loop muted playsinline title="@booyah"><source src="https://i.imgur.com/NOWJorp.mp4" type="video/mp4"></video><br>
-		<video onclick="playpause(this)" loop muted playsinline title="@booyah"><source src="https://i.imgur.com/UXLDgF7.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@booyah"><source src="https://i.imgur.com/ndQG6g7.mp4" type="video/mp4"></video><br>
-		<video onclick="playpause(this)" loop muted playsinline title="@booyah"><source src="https://i.imgur.com/kWAolDb.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@booyah"><source src="https://i.imgur.com/XzaVTh7.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@booyah"><source src="https://i.imgur.com/70xRfwI.mp4" type="video/mp4"></video><br>
 
-		<video onclick="playpause(this)" loop muted playsinline title="@thedigiguru"><source src="https://i.imgur.com/tIJtiEo.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@thedigiguru"><source src="https://i.imgur.com/2xDymyS.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="@xxLONGOLONGOxx"><source src="https://i.imgur.com/ktcdxjX.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@Jaesen_Moreaux"><source src="https://i.imgur.com/yRL5kmS.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@Jaesen_Moreaux"><source src="https://i.imgur.com/F37oiL4.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@Jaesen_Moreaux"><source src="https://i.imgur.com/q78nxSY.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="@HoHoHo420Santa"><source src="https://i.imgur.com/FHMQTBO.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@HoHoHo420Santa"><source src="https://i.imgur.com/ReaNXh8.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="@erikkain"><source src="https://i.imgur.com/rx1bM23.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@GenerativeBoops"><source src="https://i.imgur.com/xn9tZeT.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@jamesadamhunt"><source src="https://i.imgur.com/QYABNwS.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="@TheHanmore"><source src="https://i.imgur.com/SWlq4ZY.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="@Signalnoise"><source src="https://i.imgur.com/qzq5VMt.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@Signalnoise"><source src="https://i.imgur.com/fDYs7GD.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="@SopmacArt"><source src="https://i.imgur.com/Qlq5BxY.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@HairyChurro"><source src="https://i.imgur.com/67EO5Rk.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="@flori_art"><source src="https://i.imgur.com/hWEHHsR.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@flori_art"><source src="https://i.imgur.com/4VZuJlt.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="@SoaringBrain"><source src="https://i.imgur.com/mwDBoHO.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@Jaesen_Moreaux"><source src="https://i.imgur.com/PXLWKOO.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="@amli_art"><source src="https://i.imgur.com/dXkVO2P.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@amli_art"><source src="https://i.imgur.com/4jHqQIb.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@amli_art"><source src="https://i.imgur.com/Jga4nUl.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@amli_art"><source src="https://i.imgur.com/Thby48c.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@amli_art"><source src="https://i.imgur.com/Av2jfI3.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="@amli_art"><source src="https://i.imgur.com/d63ravC.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@amli_art"><source src="https://i.imgur.com/2qDRoTZ.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@amli_art"><source src="https://i.imgur.com/zVMy0Ac.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="@Elliryk_Krypto"><source src="https://i.imgur.com/HjrRRLL.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@Elliryk_Krypto"><source src="https://i.imgur.com/Kn5lC79.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="@CurArchTrack"><source src="https://i.imgur.com/yAhoMhI.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="@SterlingEly"><source src="https://i.imgur.com/WM13aSY.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@SterlingEly"><source src="https://i.imgur.com/fAk3T5p.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@SterlingEly"><source src="https://i.imgur.com/hL8Ap2p.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="@AI_Cursed"><source src="https://i.imgur.com/se4GCpY.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@BadBeanLLC"><source src="https://i.imgur.com/ipP7aBF.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="@_Aerox_x"><source src="https://i.imgur.com/rpAOP5q.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@xxLONGOLONGOxx"><source src="https://i.imgur.com/P5sSC1H.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="@Astronaughto"><source src="https://i.imgur.com/qjAoxoB.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@Astronaughto"><source src="https://i.imgur.com/q8XdbhF.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@Astronaughto"><source src="https://i.imgur.com/KU1v1UF.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="@booyah"><source src="https://i.imgur.com/czvJP7n.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@booyah"><source src="https://i.imgur.com/9HAV1JP.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@SopmacArt"><source src="https://i.imgur.com/DjLVNoh.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="@ractor_studios"><source src="https://i.imgur.com/3WlBrjl.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@aibenxyz"><source src="https://i.imgur.com/Uukt6O8.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="@_Aerox_x"><source src="https://i.imgur.com/enpbaRs.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@_Aerox_x"><source src="https://i.imgur.com/xp11E5z.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="@SopmacArt"><source src="https://i.imgur.com/Kh1Vu1h.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@SopmacArt"><source src="https://i.imgur.com/W5BbY9o.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="@Lucidjordan79"><source src="https://i.imgur.com/28Id0ca.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@Lucidjordan79"><source src="https://i.imgur.com/fKuzuPA.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@Lucidjordan79"><source src="https://i.imgur.com/cdAWcxp.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@Lucidjordan79"><source src="https://i.imgur.com/3EKyJGt.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="@AI_Cursed"><source src="https://i.imgur.com/QB9pteE.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="@SterlingEly"><source src="https://i.imgur.com/n2Hyan6.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@Bodhicypha"><source src="https://i.imgur.com/bstfRp8.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@Bodhicypha"><source src="https://i.imgur.com/ByETWQP.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="@NickWakeUpS"><source src="https://i.imgur.com/rBGkaNu.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@booyah"><source src="https://i.imgur.com/1ubqMtm.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@booyah"><source src="https://i.imgur.com/5O5ncDG.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@Lucidjordan79"><source src="https://i.imgur.com/k4SejCc.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@image_in_1"><source src="https://i.imgur.com/TuFNR8d.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="@timetravelr2025"><source src="https://i.imgur.com/Z1gX2d2.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@SopmacArt"><source src="https://i.imgur.com/NJoJWIJ.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="@Signalnoise"><source src="https://i.imgur.com/M4GHB75.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="@lenymo"><source src="https://i.imgur.com/w1Jni2v.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@SopmacArt"><source src="https://i.imgur.com/H45cGZX.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@SopmacArt"><source src="https://i.imgur.com/C67XTxW.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="@SopmacArt"><source src="https://i.imgur.com/Vg88uIZ.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@SopmacArt"><source src="https://i.imgur.com/bnw1Oqy.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@SopmacArt"><source src="https://i.imgur.com/CxFxYOC.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@SopmacArt"><source src="https://i.imgur.com/awrluhb.mp4" type="video/mp4"></video><br>
-
-		<video onclick="playpause(this)" loop muted playsinline title="/r/cinemagraphs"><source src="https://i.imgur.com/8kNrgzQ.mp4" type="video/mp4"></video><br>
-		<video onclick="playpause(this)" loop muted playsinline title="@ractor_studios"><source src="https://i.imgur.com/hPrNAnE.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" loop muted playsinline title="@ractor_studios"><source src="https://i.imgur.com/05M4NH5.mp4" type="video/mp4"></video><br>
-		<video onclick="playpause(this)" loop muted playsinline title="youtube"><source src="https://i.imgur.com/Eah6mNp.mp4" type="video/mp4"></video><br>
-		<video onclick="playpause(this)" loop muted playsinline title="/r/cinemagraphs"><source src="https://i.imgur.com/XPTXdL7.mp4" type="video/mp4"></video>
-	</p>
-
-	<p align="center">
-		<a href="https://imgur.com/a/fPLXYXB">more</a>
-	</p>
-</div>
-
-<script>
-	document.getElementById("content").style.width = "85%";
-
-	function playpause(elmnt) {
-		if(elmnt.paused)
-			elmnt.play();
-		else
-			elmnt.pause();
-	}
-</script>
+<p>
+	<ul>
+		<li><a href="@pathto(art/indigenous)">indigenous artwork</a></li>
+		<li><a href="@pathto(art/my_pet_dragon)">my pet dragon</a></li>
+		<li><a href="@pathto(art/cyberpunk)">cyberpunk</a></li>
+		<li><a href="@pathto(art/need_for_neon)">need for neon</a></li>
+		<li><a href="@pathto(art/jeopardized_earth)">jeopardized earth</a></li>
+		<li><a href="@pathto(art/gradient_eruption)">gradient eruption</a></li>
+		<li><a href="@pathto(art/holographic)">holographic</a></li>
+		<li><a href="@pathto(art/iridescent)">iridescent</a></li>
+		<li><a href="@pathto(art/deadmau5)">deadmau5</a></li>
+		<li><a href="@pathto(art/retro)">retro</a></li>
+		<li><a href="@pathto(art/miscellaneous)">miscellaneous</a></li>
+		<li><a href="@pathto(art/videos)">video loops</a></li>
+	</ul>
+</p>

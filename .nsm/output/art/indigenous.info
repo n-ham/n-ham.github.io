@@ -1,9 +1,9 @@
 03:07:53 Saturday December 10 2022
-'index'
-'index'
+'art/indigenous'
+'indigenous'
 'templates/html.template'
 
-'content/index.content'
+'content/art/indigenous.content'
 'post-build.f'
 'templates/footer.template'
 'templates/head.template'

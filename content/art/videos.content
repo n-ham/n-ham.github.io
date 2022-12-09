@@ -1,0 +1,24 @@
+<h1>Video Loops</h1>
+<div align="center">
+	<p>
+		click to play
+	</p>
+	<p align="center" style="max-width:90%">
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="/r/cinemagraphs"><source src="https://i.imgur.com/8kNrgzQ.mp4" type="video/mp4"></video><br>
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@ractor_studios"><source src="https://i.imgur.com/hPrNAnE.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@ractor_studios"><source src="https://i.imgur.com/05M4NH5.mp4" type="video/mp4"></video><br>
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="youtube"><source src="https://i.imgur.com/Eah6mNp.mp4" type="video/mp4"></video><br>
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="/r/cinemagraphs"><source src="https://i.imgur.com/XPTXdL7.mp4" type="video/mp4"></video>
+	</p>
+</div>
+
+<script>
+	document.getElementById("content").style.width = "85%";
+
+	function playpause(elmnt) {
+		if(elmnt.paused)
+			elmnt.play();
+		else
+			elmnt.pause();
+	}
+</script>

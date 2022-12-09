@@ -1,0 +1,41 @@
+<h1>Cyberpunk</h1>
+<div align="center">
+	<p align="center" style="max-width:90%">
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@SopmacArt"><source src="https://i.imgur.com/Qlq5BxY.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@HairyChurro"><source src="https://i.imgur.com/67EO5Rk.mp4" type="video/mp4"></video><br>
+
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@flori_art"><source src="https://i.imgur.com/hWEHHsR.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@flori_art"><source src="https://i.imgur.com/4VZuJlt.mp4" type="video/mp4"></video><br>
+
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@_Aerox_x"><source src="https://i.imgur.com/rpAOP5q.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@xxLONGOLONGOxx"><source src="https://i.imgur.com/P5sSC1H.mp4" type="video/mp4"></video><br>
+
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@xxLONGOLONGOxx"><source src="https://i.imgur.com/ktcdxjX.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@Jaesen_Moreaux"><source src="https://i.imgur.com/yRL5kmS.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@Jaesen_Moreaux"><source src="https://i.imgur.com/F37oiL4.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@Jaesen_Moreaux"><source src="https://i.imgur.com/q78nxSY.mp4" type="video/mp4"></video><br>
+
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@HoHoHo420Santa"><source src="https://i.imgur.com/FHMQTBO.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@HoHoHo420Santa"><source src="https://i.imgur.com/ReaNXh8.mp4" type="video/mp4"></video><br>
+
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@erikkain"><source src="https://i.imgur.com/rx1bM23.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@GenerativeBoops"><source src="https://i.imgur.com/xn9tZeT.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@jamesadamhunt"><source src="https://i.imgur.com/QYABNwS.mp4" type="video/mp4"></video><br>
+
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@TheHanmore"><source src="https://i.imgur.com/SWlq4ZY.mp4" type="video/mp4"></video><br>
+
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@Signalnoise"><source src="https://i.imgur.com/qzq5VMt.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@Signalnoise"><source src="https://i.imgur.com/fDYs7GD.mp4" type="video/mp4"></video><br>
+	</p>
+</div>
+
+<script>
+	document.getElementById("content").style.width = "85%";
+
+	function playpause(elmnt) {
+		if(elmnt.paused)
+			elmnt.play();
+		else
+			elmnt.pause();
+	}
+</script>

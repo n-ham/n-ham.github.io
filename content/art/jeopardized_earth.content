@@ -1,0 +1,34 @@
+<h1>Jeopardized Earth</h1>
+<div align="center">
+	<p align="center" style="max-width:90%">
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@SterlingEly"><source src="https://i.imgur.com/WM13aSY.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@SterlingEly"><source src="https://i.imgur.com/fAk3T5p.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@SterlingEly"><source src="https://i.imgur.com/hL8Ap2p.mp4" type="video/mp4"></video><br>
+
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@AI_Cursed"><source src="https://i.imgur.com/se4GCpY.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@BadBeanLLC"><source src="https://i.imgur.com/ipP7aBF.mp4" type="video/mp4"></video><br>
+
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@SopmacArt"><source src="https://i.imgur.com/Kh1Vu1h.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@SopmacArt"><source src="https://i.imgur.com/W5BbY9o.mp4" type="video/mp4"></video><br>
+
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@Lucidjordan79"><source src="https://i.imgur.com/28Id0ca.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@Lucidjordan79"><source src="https://i.imgur.com/fKuzuPA.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@Lucidjordan79"><source src="https://i.imgur.com/cdAWcxp.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@Lucidjordan79"><source src="https://i.imgur.com/3EKyJGt.mp4" type="video/mp4"></video><br>
+
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@AI_Cursed"><source src="https://i.imgur.com/QB9pteE.mp4" type="video/mp4"></video><br>
+
+		<video onclick="playpause(this)" autoplay loop muted playsinline title="@CurArchTrack"><source src="https://i.imgur.com/yAhoMhI.mp4" type="video/mp4"></video><br>
+	</p>
+</div>
+
+<script>
+	document.getElementById("content").style.width = "85%";
+
+	function playpause(elmnt) {
+		if(elmnt.paused)
+			elmnt.play();
+		else
+			elmnt.pause();
+	}
+</script>
