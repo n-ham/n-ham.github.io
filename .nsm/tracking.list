@@ -70,6 +70,10 @@
 'retro'
 'templates/html.template'
 
+'art/spyderpunk'
+'spyderpunk'
+'templates/html.template'
+
 'art/videos'
 'videos'
 'templates/html.template'

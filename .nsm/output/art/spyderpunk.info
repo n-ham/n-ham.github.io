@@ -1,9 +1,9 @@
 00:56:11 Monday December 12 2022
-'generative_art'
-'generative_art'
+'art/spyderpunk'
+'spyderpunk'
 'templates/html.template'
 
-'content/generative_art.content'
+'content/art/spyderpunk.content'
 'post-build.f'
 'templates/footer.template'
 'templates/head.template'

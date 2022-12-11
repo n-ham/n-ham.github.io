@@ -1,0 +1,44 @@
+<h1>Spyderpunk</h1>
+<div align="center">
+	<p align="center" style="max-width:90%">
+		<video onclick="playpause(this)" autoplay controls loop muted playsinline title="brauliobaltazar"><source src="https://i.imgur.com/J73ikUz.mp4" type="video/mp4"></video>
+	</p>
+
+	<hr>
+
+	<p>
+		Spiderman and Deadpool are pretty fun characters to play with, using the following deadpool mask and gimp:<br>
+
+		<img src="https://i.imgur.com/PjNTXQf.png" style="height: 300px"><br>
+
+		was able to make the following:<br>
+
+		<img src="https://i.imgur.com/IBmEPQp.png" style="height: 300px" loading="lazy"><br>
+		<img src="https://i.imgur.com/6CTDXRt.png" style="height: 300px" loading="lazy">
+		<img src="https://i.imgur.com/6GxJkSM.png" style="height: 300px" loading="lazy"><br>
+		<img src="https://i.imgur.com/dQOl0mx.png" style="height: 300px" loading="lazy">
+		<img src="https://i.imgur.com/AHbchGl.png" style="height: 300px" loading="lazy">
+		<img src="https://i.imgur.com/gNRXwYt.png" style="height: 300px" loading="lazy"><br>
+		<img src="https://i.imgur.com/RK5ceBo.png" style="height: 300px" loading="lazy"><br>
+
+		Also had the following made by the freelancer <a href="https://www.freelancer.com/u/shalton4">Shalton</a> on freelancer.com, they're too good to not put them up publicly somewhere.<br>
+
+		<img src="https://i.imgur.com/j21VBC0.png" style="height: 300px" loading="lazy">
+		<img src="https://i.imgur.com/QEsFQnx.png" style="height: 300px" loading="lazy">
+		<img src="https://i.imgur.com/Z0jBaeP.png" style="height: 300px" loading="lazy">
+		<img src="https://i.imgur.com/TcJjFNb.png" style="height: 300px" loading="lazy">
+		<img src="https://i.imgur.com/dQMUMVN.png" style="height: 300px" loading="lazy">
+
+	</p>
+</div>
+
+<script>
+	document.getElementById("content").style.width = "85%";
+
+	function playpause(elmnt) {
+		if(elmnt.paused)
+			elmnt.play();
+		else
+			elmnt.pause();
+	}
+</script>
