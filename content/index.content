@@ -32,7 +32,7 @@
 </p>
 
 <p>
-	I enjoy playing around with <a href="https://en.wikipedia.org/wiki/Generative_art">generative art</a> (<a href="@pathto(generative_art)">examples</a>) using an existing image or video as a canvas along with <a href="https://opencv.org/">opencv</a> to access the <mono>RGB</mono> values at each pixel, coding c/c++ to generate frames using various of my own algorithmic techniques along with custom <mono>RGB@ent(<->)HSV</mono> conversion algorithms (none of <a href="https://stackoverflow.com/questions/3018313/algorithm-to-convert-rgb-to-hsv-and-hsv-to-rgb-in-range-0-255-for-both">these</a> work correctly), then combine the generated frames using <a href="https://ffmpeg.org/">ffmpeg</a>, so basically <a href="@pathtofile(output/assets/images/draw_owl.webp)">this</a>.
+	I enjoy playing around with <a href="https://en.wikipedia.org/wiki/Generative_art">generative art</a> (<a href="@pathto(generative_art)">examples</a>) using an existing image or video as a canvas along with <a href="https://opencv.org/">opencv</a> to access the <mono>RGB</mono> values at each pixel, coding c/c++ to generate frames using various of my own algorithmic techniques along with custom <mono>RGB@ent(<->)HSV</mono> conversion algorithms (none of <a href="https://stackoverflow.com/questions/3018313/algorithm-to-convert-rgb-to-hsv-and-hsv-to-rgb-in-range-0-255-for-both">these</a> work correctly), then combine the generated frames using <a href="https://ffmpeg.org/">ffmpeg</a>, so basically like <a href="@pathtofile(output/assets/images/draw_owl.webp)">this</a> with a sprinkle of <a href="@pathtofile(output/assets/images/magic.webp)">this</a>.
 </p>
 
 <p>
