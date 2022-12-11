@@ -1,9 +1,9 @@
 13:31:45 Sunday December 11 2022
-'generative_art'
-'generative_art'
+'art/posters/mature'
+'mature'
 'templates/html.template'
 
-'content/generative_art.content'
+'content/art/posters/mature.content'
 'post-build.f'
 'templates/footer.template'
 'templates/head.template'

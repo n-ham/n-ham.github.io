@@ -1,0 +1,16 @@
+<h1>Movie Posters</h1>
+
+<p>
+	Digitally animated posters can come out pretty neat, below are just a few examples.. 
+</p>
+
+<p>
+	<ul>
+		<li><a href="@pathto(art/posters/scare_package)">scare package I & II</a></li>
+		<li><a href="@pathto(art/posters/neon_demon)">neon demon</a></li>
+		<li><a href="@pathto(art/posters/blue_beetle)"><s>blue</s> christmas beetle</a></li>
+		<li><a href="@pathto(art/posters/elemental)">elemental</a></li>
+		<li><a href="@pathto(art/posters/mature)">mature</a></li>
+		<li><a href="@pathto(art/posters/miscellaneous)">miscellaneous</a></li>
+	</ul>
+</p>

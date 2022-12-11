@@ -1,9 +1,9 @@
 13:31:45 Sunday December 11 2022
-'generative_art'
-'generative_art'
+'art/posters/scare_package'
+'scare_package'
 'templates/html.template'
 
-'content/generative_art.content'
+'content/art/posters/scare_package.content'
 'post-build.f'
 'templates/footer.template'
 'templates/head.template'

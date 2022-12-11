@@ -1,0 +1,22 @@
+<h1>Scare Package</h1>
+<div align="center">
+	<p align="center" style="max-width:90%">
+		<video onclick="playpause(this)" autoplay controls loop muted playsinline title=""><source src="https://i.imgur.com/3e8G2x2.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay controls loop muted playsinline title=""><source src="https://i.imgur.com/JSMpbxp.mp4" type="video/mp4"></video><br>
+
+		<video onclick="playpause(this)" autoplay controls loop muted playsinline title=""><source src="https://i.imgur.com/LM5t0HF.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay controls loop muted playsinline title=""><source src="https://i.imgur.com/ts9AmrP.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay controls loop muted playsinline title=""><source src="https://i.imgur.com/Vza7kt6.mp4" type="video/mp4"></video>
+	</p>
+</div>
+
+<script>
+	document.getElementById("content").style.width = "85%";
+
+	function playpause(elmnt) {
+		if(elmnt.paused)
+			elmnt.play();
+		else
+			elmnt.pause();
+	}
+</script>

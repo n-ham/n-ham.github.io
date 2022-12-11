@@ -1,0 +1,25 @@
+<h1>Miscellaneous</h1>
+<div align="center">
+	<p align="center" style="max-width:90%">
+		<video onclick="playpause(this)" autoplay controls loop muted playsinline><source src="https://i.imgur.com/6gaW6Fa.mp4" type="video/mp4"></video><br>
+		<video onclick="playpause(this)" autoplay controls loop muted playsinline><source src="https://i.imgur.com/H9iiZX6.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay controls loop muted playsinline><source src="https://i.imgur.com/wmajo7T.mp4" type="video/mp4"></video><br>
+		<video onclick="playpause(this)" autoplay controls loop muted playsinline><source src="https://i.imgur.com/Hg6xR1N.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay controls loop muted playsinline><source src="https://i.imgur.com/RqfrSMT.mp4" type="video/mp4"></video><br>
+		<video onclick="playpause(this)" autoplay controls loop muted playsinline><source src="https://i.imgur.com/pYckOHH.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay controls loop muted playsinline><source src="https://i.imgur.com/H5EyAPI.mp4" type="video/mp4"></video><br>
+		<video onclick="playpause(this)" autoplay controls loop muted playsinline><source src="https://i.imgur.com/ge8NzWH.mp4" type="video/mp4"></video><br>
+		<video onclick="playpause(this)" autoplay controls loop muted playsinline><source src="https://i.imgur.com/df2ZbXi.mp4" type="video/mp4"></video>
+	</p>
+</div>
+
+<script>
+	document.getElementById("content").style.width = "85%";
+
+	function playpause(elmnt) {
+		if(elmnt.paused)
+			elmnt.play();
+		else
+			elmnt.pause();
+	}
+</script>
