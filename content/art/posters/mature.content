@@ -1,18 +1,18 @@
 <h1>Mature</h1>
 <div align="center">
 	<p align="center" style="max-width:90%">
-		<video onclick="playpause(this)" autplay controls loop muted playsinline><source src="https://i.imgur.com/AJlDw6S.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" autplay controls loop muted playsinline><source src="https://i.imgur.com/OB6dauG.mp4" type="video/mp4"></video><br>
-		<video onclick="playpause(this)" autplay controls loop muted playsinline><source src="https://i.imgur.com/FNhVWHO.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" autplay controls loop muted playsinline><source src="https://i.imgur.com/SI125mE.mp4" type="video/mp4"></video><br>
-		<video onclick="playpause(this)" autplay controls loop muted playsinline><source src="https://i.imgur.com/9cBbgNV.mp4" type="video/mp4"></video><br>
-		<video onclick="playpause(this)" autplay controls loop muted playsinline><source src="https://i.imgur.com/wss1A5v.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" autplay controls loop muted playsinline><source src="https://i.imgur.com/9mwhwmS.mp4" type="video/mp4"></video><br>
-		<video onclick="playpause(this)" autplay controls loop muted playsinline><source src="https://i.imgur.com/bpt46Wp.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" autplay controls loop muted playsinline><source src="https://i.imgur.com/koatzMm.mp4" type="video/mp4"></video><br>
-		<video onclick="playpause(this)" autplay controls loop muted playsinline><source src="https://i.imgur.com/clkRFil.mp4" type="video/mp4"></video>
-		<video onclick="playpause(this)" autplay controls loop muted playsinline><source src="https://i.imgur.com/36Hy4y5.mp4" type="video/mp4"></video><br>
-		<video onclick="playpause(this)" autplay controls loop muted playsinline><source src="https://i.imgur.com/Q21UQsU.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay controls loop muted playsinline><source src="https://i.imgur.com/AJlDw6S.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay controls loop muted playsinline><source src="https://i.imgur.com/OB6dauG.mp4" type="video/mp4"></video><br>
+		<video onclick="playpause(this)" autoplay controls loop muted playsinline><source src="https://i.imgur.com/FNhVWHO.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay controls loop muted playsinline><source src="https://i.imgur.com/SI125mE.mp4" type="video/mp4"></video><br>
+		<video onclick="playpause(this)" autoplay controls loop muted playsinline><source src="https://i.imgur.com/9cBbgNV.mp4" type="video/mp4"></video><br>
+		<video onclick="playpause(this)" autoplay controls loop muted playsinline><source src="https://i.imgur.com/wss1A5v.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay controls loop muted playsinline><source src="https://i.imgur.com/9mwhwmS.mp4" type="video/mp4"></video><br>
+		<video onclick="playpause(this)" autoplay controls loop muted playsinline><source src="https://i.imgur.com/bpt46Wp.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay controls loop muted playsinline><source src="https://i.imgur.com/koatzMm.mp4" type="video/mp4"></video><br>
+		<video onclick="playpause(this)" autoplay controls loop muted playsinline><source src="https://i.imgur.com/clkRFil.mp4" type="video/mp4"></video>
+		<video onclick="playpause(this)" autoplay controls loop muted playsinline><source src="https://i.imgur.com/36Hy4y5.mp4" type="video/mp4"></video><br>
+		<video onclick="playpause(this)" autoplay controls loop muted playsinline><source src="https://i.imgur.com/Q21UQsU.mp4" type="video/mp4"></video>
 	</p>
 </div>
 
