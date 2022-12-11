@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>n-ham</title>
+		
+		<meta charset="utf-8">
+		<meta name="viewport"    content="width=device-width, initial-scale=1">
+		<meta name="description" content="personal site of nicholas ham">
+		
+		<link rel="stylesheet" href="../../assets/css/style.css">
+		<link rel="icon" type="image/png" href="../../assets/images/favicon.png" media="print" onload="this.media='all'">
+	</head>
+
+	<body>
+		<div align="center"  id="body">
+			<div class="menu-bars">
+			  <i id="open-menu-icon" class="fa fa-bars-png fa-rnbw" onclick="show_menu()"></i>
+			</div>
+			
+			<div id="menu-page">
+			  <div class="menu-cross" >
+			    <i id="close-menu-icon" class="fa fa-xmark-png fa-rnbw" onclick="close_menu()"></i>
+			  </div>
+			  
+			  <nav id="nav" class="noselect">
+			    <ul>
+			      <li class="item li-menu li-dark">
+			        <a class="item-link" href="../../index.html">home</a>
+			      </li>
+			      <li class="item li-menu li-dark has-submenu">
+			        <a tabindex="0" href="#" class="submenu-link" onclick="toggle_submenu(0)">work<i class="submenu-link-icon fa fa-angle-down-png fa-1x"></i></a>
+			        <ul class="submenu" align="center">
+			          <li class="subitem"><a href="../../programming.html">programming</a></li>
+			          <li class="subitem"><a href="../../research.html">research</a></li>
+			          <li class="subitem"><a href="../../education.html">education</a></li>
+			          <li class="subitem"><a href="../../teaching.html">teaching</a></li>
+			          <li class="subitem"><a href="../../genealogy.html">genealogy</a></li>
+			          <li class="subitem"><a href="../../links.html">links</a></li>
+			        </ul>
+			      </li>
+			      <li class="item li-menu li-dark has-submenu">
+			        <a tabindex="0" href="#" class="submenu-link" onclick="toggle_submenu(1)">play<i class="submenu-link-icon fa fa-angle-down-png fa-1x"></i></a>
+			        <ul class="submenu">
+			          <li class="subitem"><a href="../../generative_art.html">art</a></li>
+			          <li class="subitem"><a href="../../nature.html">nature</a></li>
+			          <li class="subitem"><a href="../../skateboarding.html">skateboarding</a></li>
+			        </ul>
+			      </li>
+			      <li class="item li-menu li-dark">
+			        <a class="item-link" href="../../save_utas.html">save utas</a>
+			      </li>
+			    </ul>
+			  </nav>
+			</div>
+
+			<div id="content">
+				<h1>Christmas Beetle</h1>
+				<div align="center">
+					<p align="center" style="max-width:90%">
+						<video onclick="playpause(this)" autoplay controls loop muted playsinline><source src="https://i.imgur.com/rbGUSvd.mp4" type="video/mp4"></video>
+						<video onclick="playpause(this)" autoplay controls loop muted playsinline><source src="https://i.imgur.com/iMA8dqm.mp4" type="video/mp4"></video><br>
+						<video onclick="playpause(this)" autoplay controls loop muted playsinline><source src="https://i.imgur.com/8LnGoJR.mp4" type="video/mp4"></video>
+						<video onclick="playpause(this)" autoplay controls loop muted playsinline><source src="https://i.imgur.com/2PWyQNc.mp4" type="video/mp4"></video>
+					</p>
+				</div>
+				
+				<script>
+					document.getElementById("content").style.width = "85%";
+				
+					function playpause(elmnt) {
+						if(elmnt.paused)
+							elmnt.play();
+						else
+							elmnt.pause();
+					}
+				</script>
+
+				<!-- Footer -->
+				<div id="footer" align="center">
+					<br><hr><br>
+				
+					<div class="noselect">
+						<a href="https://github.com/n-ham" title="GitHub"><i class="fa fa-github-png fa-rnbw"></i></a> 
+						<a href="mailto:contact@n-ham.com" title="Email"><i class="fa fa-envelope-png fa-rnbw"></i></a> 
+						<a href="https://orcid.org/0000-0002-4984-1711" title="ORCID"><i class="fa fa-orcid-png fa-rnbw"></i></a>
+						<a href="https://scholar.google.com/citations?user=vV-pxo4AAAAJ&hl=en" title="Google Scholar"><i class="fa fa-google-png fa-rnbw"></i></a>
+						<a href="https://arxiv.org/a/ham_n_2.html" title="arXiv"><i class="fa fa-box-archive-png fa-rnbw"></i></a>
+					</div>
+				
+					<p>
+						<b>Mirrors:</b> [<a href="https://n-ham.com/">Official</a>] [<a href="https://n-ham.bitbucket.io/">BitBucket</a>] [<a href="https://n-ham.github.io/">GitHub</a>] [<a href="https://n-ham.gitlab.io/">GitLab</a>]
+					</p>
+				
+					<p>
+						<b>Source:</b> [<a href="https://github.com/n-ham/n-ham.github.io/">GitHub</a>]
+					</p>
+				
+					<p>
+						Page was last built using <a href="https://nift.dev">Nift</a> on Sunday December 11 2022 at 13:31:45 (AEDT).
+					</p>
+				
+					<picture alt="tassie devil">
+						<source
+							media="(max-width: 750px)"
+							srcset="../../assets/images/w=500px/devil-toon.webp"
+						>
+						<source 
+							srcset="../../assets/images/devil-toon.webp"
+						>
+						<img 
+							src="../../assets/images/devil-toon.webp" 
+							alt="tassie devil" 
+							loading = "lazy"
+							height = 200
+							width  = 300
+						>
+					</picture>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="../../assets/js/bundle.js"></script>
+	</body>
+</html>
