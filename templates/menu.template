@@ -29,6 +29,7 @@
           <li class="subitem"><a href="@pathto(generative_art)">art</a></li>
           <li class="subitem"><a href="@pathto(nature)">nature</a></li>
           <li class="subitem"><a href="@pathto(skateboarding)">skateboarding</a></li>
+          <li class="subitem"><a href="@pathto(yarrr)">yarrr</a></li>
         </ul>
       </li>
       <li class="item li-menu li-dark">
