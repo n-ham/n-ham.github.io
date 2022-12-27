@@ -1,0 +1,33 @@
+<h1>Wuack wuack</h1>
+<div align="center">
+	<p align="center" style="max-width:90%">
+		<img class="inline-img" src="@pathtofile(output/assets/images/wuack/ukt.gif)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/wuack/411.jpg)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/wuack/halt3r.bmp)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/wuack/mines-owned.jpg)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/wuack/owned.JPG)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/wuack/TheKlownnnn.JPG)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/wuack/7.JPG)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/wuack/feedthenetwallpaper018ls.jpg)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/wuack/69_1.JPG)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/wuack/Desktop_Background.bmp)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/wuack/difshade.JPG)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/wuack/ukt.gif)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/wuack/duckers.io.gif)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/wuack/duckling.gif)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/wuack/lost_grope.JPG)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/wuack/EFT-Stress-Bunny.gif)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/wuack/eT.JPG)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/wuack/feedthenetwallpaper018ls.jpg)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/wuack/fontsize.JPG)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/wuack/halt3r.bmp)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/wuack/jump.jpg)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/wuack/piac2.gif)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/wuack/pisshead4.jpg)">
+		<img class="inline-img" src="@pathtofile(output/assets/images/wuack/quick_go.jpg)">
+	</p>
+</div>
+
+<script>
+	document.getElementById("content").style.width = "85%";
+</script>
