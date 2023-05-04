@@ -15,7 +15,6 @@
       <li class="item li-menu li-dark has-submenu">
         <a tabindex="0" href="#" class="submenu-link" onclick="toggle_submenu(0)">work<i class="submenu-link-icon fa fa-angle-down-png fa-1x"></i></a>
         <ul class="submenu" align="center">
-          <li class="subitem"><a href="@pathto(aichallenges)">aichallenges</a></li>
           <li class="subitem"><a href="@pathto(programming)">programming</a></li>
           <li class="subitem"><a href="@pathto(research)">research</a></li>
           <li class="subitem"><a href="@pathto(education)">education</a></li>
