@@ -1,0 +1,14 @@
+{
+	"last-built": "09:53:04 Wednesday July 26 2023",
+	"name": "assets/css/style",
+	"title": "style",
+	"template": "templates/css.template",
+	"dependencies": [
+		"content/assets/css/font-awesome.css",
+		"content/assets/css/menu.css",
+		"content/assets/css/pagestyle.css",
+		"content/assets/css/style.content",
+		"post-build.f",
+		"templates/css.template"
+	]
+}

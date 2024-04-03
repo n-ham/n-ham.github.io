@@ -1,0 +1,15 @@
+{
+	"last-built": "07:45:41 Friday May 05 2023",
+	"name": "save_utas",
+	"title": "save_utas",
+	"template": "templates/html.template",
+	"dependencies": [
+		"content/save_utas.content",
+		"post-build.f",
+		"templates/footer.template",
+		"templates/head.template",
+		"templates/html.template",
+		"templates/icons.template",
+		"templates/menu.template"
+	]
+}

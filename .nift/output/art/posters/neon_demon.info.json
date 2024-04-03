@@ -1,0 +1,15 @@
+{
+	"last-built": "07:45:41 Friday May 05 2023",
+	"name": "art/posters/neon_demon",
+	"title": "neon_demon",
+	"template": "templates/html.template",
+	"dependencies": [
+		"content/art/posters/neon_demon.content",
+		"post-build.f",
+		"templates/footer.template",
+		"templates/head.template",
+		"templates/html.template",
+		"templates/icons.template",
+		"templates/menu.template"
+	]
+}

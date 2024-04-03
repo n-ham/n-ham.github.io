@@ -1,0 +1,15 @@
+{
+	"last-built": "01:12:46 Thursday April 04 2024",
+	"name": "links",
+	"title": "links",
+	"template": "templates/html.template",
+	"dependencies": [
+		"content/links.content",
+		"post-build.f",
+		"templates/footer.template",
+		"templates/head.template",
+		"templates/html.template",
+		"templates/icons.template",
+		"templates/menu.template"
+	]
+}

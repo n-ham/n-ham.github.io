@@ -1,0 +1,15 @@
+{
+	"last-built": "07:45:41 Friday May 05 2023",
+	"name": "art/jeopardized_earth",
+	"title": "jeopardized_earth",
+	"template": "templates/html.template",
+	"dependencies": [
+		"content/art/jeopardized_earth.content",
+		"post-build.f",
+		"templates/footer.template",
+		"templates/head.template",
+		"templates/html.template",
+		"templates/icons.template",
+		"templates/menu.template"
+	]
+}

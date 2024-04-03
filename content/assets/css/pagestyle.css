@@ -1,5 +1,12 @@
 @font-face 
 {
+	font-family: "figtree";
+	src: url("@pathtofile(output/assets/fonts/Figtree.ttf)") format("truetype");
+	font-display: fallback;
+}
+
+@font-face 
+{
 	font-family: "oxygen";
 	src: url("@pathtofile(output/assets/fonts/OxygenMono-Regular.otf)") format("truetype");
 	font-display: fallback;

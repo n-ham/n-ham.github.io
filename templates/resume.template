@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		@input("templates/head.template")
+	</head>
+
+	<style>
+		body {
+			background: white;
+			color: black;
+			font-family: figtree;
+		}
+
+		a {
+			color: blue;
+		}
+		a:hover {
+			color: purple;
+		}
+
+		h1 {
+			font-family: figtree;
+			color: black;
+		}
+	</style>
+
+	<body>
+		<div align="center"  id="body">
+			<div id="content">
+				@content
+			</div>
+		</div>
+
+		<script type="text/javascript" src="@pathtofile(output/assets/js/bundle.js)"></script>
+	</body>
+</html>

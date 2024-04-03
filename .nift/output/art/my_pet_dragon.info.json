@@ -1,0 +1,15 @@
+{
+	"last-built": "07:45:41 Friday May 05 2023",
+	"name": "art/my_pet_dragon",
+	"title": "my_pet_dragon",
+	"template": "templates/html.template",
+	"dependencies": [
+		"content/art/my_pet_dragon.content",
+		"post-build.f",
+		"templates/footer.template",
+		"templates/head.template",
+		"templates/html.template",
+		"templates/icons.template",
+		"templates/menu.template"
+	]
+}

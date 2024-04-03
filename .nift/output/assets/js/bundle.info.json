@@ -1,0 +1,13 @@
+{
+	"last-built": "00:41:38 Thursday November 17 2022",
+	"name": "assets/js/bundle",
+	"title": "bundle",
+	"template": "templates/js.template",
+	"dependencies": [
+		"content/assets/js/bundle.content",
+		"content/assets/js/cycle-hue.js",
+		"content/assets/js/menu.js",
+		"post-build.f",
+		"templates/js.template"
+	]
+}

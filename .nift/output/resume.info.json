@@ -1,0 +1,12 @@
+{
+	"last-built": "11:55:49 Thursday July 27 2023",
+	"name": "resume",
+	"title": "resume",
+	"template": "templates/resume.template",
+	"dependencies": [
+		"content/resume.content",
+		"post-build.f",
+		"templates/head.template",
+		"templates/resume.template"
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"last-built": "07:45:41 Friday May 05 2023",
+	"name": "art/posters/blue_beetle",
+	"title": "blue_beetle",
+	"template": "templates/html.template",
+	"dependencies": [
+		"content/art/posters/blue_beetle.content",
+		"post-build.f",
+		"templates/footer.template",
+		"templates/head.template",
+		"templates/html.template",
+		"templates/icons.template",
+		"templates/menu.template"
+	]
+}

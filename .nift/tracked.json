@@ -1,0 +1,191 @@
+{
+	"tracked": [
+		{
+			"name": "art/cyberpunk",
+			"title": "cyberpunk",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "art/deadmau5",
+			"title": "deadmau5",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "art/gradient_eruption",
+			"title": "gradient_eruption",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "art/holographic",
+			"title": "holographic",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "art/indigenous",
+			"title": "indigenous",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "art/iridescent",
+			"title": "iridescent",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "art/jeopardized_earth",
+			"title": "jeopardized_earth",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "art/miscellaneous",
+			"title": "miscellaneous",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "art/my_pet_dragon",
+			"title": "my_pet_dragon",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "art/need_for_neon",
+			"title": "need_for_neon",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "art/posters",
+			"title": "posters",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "art/posters/blue_beetle",
+			"title": "blue_beetle",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "art/posters/elemental",
+			"title": "elemental",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "art/posters/mature",
+			"title": "mature",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "art/posters/miscellaneous",
+			"title": "miscellaneous",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "art/posters/neon_demon",
+			"title": "neon_demon",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "art/posters/scare_package",
+			"title": "scare_package",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "art/retro",
+			"title": "retro",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "art/spyderpunk",
+			"title": "spyderpunk",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "art/videos",
+			"title": "videos",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "assets/css/style",
+			"title": "style",
+			"template": "templates/css.template",
+			"output-ext": ".css"
+		},
+		{
+			"name": "assets/js/bundle",
+			"title": "bundle",
+			"template": "templates/js.template",
+			"output-ext": ".js"
+		},
+		{
+			"name": "education",
+			"title": "education",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "genealogy",
+			"title": "genealogy",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "generative_art",
+			"title": "generative_art",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "index",
+			"title": "index",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "kea140",
+			"title": "kea140",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "kma315",
+			"title": "kma315",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "links",
+			"title": "links",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "nature",
+			"title": "nature",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "programming",
+			"title": "programming",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "research",
+			"title": "research",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "resume",
+			"title": "resume",
+			"template": "templates/resume.template"
+		},
+		{
+			"name": "save_utas",
+			"title": "save_utas",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "skateboarding",
+			"title": "skateboarding",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "teaching",
+			"title": "teaching",
+			"template": "templates/html.template"
+		},
+		{
+			"name": "wreckreational",
+			"title": "wreckreational",
+			"template": "templates/html.template"
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"last-built": "07:45:41 Friday May 05 2023",
+	"name": "art/posters/scare_package",
+	"title": "scare_package",
+	"template": "templates/html.template",
+	"dependencies": [
+		"content/art/posters/scare_package.content",
+		"post-build.f",
+		"templates/footer.template",
+		"templates/head.template",
+		"templates/html.template",
+		"templates/icons.template",
+		"templates/menu.template"
+	]
+}
