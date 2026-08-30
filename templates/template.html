@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+@input('templates/head.html')
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="brand" href="@pathto('/')" aria-label="Nicholas Ham, home">
+    <span class="brand-mark" aria-hidden="true">NH</span>
+    <span class="brand-text">Nicholas Ham<small>developer · mathematician · builder</small></span>
+  </a>
+  <nav class="desktop-nav" aria-label="Main navigation">
+    <a href="@pathto('projects')">Projects</a>
+    <a href="@pathto('experience')">Experience</a>
+    <a href="@pathto('research')">Research</a>
+    <a href="@pathto('off-screen')">Off Screen</a>
+  </nav>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+<div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+  <nav aria-label="Mobile navigation">
+    <a href="@pathto('/')"><span>00</span>Home</a>
+    <a href="@pathto('projects')"><span>01</span>Projects</a>
+    <a href="@pathto('experience')"><span>02</span>Experience</a>
+    <a href="@pathto('research')"><span>03</span>Research</a>
+    <a href="@pathto('off-screen')"><span>04</span>Off Screen</a>
+  </nav>
+  <p>Hobart, Tasmania · working in C++, Go and the web</p>
+</div>
+<main id="main">
+@content
+</main>
+<footer class="site-footer">
+  <p><span class="prompt">nh@web:~$</span> still building useful things.</p>
+  <div><a href="https://github.com/n-ham">GitHub</a><a href="mailto:contact@n-ham.com">Email</a></div>
+</footer>
+</body>
+</html>
+

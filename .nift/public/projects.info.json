@@ -1,0 +1,18 @@
+{
+  "name": "projects",
+  "title": "Projects - Nicholas Ham",
+  "template": "",
+  "content": "content/projects.html",
+  "output": "public/projects.html",
+  "minify": false,
+  "minify-version": 0,
+  "pagination": false,
+  "pagination-items-per-page": 0,
+  "pagination-template": "",
+  "pagination-separator": "",
+  "pagination-pages": 0,
+  "dependencies": [
+    "content/projects.html"
+  ],
+  "reqs": []
+}

@@ -1,0 +1,26 @@
+{
+  "name": "off-screen",
+  "title": "Off Screen - Nicholas Ham",
+  "template": "",
+  "content": "content/off-screen.html",
+  "output": "public/off-screen.html",
+  "minify": false,
+  "minify-version": 0,
+  "pagination": false,
+  "pagination-items-per-page": 0,
+  "pagination-template": "",
+  "pagination-separator": "",
+  "pagination-pages": 0,
+  "dependencies": [
+    "content/off-screen.html"
+  ],
+  "reqs": [
+    "public/assets/images/hobbies/bowl.jpg",
+    "public/assets/images/hobbies/nature1.jpg",
+    "public/assets/images/hobbies/nature4.jpg",
+    "public/assets/images/hobbies/nature7.jpg",
+    "public/assets/images/hobbies/skate1.jpg",
+    "public/assets/images/hobbies/skate10.jpg",
+    "public/assets/images/magic.webp"
+  ]
+}
