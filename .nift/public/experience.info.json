@@ -1,7 +1,7 @@
 {
   "name": "experience",
   "title": "Experience - Nicholas Ham",
-  "template": "",
+  "template": "templates/template.html",
   "content": "content/experience.html",
   "output": "public/experience.html",
   "minify": false,
@@ -12,7 +12,18 @@
   "pagination-separator": "",
   "pagination-pages": 0,
   "dependencies": [
-    "content/experience.html"
+    "content/experience.html",
+    "templates/head.html",
+    "templates/template.html"
   ],
-  "reqs": []
+  "reqs": [
+    "public/assets/css/style.css",
+    "public/assets/images/favicon.png",
+    "public/assets/js/script.js",
+    "public/experience.html",
+    "public/index.html",
+    "public/off-screen.html",
+    "public/projects.html",
+    "public/research.html"
+  ]
 }

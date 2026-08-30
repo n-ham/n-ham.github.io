@@ -1,12 +1,11 @@
 {
   "tracked": [
     {"name": "/", "title": "Nicholas Ham - Software, mathematics and open source", "template": "templates/template.html"},
-    {"name": "projects", "title": "Projects - Nicholas Ham"},
-    {"name": "experience", "title": "Experience - Nicholas Ham"},
-    {"name": "research", "title": "Research - Nicholas Ham"},
-    {"name": "off-screen", "title": "Off Screen - Nicholas Ham"},
+    {"name": "projects", "title": "Projects - Nicholas Ham", "template": "templates/template.html"},
+    {"name": "experience", "title": "Experience - Nicholas Ham", "template": "templates/template.html"},
+    {"name": "research", "title": "Research - Nicholas Ham", "template": "templates/template.html"},
+    {"name": "off-screen", "title": "Off Screen - Nicholas Ham", "template": "templates/template.html"},
     {"name": "assets/css/style", "title": "style", "content-ext": ".css", "output-ext": ".css"},
     {"name": "assets/js/script", "title": "script", "content-ext": ".js", "output-ext": ".js"}
   ]
 }
-

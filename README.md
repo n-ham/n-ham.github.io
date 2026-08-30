@@ -15,21 +15,13 @@ The generated website lives in `public/`.
 
 ## Project structure
 
-- `content/` contains page, CSS, JavaScript, font and image sources.
+- `content/` contains page, CSS and JavaScript sources.
 - `templates/` contains the shared document shell.
 - `.nift/` contains the tracked-page configuration and build state.
 - `public/` is the generated/deployment repository.
 
-Nift builds all tracked HTML, CSS and JavaScript. The binary fonts and images
-are retained under `content/assets/` as their source collection and mirrored
-to `public/assets/` for deployment. When those binary assets change, mirror
-them before building:
-
-```sh
-cp -a content/assets/images/. public/assets/images/
-cp -a content/assets/fonts/. public/assets/fonts/
-nift build
-```
+Nift builds all tracked HTML, CSS and JavaScript. Binary fonts and images live
+directly in `public/assets/`. They are not tracked as Nift pages, but templates
+and content reference them with `@pathto(...)` so relationships are checked.
 
 See `HANDOVER.md` for the project's Nift working conventions.
-

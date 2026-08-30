@@ -1,7 +1,7 @@
 {
   "name": "off-screen",
   "title": "Off Screen - Nicholas Ham",
-  "template": "",
+  "template": "templates/template.html",
   "content": "content/off-screen.html",
   "output": "public/off-screen.html",
   "minify": false,
@@ -12,15 +12,26 @@
   "pagination-separator": "",
   "pagination-pages": 0,
   "dependencies": [
-    "content/off-screen.html"
+    "content/off-screen.html",
+    "templates/head.html",
+    "templates/template.html"
   ],
   "reqs": [
-    "public/assets/images/hobbies/bowl.jpg",
+    "public/assets/css/style.css",
+    "public/assets/images/favicon.png",
     "public/assets/images/hobbies/nature1.jpg",
+    "public/assets/images/hobbies/nature10.JPG",
+    "public/assets/images/hobbies/nature2.jpg",
     "public/assets/images/hobbies/nature4.jpg",
-    "public/assets/images/hobbies/nature7.jpg",
-    "public/assets/images/hobbies/skate1.jpg",
-    "public/assets/images/hobbies/skate10.jpg",
-    "public/assets/images/magic.webp"
+    "public/assets/images/hobbies/skate12.jpg",
+    "public/assets/images/hobbies/skate14.jpg",
+    "public/assets/images/hobbies/skate3.jpg",
+    "public/assets/images/hobbies/skate4.jpg",
+    "public/assets/js/script.js",
+    "public/experience.html",
+    "public/index.html",
+    "public/off-screen.html",
+    "public/projects.html",
+    "public/research.html"
   ]
 }
