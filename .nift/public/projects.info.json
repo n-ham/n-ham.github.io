@@ -19,6 +19,7 @@
   "reqs": [
     "public/assets/css/style.css",
     "public/assets/images/favicon.png",
+    "public/assets/images/lolcat-cc.webp",
     "public/assets/js/script.js",
     "public/experience.html",
     "public/index.html",

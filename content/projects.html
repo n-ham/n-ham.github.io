@@ -1,36 +1,71 @@
 <section class="page-intro shell">
   <p class="kicker">Projects</p>
   <h1>Things I’ve built and worked on.</h1>
-  <p>Most of my projects begin with something I want to use myself. Some grow into serious tools; others remain useful experiments. These are the ones that best represent what I’ve been doing.</p>
+  <p>A collection of open-source tools, self-hosted applications and experiments. Each started with a problem I wanted to understand or software I wanted to use.</p>
 </section>
-<section class="project-archive shell">
-  <article>
-    <div class="project-meta"><span>2015–present</span><span>C++</span></div>
-    <div><h2>Nift</h2><p>A fast, dependency-aware build layer for websites. Nift keeps ordinary HTML, CSS and JavaScript at the centre and handles the repetitive build-time relationships around them.</p><p class="project-links"><a href="https://nift.dev">Website ↗</a><a href="https://github.com/nifty-site-manager/nift">Source ↗</a></p></div>
+<section class="showcase shell">
+  <article class="showcase-item">
+    <div class="showcase-visual visual-nift"><strong>NIFT</strong><span>Keep your HTML. Keep your tools.</span></div>
+    <div class="showcase-copy"><p class="project-kind">Website build layer · C++</p><h2>Nift</h2><p>A fast, dependency-aware build layer for websites. Nift keeps ordinary HTML, CSS and JavaScript at the centre and handles templates, checked paths and incremental rebuilding around them.</p><p class="project-links"><a href="https://nift.dev">Website ↗</a><a href="https://github.com/nifty-site-manager/nift">Source ↗</a></p></div>
   </article>
-  <article>
-    <div class="project-meta"><span>Self-hosted</span><span>Go</span></div>
-    <div><h2>Trestle</h2><p>A backend platform for typed collections, authentication, files, realtime events and automation. It grew from wanting a straightforward backend that could be understood and run without handing everything to a hosted service.</p><p class="project-links"><a href="https://trestle-dev.github.io">Website ↗</a><a href="https://github.com/trestle-dev">Source ↗</a></p></div>
+
+  <article class="showcase-item">
+    <div class="showcase-visual visual-trestle"><strong>TRESTLE</strong><span>collections</span><span>auth</span><span>realtime</span><span>files</span></div>
+    <div class="showcase-copy"><p class="project-kind">Backend platform · Go</p><h2>Trestle</h2><p>A self-hosted backend platform for typed collections, application authentication, access rules, files, realtime events and durable automation, with SQLite and PostgreSQL support.</p><p class="project-links"><a href="https://trestle-dev.github.io">Website ↗</a><a href="https://github.com/trestle-dev">Source ↗</a></p></div>
   </article>
-  <article>
-    <div class="project-meta"><span>Coding tools</span><span>Go</span></div>
-    <div><h2>Cortex</h2><p>A self-hosted coding agent that runs locally or remotely in a browser. It is an experiment in making agentic development feel more like a durable workspace and less like a disposable chat window.</p><p class="project-links"><a href="https://cortex-go.github.io">Website ↗</a><a href="https://github.com/cortex-go">Source ↗</a></p></div>
+
+  <article class="showcase-item">
+    <div class="showcase-visual visual-warden"><strong>WARDEN</strong><span>editor · terminal · explorer · agent</span></div>
+    <div class="showcase-copy"><p class="project-kind">Linux server console · Go</p><h2>Warden</h2><p>A browser-based console for Linux servers with live monitoring, a filesystem explorer, workspace editor, interactive terminals and a coding agent behind an authenticated Go service.</p><p class="project-links"><a href="https://warden-deck.github.io">Website ↗</a><a href="https://github.com/warden-deck">Source ↗</a></p></div>
   </article>
-  <article>
-    <div class="project-meta"><span>Monitoring</span><span>Go</span></div>
-    <div><h2>Watchpost</h2><p>A monitoring platform for keeping track of systems and devices, designed around useful evidence and clear operational state rather than an overwhelming dashboard.</p><p class="project-links"><a href="https://watchpost-ops.github.io">Website ↗</a><a href="https://github.com/watchpost-ops">Source ↗</a></p></div>
+
+  <article class="showcase-item">
+    <div class="showcase-visual visual-cortex"><strong>CORTEX</strong><span>workspace ~/projects</span><i>agent ready ▊</i></div>
+    <div class="showcase-copy"><p class="project-kind">Coding agent · Go</p><h2>Cortex</h2><p>A self-hosted browser coding agent for local or remote development, with parallel workspaces and durable conversations that remain available when you reconnect.</p><p class="project-links"><a href="https://cortex-go.github.io">Website ↗</a><a href="https://github.com/cortex-go">Source ↗</a></p></div>
   </article>
-  <article>
-    <div class="project-meta"><span>Weather</span><span>Web</span></div>
-    <div><h2>Storm</h2><p>A cleaner way to explore Australian forecasts, radar and location weather data. It began as an attempt to keep the useful depth of BOM information without carrying across all of the visual clutter.</p><p class="project-links"><a href="https://storm-weather.github.io">Website ↗</a><a href="https://github.com/storm-weather">Source ↗</a></p></div>
+
+  <article class="showcase-item">
+    <div class="showcase-visual visual-watchpost"><strong>WATCHPOST</strong><span>CPU 18%</span><span>MEMORY 42%</span><span>DISK 37%</span></div>
+    <div class="showcase-copy"><p class="project-kind">Monitoring platform · Go</p><h2>Watchpost</h2><p>A self-hosted monitoring platform for systems and devices, designed around useful evidence, clear operational state and a constrained investigative agent.</p><p class="project-links"><a href="https://watchpost-ops.github.io">Website ↗</a><a href="https://github.com/watchpost-ops">Source ↗</a></p></div>
   </article>
-  <article>
-    <div class="project-meta"><span>Smaller tools</span><span>C++ · Linux</span></div>
-    <div><h2>ScrollShift, Jsonic++, Minify++, tscc and lolcat-cc</h2><p>A collection that includes a mouse-wheel acceleration daemon, compact JSON parser, native web minifier, TypeScript-to-JavaScript compiler and a C++ implementation of lolcat.</p><p class="project-links"><a href="https://github.com/n-ham">Browse on GitHub ↗</a></p></div>
+
+  <article class="showcase-item">
+    <div class="showcase-visual visual-storm"><strong>18°</strong><span>Hobart · showers</span><i>NW 15–25 km/h</i></div>
+    <div class="showcase-copy"><p class="project-kind">Australian weather · Web</p><h2>Storm</h2><p>A calmer way to explore Australian forecasts, radar and location weather data while retaining the useful depth available from the Bureau of Meteorology.</p><p class="project-links"><a href="https://storm-weather.github.io">Website ↗</a><a href="https://github.com/storm-weather">Source ↗</a></p></div>
+  </article>
+
+  <article class="showcase-item">
+    <div class="showcase-visual visual-scrollshift"><strong>SCROLLSHIFT</strong><span>precision ━━━━━━━ rapid spin</span></div>
+    <div class="showcase-copy"><p class="project-kind">Linux desktop utility · C++</p><h2>ScrollShift</h2><p>A native Linux daemon that keeps deliberate mouse-wheel movement precise while allowing rapid spins to travel farther.</p><p class="project-links"><a href="https://scrollshift-dev.github.io">Website ↗</a><a href="https://github.com/scrollshift-dev">Source ↗</a></p></div>
+  </article>
+
+  <article class="showcase-item">
+    <div class="showcase-visual visual-json"><strong>{ }</strong><span>"small": true</span><span>"strict": true</span></div>
+    <div class="showcase-copy"><p class="project-kind">JSON parser · C++</p><h2>Jsonic++</h2><p>A small embeddable JSON parser extracted from real use inside Nift and Minify++, with strict parsing boundaries and an intentionally compact API.</p><p class="project-links"><a href="https://github.com/nifty-site-manager/jsonic">Source ↗</a></p></div>
+  </article>
+
+  <article class="showcase-item">
+    <div class="showcase-visual visual-minify"><strong>MINIFY++</strong><span>HTML · CSS · JS · JSX · JSON · XML · SVG</span></div>
+    <div class="showcase-copy"><p class="project-kind">Native minifier · C++</p><h2>Minify++</h2><p>A compact native minifier for JavaScript, JSX, HTML, CSS, JSON, XML and SVG, built for standalone use and embedding in other C++ software.</p><p class="project-links"><a href="https://github.com/nifty-site-manager/minify">Source ↗</a></p></div>
+  </article>
+
+  <article class="showcase-item">
+    <div class="showcase-visual visual-tscc"><strong>tscc</strong><span>const answer: number = 42;</span><i>accepted · emitted</i></div>
+    <div class="showcase-copy"><p class="project-kind">TypeScript compiler · C++</p><h2>tscc</h2><p>A native TypeScript-to-JavaScript compiler with transpilation, project, CommonJS and TSX machinery, plus a deliberately bounded semantic type checker.</p><p class="project-links"><a href="https://github.com/tscc-project/tscc">Source ↗</a></p></div>
+  </article>
+
+  <article class="showcase-item">
+    <div class="showcase-visual visual-jspp"><strong>JS++</strong><span>embed JavaScript in C and C++</span></div>
+    <div class="showcase-copy"><p class="project-kind">Embedded JavaScript runtime · C++</p><h2>JS++</h2><p>A small embeddable JavaScript runtime with a C ABI, host values and callbacks, runtime containment, installable static and shared packages, and a growing conformance boundary.</p><p class="project-links"><a href="https://github.com/tscc-project/jspp">Source ↗</a></p></div>
+  </article>
+
+  <article class="showcase-item">
+    <div class="showcase-visual visual-lolcat"><img src="@pathto('public/assets/images/lolcat-cc.webp')" alt="lolcat-cc logo"></div>
+    <div class="showcase-copy"><p class="project-kind">Terminal colour · C++</p><h2>lolcat-cc</h2><p>A fast C++ implementation of lolcat for colouring terminal text, with a standalone command-line tool and integration work that later fed into Nift.</p><p class="project-links"><a href="https://github.com/n-ham/lolcat-cc">Source ↗</a></p></div>
   </article>
 </section>
 
 <section class="project-history shell">
   <p class="kicker">Earlier work</p>
-  <div><h2>Google AI Challenge</h2><p>I contributed to the Ants competition, including map generators, the C++ starter bot and parts of the game specification. I also competed in Ants and Planet Wars, which is where a lot of my interest in performance, algorithms and adversarial testing was sharpened.</p></div>
+  <div><h2>Google AI Challenge</h2><p>I contributed to the Ants competition, including map generators, the C++ starter bot and parts of the game specification. I also competed in Ants and Planet Wars, which sharpened my interest in performance, algorithms and adversarial testing.</p></div>
 </section>
