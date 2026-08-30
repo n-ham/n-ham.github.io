@@ -1,5 +1,79 @@
-<section class="page-hero shell"><p class="eyebrow">Off screen / experiments and outside</p><h1>Pixels, concrete<br>and wild places.</h1><p>When I’m not building software or pulling apart a mathematical problem, I’m usually experimenting with generative colour, skateboarding or getting outside with a camera.</p></section>
-<section class="hobby-section shell"><div class="hobby-copy"><p class="eyebrow">01 · Generative art</p><h2>Writing motion into colour.</h2><p>I use C and C++ with OpenCV to treat existing images and video as a canvas, transform pixel colour through custom RGB/HSV routines, and assemble generated frames with FFmpeg. The interesting part is finding a simple mathematical rule that produces an unexpectedly alive result.</p></div><div class="art-panel"><img src="assets/images/magic.webp" alt="Colourful generative artwork" loading="lazy"><span>HUE_SHIFT.FRAME_0360</span></div></section>
-<section class="photo-section shell"><div class="section-heading"><div><p class="eyebrow">02 · Skateboarding</p><h2>Still learning the line.</h2></div></div><div class="photo-grid"><img src="assets/images/hobbies/skate1.jpg" alt="Nicholas skateboarding" loading="lazy"><img src="assets/images/hobbies/bowl.jpg" alt="Skateboarding in a concrete bowl" loading="lazy"><img src="assets/images/hobbies/skate10.jpg" alt="Skateboarding outdoors" loading="lazy"></div></section>
-<section class="photo-section shell"><div class="section-heading"><div><p class="eyebrow">03 · Nature</p><h2>Looking beyond the terminal.</h2></div></div><div class="photo-grid nature-grid"><img src="assets/images/hobbies/nature1.jpg" alt="Tasmanian landscape" loading="lazy"><img src="assets/images/hobbies/nature4.jpg" alt="Nature photography" loading="lazy"><img src="assets/images/hobbies/nature7.jpg" alt="Outdoor landscape" loading="lazy"></div></section>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="The personal website of Nicholas Ham - software developer, mathematician and open-source builder.">
+<meta name="theme-color" content="#111210">
+<title>Off Screen - Nicholas Ham</title>
+<link rel="icon" href="assets/images/favicon.png">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/script.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="brand" href="./" aria-label="Nicholas Ham, home">
+    <span class="brand-mark" aria-hidden="true">NH</span>
+    <span class="brand-text">Nicholas Ham<small>developer · mathematician · builder</small></span>
+  </a>
+  <nav class="desktop-nav" aria-label="Main navigation">
+    <a href="./projects.html">Projects</a>
+    <a href="./experience.html">Experience</a>
+    <a href="./research.html">Research</a>
+    <a href="./off-screen.html">Off Screen</a>
+  </nav>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+<div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+  <nav aria-label="Mobile navigation">
+    <a href="./"><span>00</span>Home</a>
+    <a href="./projects.html"><span>01</span>Projects</a>
+    <a href="./experience.html"><span>02</span>Experience</a>
+    <a href="./research.html"><span>03</span>Research</a>
+    <a href="./off-screen.html"><span>04</span>Off Screen</a>
+  </nav>
+  <p>Hobart, Tasmania · working in C++, Go and the web</p>
+</div>
+<main id="main">
+<section class="page-intro shell">
+  <p class="kicker">Off screen</p>
+  <h1>Other things I spend time on.</h1>
+  <p>There is more to life than software. I’ve spent years skateboarding, wandering around Tasmania and experimenting with generative art.</p>
+</section>
+
+<section class="interest-section shell">
+  <div class="interest-copy"><p class="kicker">Skateboarding</p><h2>Usually worth the bruises.</h2><p>I’ve been skating for a long time. I like the combination of repetition, improvisation and the stubborn satisfaction of finally landing something that has not been cooperating.</p></div>
+  <div class="photo-wall skate-wall">
+    <figure><img src="assets/images/hobbies/skate4.jpg" alt="Nicholas performing an aerial skateboard trick" loading="lazy"></figure>
+    <figure><img src="assets/images/hobbies/skate12.jpg" alt="Skateboarding above a concrete bank" loading="lazy"></figure>
+    <figure><img src="assets/images/hobbies/skate14.jpg" alt="Skateboarding over a ledge at a skate park" loading="lazy"></figure>
+    <figure><img src="assets/images/hobbies/skate3.jpg" alt="Nicholas jumping a skateboard outdoors" loading="lazy"></figure>
+  </div>
+</section>
+
+<section class="interest-section shell">
+  <div class="interest-copy"><p class="kicker">Outside</p><h2>Tasmania is difficult to stay indoors in.</h2><p>Walks, swims, cliffs, dams and the occasional questionable jump. I’m not a particularly formal photographer, but I like keeping a record of where I’ve ended up.</p></div>
+  <div class="photo-wall nature-wall">
+    <figure><img src="assets/images/hobbies/nature1.jpg" alt="Standing above a misty Tasmanian valley" loading="lazy"></figure>
+    <figure><img src="assets/images/hobbies/nature2.jpg" alt="Jumping above a beach landscape" loading="lazy"></figure>
+    <figure><img src="assets/images/hobbies/nature4.jpg" alt="A clear blue swimming hole in Tasmania" loading="lazy"></figure>
+    <figure><img src="assets/images/hobbies/nature10.JPG" alt="Exploring a large concrete dam wall" loading="lazy"></figure>
+  </div>
+</section>
+
+<section class="interest-section generative-section shell">
+  <div class="interest-copy"><p class="kicker">Generative art</p><h2>Code as a colour experiment.</h2></div>
+  <div class="interest-text"><p>I’ve used C and C++ with OpenCV to treat images and video as a canvas, transform colour through custom RGB/HSV routines, and assemble the generated frames with FFmpeg.</p><p>The part I enjoy is finding a simple mathematical rule that produces a result which feels much more complicated than the rule itself.</p></div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <p><span class="prompt">nh@web:~$</span> still building useful things.</p>
+  <div><a href="https://github.com/n-ham">GitHub</a><a href="mailto:contact@n-ham.com">Email</a></div>
+</footer>
+</body>
+</html>
 

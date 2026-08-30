@@ -1,10 +1,86 @@
-<section class="page-hero shell"><p class="eyebrow">Projects / selected systems</p><h1>Different problems.<br>Shared principles.</h1><p>Fast, inspectable software with deliberately small boundaries. These projects span build tools, compilers, self-hosted platforms, monitoring and developer infrastructure.</p></section>
-<section class="project-list shell">
-  <article class="project-row"><div class="project-number">01</div><div><p class="tag">C++ · web build layer</p><h2>Nift</h2><p>A native, dependency-aware build layer for ordinary websites. Nift tracks relationships, rebuilds only what changed and stays out of the rest of the stack.</p><div class="card-links"><a href="https://nift.dev">Website ↗</a><a href="https://github.com/nifty-site-manager/nift">Source ↗</a></div></div><div class="project-visual nift-visual"><b>NIFT</b><span>BUILD: 10,000 / 10,000</span><i>DONE 0.30s</i></div></article>
-  <article class="project-row"><div class="project-number">02</div><div><p class="tag">Go · backend platform</p><h2>Trestle</h2><p>A self-hosted backend platform for collections, authentication, files, realtime events and durable automation, with SQLite and PostgreSQL foundations.</p><div class="card-links"><a href="https://trestle-dev.github.io">Website ↗</a><a href="https://github.com/trestle-dev">GitHub ↗</a></div></div><div class="project-visual data-visual"><span>collections</span><span>auth</span><span>realtime</span><span>jobs</span></div></article>
-  <article class="project-row"><div class="project-number">03</div><div><p class="tag">Go · autonomous development</p><h2>Cortex</h2><p>A focused, self-hosted coding agent for supervising parallel workspaces from a browser and returning to durable development sessions.</p><div class="card-links"><a href="https://cortex-go.github.io">Website ↗</a><a href="https://github.com/cortex-go">GitHub ↗</a></div></div><div class="project-visual code-visual"><i>$</i> cortex open .<br><span>workspace ready</span><br><b>agent ▊</b></div></article>
-  <article class="project-row"><div class="project-number">04</div><div><p class="tag">Go · monitoring</p><h2>Watchpost</h2><p>A self-hosted monitoring platform organised around durable evidence, clear operational state and a constrained investigative agent.</p><div class="card-links"><a href="https://watchpost-ops.github.io">Website ↗</a><a href="https://github.com/watchpost-ops">GitHub ↗</a></div></div><div class="project-visual meter-visual"><span>CPU <b>18%</b></span><span>RAM <b>42%</b></span><span>DISK <b>37%</b></span></div></article>
-  <article class="project-row"><div class="project-number">05</div><div><p class="tag">Weather · Australia</p><h2>Storm</h2><p>A fast, calm Australian weather experience presenting forecasts, radar and location data without the clutter of a conventional weather portal.</p><div class="card-links"><a href="https://storm-weather.github.io">Website ↗</a><a href="https://github.com/storm-weather">GitHub ↗</a></div></div><div class="project-visual weather-visual"><b>18°</b><span>Hobart</span><i>SHOWERS · NW 22</i></div></article>
-  <article class="project-row compact-project"><div class="project-number">06—10</div><div><p class="tag">More native tools</p><h2>ScrollShift · Jsonic++ · Minify++ · tscc · lolcat-cc</h2><p>A Linux wheel-acceleration daemon, a compact JSON parser, a native web minifier, a TypeScript-to-JavaScript compiler and a fast C++ take on lolcat.</p><div class="card-links"><a href="https://github.com/n-ham">Browse on GitHub ↗</a></div></div></article>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="The personal website of Nicholas Ham - software developer, mathematician and open-source builder.">
+<meta name="theme-color" content="#111210">
+<title>Projects - Nicholas Ham</title>
+<link rel="icon" href="assets/images/favicon.png">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/script.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="brand" href="./" aria-label="Nicholas Ham, home">
+    <span class="brand-mark" aria-hidden="true">NH</span>
+    <span class="brand-text">Nicholas Ham<small>developer · mathematician · builder</small></span>
+  </a>
+  <nav class="desktop-nav" aria-label="Main navigation">
+    <a href="./projects.html">Projects</a>
+    <a href="./experience.html">Experience</a>
+    <a href="./research.html">Research</a>
+    <a href="./off-screen.html">Off Screen</a>
+  </nav>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+<div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+  <nav aria-label="Mobile navigation">
+    <a href="./"><span>00</span>Home</a>
+    <a href="./projects.html"><span>01</span>Projects</a>
+    <a href="./experience.html"><span>02</span>Experience</a>
+    <a href="./research.html"><span>03</span>Research</a>
+    <a href="./off-screen.html"><span>04</span>Off Screen</a>
+  </nav>
+  <p>Hobart, Tasmania · working in C++, Go and the web</p>
+</div>
+<main id="main">
+<section class="page-intro shell">
+  <p class="kicker">Projects</p>
+  <h1>Things I’ve built and worked on.</h1>
+  <p>Most of my projects begin with something I want to use myself. Some grow into serious tools; others remain useful experiments. These are the ones that best represent what I’ve been doing.</p>
 </section>
+
+<section class="project-archive shell">
+  <article>
+    <div class="project-meta"><span>2015–present</span><span>C++</span></div>
+    <div><h2>Nift</h2><p>A fast, dependency-aware build layer for websites. Nift keeps ordinary HTML, CSS and JavaScript at the centre and handles the repetitive build-time relationships around them.</p><p class="project-links"><a href="https://nift.dev">Website ↗</a><a href="https://github.com/nifty-site-manager/nift">Source ↗</a></p></div>
+  </article>
+  <article>
+    <div class="project-meta"><span>Self-hosted</span><span>Go</span></div>
+    <div><h2>Trestle</h2><p>A backend platform for typed collections, authentication, files, realtime events and automation. It grew from wanting a straightforward backend that could be understood and run without handing everything to a hosted service.</p><p class="project-links"><a href="https://trestle-dev.github.io">Website ↗</a><a href="https://github.com/trestle-dev">Source ↗</a></p></div>
+  </article>
+  <article>
+    <div class="project-meta"><span>Coding tools</span><span>Go</span></div>
+    <div><h2>Cortex</h2><p>A self-hosted coding agent that runs locally or remotely in a browser. It is an experiment in making agentic development feel more like a durable workspace and less like a disposable chat window.</p><p class="project-links"><a href="https://cortex-go.github.io">Website ↗</a><a href="https://github.com/cortex-go">Source ↗</a></p></div>
+  </article>
+  <article>
+    <div class="project-meta"><span>Monitoring</span><span>Go</span></div>
+    <div><h2>Watchpost</h2><p>A monitoring platform for keeping track of systems and devices, designed around useful evidence and clear operational state rather than an overwhelming dashboard.</p><p class="project-links"><a href="https://watchpost-ops.github.io">Website ↗</a><a href="https://github.com/watchpost-ops">Source ↗</a></p></div>
+  </article>
+  <article>
+    <div class="project-meta"><span>Weather</span><span>Web</span></div>
+    <div><h2>Storm</h2><p>A cleaner way to explore Australian forecasts, radar and location weather data. It began as an attempt to keep the useful depth of BOM information without carrying across all of the visual clutter.</p><p class="project-links"><a href="https://storm-weather.github.io">Website ↗</a><a href="https://github.com/storm-weather">Source ↗</a></p></div>
+  </article>
+  <article>
+    <div class="project-meta"><span>Smaller tools</span><span>C++ · Linux</span></div>
+    <div><h2>ScrollShift, Jsonic++, Minify++, tscc and lolcat-cc</h2><p>A collection that includes a mouse-wheel acceleration daemon, compact JSON parser, native web minifier, TypeScript-to-JavaScript compiler and a C++ implementation of lolcat.</p><p class="project-links"><a href="https://github.com/n-ham">Browse on GitHub ↗</a></p></div>
+  </article>
+</section>
+
+<section class="project-history shell">
+  <p class="kicker">Earlier work</p>
+  <div><h2>Google AI Challenge</h2><p>I contributed to the Ants competition, including map generators, the C++ starter bot and parts of the game specification. I also competed in Ants and Planet Wars, which is where a lot of my interest in performance, algorithms and adversarial testing was sharpened.</p></div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <p><span class="prompt">nh@web:~$</span> still building useful things.</p>
+  <div><a href="https://github.com/n-ham">GitHub</a><a href="mailto:contact@n-ham.com">Email</a></div>
+</footer>
+</body>
+</html>
 

@@ -9,7 +9,6 @@
 <link rel="icon" href="assets/images/favicon.png">
 <link rel="stylesheet" href="assets/css/style.css">
 <script src="assets/js/script.js" defer></script>
-
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -39,52 +38,30 @@
   <p>Hobart, Tasmania · working in C++, Go and the web</p>
 </div>
 <main id="main">
-<section class="hero shell">
-  <div class="hero-copy">
-    <p class="eyebrow"><span class="status-dot"></span> Based in Tasmania, Australia</p>
-    <h1>I build fast tools for the web, then try to break them.</h1>
-    <p class="lede">I’m Nicholas Ham, a software developer and mathematician. I create open-source developer tools, self-hosted applications and small systems with strong, inspectable foundations.</p>
-    <div class="actions">
-      <a class="button primary" href="./projects.html">Explore projects <span>→</span></a>
-      <a class="button" href="./experience.html">Work and background</a>
-    </div>
+<section class="home-intro shell">
+  <p class="kicker">Hello, I’m Nick.</p>
+  <h1>I make software, study interesting problems and occasionally leave the computer.</h1>
+  <div class="intro-copy">
+    <p>I’m a software developer and mathematician based in Tasmania. I’ve spent a lot of time working with C++, Go and the web, usually on open-source tools and self-hosted software.</p>
+    <p>This site is a home for the things I’ve built, the mathematics I’ve worked on, and a few interests that have nothing to do with a terminal.</p>
   </div>
-  <div class="terminal-card" aria-label="Profile summary">
-    <div class="terminal-bar"><span></span><span></span><span></span><b>profile.sh</b></div>
-    <div class="terminal-output">
-      <p><i>$</i> whoami<br><b>Nicholas Ham</b></p>
-      <p><i>$</i> focus --current<br><b>open source<br>systems + web tooling<br>agentic development</b></p>
-      <p><i>$</i> stack --favourites<br><b>C++ · Go · HTML · CSS · JS</b></p>
-      <p><i>$</i> status<br><span>building_</span></p>
-    </div>
+  <p class="intro-links"><a href="./projects.html">Projects</a><a href="./experience.html">Experience</a><a href="./research.html">Research</a><a href="./off-screen.html">Off screen</a></p>
+</section>
+
+<section class="home-section shell">
+  <div class="home-section-heading"><p class="kicker">Lately</p><h2>What I’ve been working on</h2></div>
+  <div class="home-notes">
+    <article><h3><a href="https://nift.dev">Nift <span>↗</span></a></h3><p>The website build tool I started in 2015. The current work is about keeping the core small, fast and dependable while making it nicer for both people and coding agents to work with.</p></article>
+    <article><h3><a href="https://trestle-dev.github.io">Self-hosted software <span>↗</span></a></h3><p>I’ve been exploring what useful, inspectable alternatives to large hosted platforms can look like, including Trestle, Cortex, Watchpost and a handful of smaller tools.</p></article>
+    <article><h3><a href="./research.html">Mathematics</a></h3><p>My formal research is in algebra and combinatorics. I still enjoy the sort of problems where a small definition turns out to hide a surprising amount of structure.</p></article>
   </div>
 </section>
 
-<section class="signal-strip" aria-label="Highlights">
-  <div><strong>PhD</strong><span>Mathematics</span></div>
-  <div><strong>10+</strong><span>Open-source projects</span></div>
-  <div><strong>Top 1%</strong><span>Google AI Challenge ×2</span></div>
-  <div><strong>2015—</strong><span>Building Nift</span></div>
+<section class="home-section home-about shell">
+  <div class="home-section-heading"><p class="kicker">Background</p><h2>A slightly unusual route into software</h2></div>
+  <div class="home-about-copy"><p>I studied mathematics, economics and applied computing at the University of Tasmania, then completed a PhD in mathematics. Along the way I taught university classes, worked on research projects, and helped organise an international programming competition.</p><p>Since then my work has moved increasingly towards software and systems, including operational work at Murray Irrigation and a long-running collection of open-source projects.</p><a href="./experience.html" class="plain-link">More about my experience →</a></div>
 </section>
 
-<section class="section shell">
-  <div class="section-heading"><div><p class="eyebrow">Selected work</p><h2>Tools made to be used.</h2></div><a href="./projects.html">View every project →</a></div>
-  <div class="featured-grid">
-    <article class="feature-card feature-wide">
-      <div class="card-top"><span class="project-index">01</span><span class="tag">C++ · build tooling</span></div>
-      <h3>Nift</h3><p>A fast, dependency-aware build layer for websites. It keeps ordinary HTML, CSS and JavaScript at the centre instead of making the tool the architecture.</p>
-      <div class="mini-terminal"><span>build</span><b>10,000 pages</b><em>~0.3s</em></div>
-      <div class="card-links"><a href="https://nift.dev">Visit nift.dev ↗</a><a href="https://github.com/nifty-site-manager/nift">Source ↗</a></div>
-    </article>
-    <article class="feature-card"><div class="card-top"><span class="project-index">02</span><span class="tag">Go · self-hosted</span></div><h3>Trestle</h3><p>A self-hosted backend platform for typed data, auth, files, realtime events and automation.</p><div class="card-links"><a href="https://trestle-dev.github.io">Visit project ↗</a></div></article>
-    <article class="feature-card"><div class="card-top"><span class="project-index">03</span><span class="tag">Go · coding agent</span></div><h3>Cortex</h3><p>A focused browser coding agent for local or remote development, with durable workspaces and conversations.</p><div class="card-links"><a href="https://cortex-go.github.io">Visit project ↗</a></div></article>
-  </div>
-</section>
-
-<section class="section split-section shell">
-  <div><p class="eyebrow">A mixed toolkit</p><h2>Engineering shaped by mathematics.</h2></div>
-  <div><p>My background crosses pure mathematics, economics and applied computing. That mix shows up in how I work: trace the structure, make the contract explicit, test the edge cases, and keep the result understandable.</p><p>I completed a PhD in mathematics at the University of Tasmania, published research in algebra and combinatorics, taught university mathematics and economics, and helped build an international programming competition sponsored by Google.</p><a class="text-link" href="./research.html">Research and teaching →</a></div>
-</section>
 </main>
 <footer class="site-footer">
   <p><span class="prompt">nh@web:~$</span> still building useful things.</p>
