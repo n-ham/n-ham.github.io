@@ -1,6 +1,6 @@
 {
   "name": "off-screen",
-  "title": "Off Screen - Nicholas Ham",
+  "title": "Play - Nicholas Ham",
   "template": "templates/template.html",
   "content": "content/off-screen.html",
   "output": "public/off-screen.html",
@@ -19,7 +19,6 @@
   "reqs": [
     "public/assets/css/style.css",
     "public/assets/images/favicon.png",
-    "public/assets/images/hobbies/jump.jpg",
     "public/assets/images/hobbies/nature1.jpg",
     "public/assets/images/hobbies/nature2.jpg",
     "public/assets/images/hobbies/nature3.jpg",
@@ -33,8 +32,8 @@
     "public/assets/videos/generative/cyberpunk-01.mp4",
     "public/assets/videos/generative/cyberpunk-02.mp4",
     "public/assets/videos/generative/earth-01.mp4",
-    "public/assets/videos/generative/gradient-01.mp4",
-    "public/assets/videos/generative/gradient-02.mp4",
+    "public/assets/videos/generative/neon-anatomy.mp4",
+    "public/assets/videos/generative/neon-rider.mp4",
     "public/experience.html",
     "public/index.html",
     "public/off-screen.html",

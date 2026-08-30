@@ -4,7 +4,7 @@
     {"name": "projects", "title": "Projects - Nicholas Ham", "template": "templates/template.html"},
     {"name": "experience", "title": "Experience - Nicholas Ham", "template": "templates/template.html"},
     {"name": "research", "title": "Research - Nicholas Ham", "template": "templates/template.html"},
-    {"name": "off-screen", "title": "Off Screen - Nicholas Ham", "template": "templates/template.html"},
+    {"name": "off-screen", "title": "Play - Nicholas Ham", "template": "templates/template.html"},
     {"name": "assets/css/style", "title": "style", "content-ext": ".css", "output-ext": ".css"},
     {"name": "assets/js/script", "title": "script", "content-ext": ".js", "output-ext": ".js"}
   ]

@@ -937,6 +937,21 @@ button { font: inherit; }
   aspect-ratio: auto;
 }
 
+.skate-wall {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.skate-wall figure,
+.skate-wall figure:first-child,
+.skate-wall figure:last-child,
+.skate-wall figure:nth-child(1),
+.skate-wall figure:nth-child(4),
+.skate-wall figure:nth-child(5) {
+  grid-column: auto;
+  grid-row: auto;
+  aspect-ratio: 4 / 3;
+}
+
 .nature-wall figure:nth-child(1) {
   grid-column: auto;
   grid-row: span 2;
@@ -1042,6 +1057,15 @@ button { font: inherit; }
   .photo-wall figure:nth-child(5),
   .nature-wall figure:nth-child(4) {
     grid-column: 1 / 3;
+  }
+
+  .skate-wall figure,
+  .skate-wall figure:first-child,
+  .skate-wall figure:last-child,
+  .skate-wall figure:nth-child(1),
+  .skate-wall figure:nth-child(4),
+  .skate-wall figure:nth-child(5) {
+    grid-column: auto;
   }
 
   .generative-wall {
