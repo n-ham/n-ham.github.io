@@ -854,13 +854,20 @@ button { font: inherit; }
 .visual-cortex span,
 .visual-cortex i,
 .visual-scrollshift span,
+.visual-webfleet span,
+.visual-webfleet i,
+.visual-pict span,
+.visual-pict i,
 .visual-minify span,
+.visual-markup span,
 .visual-jspp span {
   padding: 11px 0;
   border-top: 1px solid var(--line);
 }
 
 .visual-cortex i,
+.visual-webfleet i,
+.visual-pict i,
 .visual-tscc i {
   color: var(--green);
 }
