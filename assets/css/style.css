@@ -58,6 +58,8 @@ body {
 .links { display: grid; gap: 4px; margin: 60px 0 64px; }
 a { color: inherit; text-decoration: none; }
 button { font: inherit; }
+/* Disable the browser tap flash; keyboard focus stays visible. */
+a, button { -webkit-tap-highlight-color: transparent; }
 .links a, .links button {
     position: relative;
     isolation: isolate;
