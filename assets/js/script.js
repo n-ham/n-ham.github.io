@@ -1,24 +1,25 @@
-const experience = document.querySelector('#experience');
-const openExperience = document.querySelector('#open-experience');
+// Each popup shares the same native dialog behaviour and dismissal rules.
+for (const dialog of document.querySelectorAll('dialog')) {
+    const trigger = document.getElementById(`open-${dialog.id}`);
+    trigger.addEventListener('click', () => dialog.showModal());
+    dialog.querySelector('.close').addEventListener('click', () => dialog.close());
 
-openExperience.addEventListener('click', () => experience.showModal());
-experience.querySelector('.close').addEventListener('click', () => experience.close());
-
-// Close only when the entire pointer gesture is outside the dialog. Selecting
-// text inside and releasing outside must not dismiss the experience panel.
-const outsideDialog = (event) => {
-    const bounds = experience.getBoundingClientRect();
-    return event.clientX < bounds.left || event.clientX > bounds.right ||
-        event.clientY < bounds.top || event.clientY > bounds.bottom;
-};
-let startedOutside = false;
-experience.addEventListener('pointerdown', (event) => {
-    startedOutside = event.target === experience && outsideDialog(event);
-});
-experience.addEventListener('click', (event) => {
-    if (startedOutside && event.target === experience && outsideDialog(event)) {
-        experience.close();
-    }
-    startedOutside = false;
-});
-// Native dialog handles Escape, focus trapping, and focus restoration.
+    // A selection started inside the popup must not close it on release outside.
+    const outsideDialog = (event) => {
+        const bounds = dialog.getBoundingClientRect();
+        return event.clientX < bounds.left || event.clientX > bounds.right ||
+            event.clientY < bounds.top || event.clientY > bounds.bottom;
+    };
+    let startedOutside = false;
+    dialog.addEventListener('pointerdown', (event) => {
+        startedOutside = event.target === dialog && outsideDialog(event);
+    });
+    dialog.addEventListener('click', (event) => {
+        if (startedOutside && event.target === dialog && outsideDialog(event)) {
+            dialog.close();
+        }
+        startedOutside = false;
+    });
+    dialog.addEventListener('close', () => { startedOutside = false; });
+}
+// Native dialogs handle Escape, focus trapping, and focus restoration.

@@ -8,7 +8,7 @@
     <meta name="description" content="Nick Ham. Developer, mathematician, and builder of Nift, Strut, and Gantry. Based in Tasmania.">
     <title>nick</title>
     <link rel="icon" type="image/png" href="assets/favicon.png">
-    <link rel="stylesheet" href="assets/css/style.css?v=6c5343ecf78c">
+    <link rel="stylesheet" href="assets/css/style.css?v=a4f28d1fee0d">
     
     <link rel="preload" href="assets/fonts/JetBrainsMono-Regular.woff2" as="font" type="font/woff2" crossorigin>
 </head>
@@ -19,11 +19,12 @@
             <p>builds things</p>
         </header>
     
-        <nav class="links" aria-label="Projects and experience">
+        <nav class="links" aria-label="Projects and background">
             <a href="https://nift.dev/"><span class="link-label">nift</span></a>
             <a href="https://strut.cx/"><span class="link-label">strut</span></a>
             <a href="https://gantry.cv/"><span class="link-label">gantry</span></a>
             <button type="button" id="open-experience" aria-haspopup="dialog" aria-controls="experience"><span class="link-label">experience</span></button>
+            <button type="button" id="open-research" aria-haspopup="dialog" aria-controls="research"><span class="link-label">research</span></button>
         </nav>
     
         <footer class="footer" aria-label="Contact">
@@ -52,8 +53,8 @@
                 <p>I created Nift and build native developer tools and self-hosted applications. My work spans <strong><span class="md-marker">**</span>C++, Go<span class="md-marker">**</span></strong>, language design, parsing, performance, cross-platform packaging, web interfaces, and security boundaries.</p>
             </section>
             <section>
-                <h3><span class="md-marker" aria-hidden="true">## </span>Teaching &amp; research</h3>
-                <p>At the University of Tasmania, I lectured in real and complex analysis and quantitative methods, tutored calculus, economics, econometrics and statistics, and carried out economics research assistance. My mathematical research is in algebra and combinatorics.</p>
+                <h3><span class="md-marker" aria-hidden="true">## </span>Teaching &amp; academic work</h3>
+                <p>At the University of Tasmania, I lectured in real and complex analysis and quantitative methods, tutored calculus, economics, econometrics and statistics, and carried out economics research assistance. I also organised a weekly algebra seminar and served as treasurer of the 4th Australian Mathematical Sciences Student Conference.</p>
             </section>
             <section>
                 <h3><span class="md-marker" aria-hidden="true">## </span>Google AI Challenge</h3>
@@ -67,6 +68,60 @@
         </div>
         <div class="dialog-hint"><kbd>esc</kbd> or click outside to close</div>
     </dialog>
-    <script src="assets/js/script.js" defer></script>
+    
+    <dialog id="research" aria-labelledby="research-title">
+        <div class="dialog-bar">
+            <span class="filename"><span class="file-dot" aria-hidden="true"></span>research.md</span>
+            <button class="close" type="button" aria-label="Close research" autofocus>×</button>
+        </div>
+        <div class="dialog-content">
+            <h2 id="research-title"><span class="md-marker" aria-hidden="true"># </span>Research</h2>
+            <p class="lead">Structure, symmetry, and enumeration.</p>
+            <p>My research sits mainly in algebra and combinatorics, particularly diagram semigroups and algebras, lattice paths, and symmetry in finite strategic-form games.</p>
+            <section>
+                <h3><span class="md-marker" aria-hidden="true">## </span>Papers</h3>
+                <article class="research-entry">
+                    <h4><span class="md-marker" aria-hidden="true">### </span>Lattice paths and submonoids of Z²</h4>
+                    <p class="md-date"><span class="md-code">`2021 · Annals of Combinatorics`</span></p>
+                    <p>With James East.</p>
+                    <p class="publication-links"><a href="https://link.springer.com/article/10.1007/s00026-021-00546-3">[journal]</a> <a href="https://arxiv.org/abs/1811.05735">[arXiv]</a></p>
+                </article>
+                <article class="research-entry">
+                    <h4><span class="md-marker" aria-hidden="true">### </span>Enumeration of idempotents in planar diagram monoids</h4>
+                    <p class="md-date"><span class="md-code">`2019 · Journal of Algebra`</span></p>
+                    <p>With Igor Dolinka, James East, Athanasios Evangelou, Des FitzGerald, James Hyde, Nicholas Loughlin and James Mitchell.</p>
+                    <p class="publication-links"><a href="https://www.sciencedirect.com/science/article/pii/S0021869318306550">[journal]</a> <a href="https://arxiv.org/abs/1507.04838">[arXiv]</a></p>
+                </article>
+                <article class="research-entry">
+                    <h4><span class="md-marker" aria-hidden="true">### </span>Enumeration of idempotents in diagram semigroups and algebras</h4>
+                    <p class="md-date"><span class="md-code">`2015 · Journal of Combinatorial Theory, Series A`</span></p>
+                    <p>With Igor Dolinka, James East, Athanasios Evangelou, Des FitzGerald, James Hyde and Nicholas Loughlin.</p>
+                    <p class="publication-links"><a href="https://www.sciencedirect.com/science/article/pii/S0097316514001563">[journal]</a> <a href="https://arxiv.org/abs/1408.2021">[arXiv]</a></p>
+                </article>
+            </section>
+            <section>
+                <h3><span class="md-marker" aria-hidden="true">## </span>Theses</h3>
+                <article class="research-entry">
+                    <h4><span class="md-marker" aria-hidden="true">### </span>The Planar Modular Partition Monoid</h4>
+                    <p class="md-date"><span class="md-code">`PhD thesis · 2015`</span></p>
+                    <p>Supervised by Des FitzGerald and Peter Jarvis.</p>
+                    <p class="publication-links"><a href="https://eprints.utas.edu.au/23029/">[UTAS ePrints]</a> <a href="https://arxiv.org/abs/1808.07156">[arXiv]</a></p>
+                </article>
+                <article class="research-entry">
+                    <h4><span class="md-marker" aria-hidden="true">### </span>Some Structure Properties of Finite Normal-Form Games</h4>
+                    <p class="md-date"><span class="md-code">`Honours thesis · 2011`</span></p>
+                    <p>Supervised by Des FitzGerald.</p>
+                    <p class="publication-links"><a href="https://arxiv.org/abs/1905.00636">[arXiv]</a></p>
+                </article>
+            </section>
+            <section>
+                <h3><span class="md-marker" aria-hidden="true">## </span>OEIS contributions</h3>
+                <p>I have contributed to sequences in the OEIS, including A005043, A005165, A035343, A067955, A097609 and A308087.</p>
+                <p class="publication-links"><a href="https://oeis.org/search?q=nicholas+ham">[find OEIS contributions]</a></p>
+            </section>
+        </div>
+        <div class="dialog-hint"><kbd>esc</kbd> or click outside to close</div>
+    </dialog>
+    <script src="assets/js/script.js?v=e7ae91469849" defer></script>
 </body>
 </html>

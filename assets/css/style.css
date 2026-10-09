@@ -154,7 +154,7 @@ dialog::backdrop { background: #040404b8; backdrop-filter: blur(7px); }
 .close:hover { background: #ed85dc0d; color: var(--accent); }
 .close:focus-visible { outline-offset: 1px; }
 .dialog-content { padding: 28px 30px 10px; font-family: var(--mono); font-size: 13px; line-height: 1.8; }
-.dialog-content h2, .dialog-content h3 {
+.dialog-content h2, .dialog-content h3, .dialog-content h4 {
     margin: 0 0 9px;
     color: #91c7cc;
     font-family: inherit;
@@ -170,6 +170,11 @@ dialog::backdrop { background: #040404b8; backdrop-filter: blur(7px); }
 .dialog-content section p { margin: 0; color: #d0cbd0; font-size: inherit; line-height: inherit; }
 .dialog-content section .md-date { margin: -3px 0 10px; }
 .md-code { color: #a1c9b2; font-size: 12px; }
+.research-entry { margin: 22px 0; }
+.dialog-content section .publication-links { display: flex; flex-wrap: wrap; gap: 8px 16px; margin-top: 10px; }
+.publication-links a { color: var(--accent); text-underline-offset: .25em; overflow-wrap: anywhere; }
+.publication-links a:hover { text-decoration: underline; }
+.md-code { overflow-wrap: anywhere; }
 .dialog-content strong { color: #e9b47f; font-weight: 700; }
 .dialog-hint { padding: 0 34px 25px; color: var(--quiet); font-size: 11px; }
 kbd { font: inherit; color: var(--muted); }
@@ -180,7 +185,7 @@ kbd { font: inherit; color: var(--muted); }
     .footer { font-size: 15px; }
     .dialog-content { font-size: 16px; line-height: 1.7; }
     .dialog-content h2 { font-size: 18px; }
-    .dialog-content h3 { font-size: 16px; }
+    .dialog-content h3, .dialog-content h4 { font-size: 16px; }
     .md-code { font-size: 14px; }
     .filename { font-size: 14px; }
     dialog { width: calc(100% - 28px); max-height: calc(100svh - 36px); }
