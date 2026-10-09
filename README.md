@@ -26,7 +26,7 @@ Open http://127.0.0.1:8791/.
 
 ## Editing
 
-- `content/index.html`: homepage links and text-only `experience.md` dialog with visible Markdown syntax and highlighted headings.
+- `content/index.html`: homepage links and text-only `experience.md` and `research.md` dialogs with visible Markdown syntax and highlighted headings.
 - `templates/template.html` and `templates/head.html`: document composition and metadata.
 - `public/assets/css/style.css`: stylesheet, edited directly in the output tree.
 - `public/assets/js/script.js`: dialog interactions; native dialog supplies keyboard and focus behaviour.
@@ -42,3 +42,5 @@ Experience opens as a modal and closes with the close button, Escape, or a click
 The homepage is centered vertically, with a solid background and left-to-right link highlights (0.5 seconds). Contact email: nicholas.charles.ham@gmail.com.
 
 No framework, analytics, externally hosted fonts, or runtime dependencies are required. This project has not been deployed.
+
+Research publications, theses, and OEIS contributions are retained from https://n-ham.com/retired-site-redesign/research.html. Teaching and academic community work live in Experience. Both dialogs share dismissal and focus behaviour; CSS and JavaScript URLs carry asset versions to refresh cached files.
