@@ -176,6 +176,15 @@ dialog::backdrop { background: #040404b8; backdrop-filter: blur(7px); }
 .dialog-hint { padding: 0 34px 25px; color: var(--quiet); font-size: 11px; }
 kbd { font: inherit; color: var(--muted); }
 @media (max-width: 480px) {
+    .intro h1 { font-size: 24px; }
+    .intro p { font-size: 16px; }
+    .links a, .links button { font-size: 18px; min-height: 48px; }
+    .footer { font-size: 15px; }
+    .dialog-content { font-size: 16px; line-height: 1.7; }
+    .dialog-content h2 { font-size: 18px; }
+    .dialog-content h3 { font-size: 16px; }
+    .md-code { font-size: 14px; }
+    .filename { font-size: 14px; }
     dialog { width: calc(100% - 28px); max-height: calc(100svh - 36px); }
     .dialog-bar { padding: 10px 17px; }
     .dialog-content { padding: 25px 22px 5px; }
